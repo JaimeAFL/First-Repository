@@ -187,4 +187,91 @@ print (list(pares))
 
 # REDUCE 
 
-#
+# La función 'reduce' sirve para ejecutatr otra función 'f' de forma acumulativa sobre uan colección de elementos
+import functools
+suma = functools.reduce(lambda x,y: x + y, [1,2,3,4,5])
+print (suma)
+
+# En la primera línea estamos cargando el módulo 'functools'. Para cargar componentes de una librería de Python utilizamos la palabra reservada 'import'.
+# En la segunda línea usamos la función 'reduce' del módulo 'functools'. Si te fijas, el primer argumento de 'reduce es nuevamente una función (Lambda x,y: x + y). 
+# El segundo argumento vuelve a ser una colección de valores. La diferencia aquí reside en que la función que le pasemos a 'reduce' debe ser una función que 
+# tome dos argumentos y devuelva un solo valor. En este caso, la funcvión anónima recibe dis valores 'x' e 'y' y devuelve la suma de ambos.
+# ¿Y qué hace exactamente 'reduce'? Pues empieza tomando los dos primeros elementos de la lista de entrada ([1,2,3,4,5]) y ejecuta la función. Toma 
+# el resultado y el siguiente elemento de la lista y vuelve a ejecutar la función. 'reduce' continuar´´´´a con el proceso hasta agotar todos los elementos 
+# de la lista. Al terminar, devolverá el resultado final que haya dado la última evaluación de la función.
+
+#  1   2   3   4   5
+#  |   |   |   |   |
+# (1 + 2)  |   |   |
+# (  3  +  3)  |   |
+# (      6  +  4)  |
+# (         10  +  5) = 15
+
+# UTILIDAD DE LAS FUNCIONES DE ORDEN SUPERIOR
+
+# Las herramientas de orden superior puede nser unas herramientas muy útiles y potentes para ayudar a resolver algunos problemas. No obstante, en buena parte de los 
+# casos Python te ofrece formas alternativas de conseguir el mismo resultado de una forma más sencilla y legible. Empecemos con 'map'
+
+# calcular cuadrados usando 'map'
+cuadrados = map (lambda x: x**2, [1,2,3,4,5])
+print (list(cuadrados))
+
+# calcular cuadrados usando un generador
+cuadrados_2 = (x**2 for x in [1,2,3,4,5])
+
+# Si queremos directamente una lista, podemos definirla por comprensión
+lista_cuadrados = [ x**2 for x in [1,2,3,4,5]]
+print (lista_cuadrados)
+
+# Podemos conseguir el mismo resultado utilizando una expresión de tipo generador con una expresión por comprensión. O si queremos directamente guardar el 
+# resultado como una lista, usar una lista por comprensión. Si intentas volver a extraer valores de un generador ya agotado, obtendrás una lista vacía ([]). 
+# Esto mismo ocurrirá con el iterador devuelto por 'map'. En cambio, con la lista por comprensión, obtienes una lista y la tienes disponible mientras la necesites. 
+# Pasemos al ejemplo con 'filter'.
+
+# extraer los números pares usando 'filter'
+pares = filter (lambda x: x % 2 ==0, [1,2,3,4,5])
+print (list (pares))
+
+# Hacemos lo mismo usando un generador
+pares_2 = (x for x in [1,2,3,4,5] if x % 2 == 0)
+print (list(pares_2))
+
+# O si queremos una lista, la definimos por cromprensión
+lista_pares = [ x for x in [1,2,3,4,5] if x % 2 == 0]
+print (lista_pares)
+
+# Otra vez conseguimos lo mismo utilizando definiciones por comprensión, solo que esta vez añadiendo una cláusula 'if' con la misma condición 
+# que en la función de filtrado. Y por último con la función 'reduce'.
+
+import functools
+# calcular la suma de elementos usando 'reduce'.
+suma = functools.reduce (lambda x,y: x + y, [1,2,3,4,5])
+print (suma)
+
+# La forma alternativa de aplicar una función de forma acumulativa es usando un bucle
+otra_suma = 0
+for x in [1,2,3,4,5]:
+    otra_suma = otra_suma + x
+print (otra_suma)
+
+# Si queremos aplicar una función a una colección de valores, acumulando o combinando los resultados, la forma general de hacerlo será mediante un bucle. 
+# Este tipo e operadores de cálculo acumulado o de reducción a un único valor, son tan comunes que Python proporciona directamente estas funciones.
+print (sum ([1,2,3,4,5]))
+print (min ([1,2,3,4,5]))
+print (max ([1,2,3,4,5]))
+
+# ¿Cuando utilizar 'filter, 'reduce' y 'map'?. Los ejemplos que hemos visto son casos típicos pàra resolverlos utilizando estos generadores o listas 
+# por comprensión en Python. Es la solución más extendida. Sin embargo, también habrá casos en los que los cálculos o funciones a aplicar no sean tan 
+# simples. Las funciones 'filter, 'reduce' y 'map' no solo aceptan funciones lambda, también aceptan las funciones habituales, siempre que respeten el 
+# número de parámetros y el tipo de resultado a devolver. La potencia más grande viene normalmente cuando hay que combinar estas operaciones de filtrado, 
+# mapeo y reducción o acumulación. Se trata de un esquema bastante típico en procesamiento de datos, y en el que podemos aplicar las funciones de 'filter, 
+# 'reduce' y 'map' de forma encadenada.
+
+# Cuando tengas que decidir entre varias formas de resolver la misma tarea, intenta elegir la solución que simplifique el código aprovechando las herramientas 
+# que tienes haciéndolo también fácil de entender. No obstante, en caso de duda y si el tiempo apremia, utiliza la técnica que mejor domines.
+
+### MÓDULOS Y PAQUETES ###
+
+# Conforme empezamos a desarrollar programas con estructuras cada vez más complejas, tenemos la necesidad de poder guardar nuestro código de uan forma 
+# organizada para poder reutilizarlo. Los módulos son la forma de organizar nuestro código, agrupando definiciones y funcionalidades relacionadas en unidades 
+# que podemos cargar y reutilizar en nuestros programas. En Python, cada archivo de código terminado con el sufijo '.py' es un módulo.
