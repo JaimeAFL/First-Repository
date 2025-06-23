@@ -3,7 +3,7 @@
 # Una función es un conjunto de operaciones que sirven para completar un cálculo o tarea específica y que se agrupan 
 # y encapsulan como unidades de código independientes para poder ser reutilizadas a lo largo de nuestro programa siempre 
 # que sea necesario. El uso de funciones nos permite no tener que reescribir el mismo código en distintas partes de nuestro 
-# programa, sustituyrndolo por llamadas a una función. No solo tiene la ventaja de la reutilización y evitarnos escribir 
+# programa, sustituyéndolo por llamadas a una función. No solo tiene la ventaja de la reutilización y evitarnos escribir 
 # mucho más código. También hace los programas más modulares y fáciles de leer, depurar y modificar. En Python indicamos que 
 # vamos a definir uan función utilizando la plabra reservada 'def'.
 
@@ -43,9 +43,9 @@ print ("El cuadrado de 7 es", cuadrado(7))
 print ("El cuadrado de 12 es", cuadrado (12))
 
 # En esta nueva función 'cuadrado' hemos incluido el parámetro 'x'. Dentro del cuerpo de la función podemos utilizar el parámetro 
-# como si fuera una variablenormal. Cuando llamamos a la función dentro de la sentencia 'print', lo hacemos indicando entre paréntesis 
+# como si fuera una variable normal. Cuando llamamos a la función dentro de la sentencia 'print', lo hacemos indicando entre paréntesis 
 # cuál es el valor que queremos dar a 'x' en esta ejecución. Estamos haciendo algo similar a una asignación de variables. Solo que el 
-# parámetro 'x' es uan especie de variavle 'local', únicamente va a existir y ser visible dentro de la función. Una función puede recibir 
+# parámetro 'x' es una especie de variable 'local', únicamente va a existir y ser visible dentro de la función. Una función puede recibir 
 # parámetros, cada uno del tipo que sea necesario. También puede devolver cualquier tipo de elemento.
 
 # Una función con dos parámetros y que devuelve una lista definida por compresión
@@ -54,7 +54,7 @@ def llama_a_la_puerta_de(persona, n_veces):
     return ["Toc, toc, toc!" + persona + "!" for i in range (n_veces)]
 print (llama_a_la_puerta_de(" Penny", 3))
 
-# Al definir una función, también podemos especificar un valor por defecto para cualquiera de los parámetros. Se indicia como si 
+# Al definir una función, también podemos especificar un valor por defecto para cualquiera de los parámetros. Se indica como si 
 # hicieramos una asignación del parámetro en el encabezado. El valor por defecto o por omisión solamente se aplicará si al llamar a la función 
 # no incluimos un valor explícito para ese parámetro (omitimos su valor).
 
@@ -68,3 +68,57 @@ llama_a_la_puerta_de(" Penny")
 
 # Si incluimos un valor para el parámetro se ignora el valor por omisión.
 print (llama_a_la_puerta_de (" Amy", 1))
+
+# Al definir una función, los parámetros para los que no se especifique un valor por defecto deben ir delante de los parámetros con valor por 
+# omisión. Al llamar a una función es obligatorio dar valores para todos los parámetros que no tengan valor por omisión especificado. Por defecto, 
+# deben proporcionarse los valores en el mismo orden en el que se han definido los parámetros. No obstante, podemos llamar a uan función indicando 
+# los valores para cada parámetro por su nombre, como pares 'nombre parámetro = valor'. Haciéndolo así, podemos dar valor a los parámetros en el 
+# orden que queremos.
+
+print (llama_a_la_puerta_de (n_veces = 3, persona = "Howard"))
+
+# En el cuerpo de una función se puede llamar otras funciones. Y naturalmente, una función también se puede llamar así misma. Es lo que llama 
+# una definición recursiva. Este tipo de contrucciones son habituales en definiciones de series o progresiones matemáticas o para recorrer 
+# determinados tipos de estrcturas de datos.
+
+# Tomaremos como ejemplo la sucesión de Fibonacci
+# Fib(0) = 0;  Fib (1) = 1; Fib (n) = Fib (n -1) + Fib (n - 2)
+
+# El elemento n-ésimo de la sucesión (para n >= 2) se construye sumando los elementos para (n - 1), Esto es uan definición recursiva.
+
+def fibonacci (n):
+    """ Calcula el n-ésimo elemento de la serie de Fbonacci"""
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    else:
+        return fibonacci (n-1) + fibonacci (n-2)
+print (fibonacci (3))
+print (fibonacci (6))
+
+# ¿Cuales son las ventajas de las funciones recursivas? el código es sencillo y fácil de entender. Si quisiéramos hacer lo mismo usando 
+# bucles tendríamos que utilizar más variables y almacenar resultado intermedios. Las funciones recursivas encajan muy bien para este 
+# tipo de casos.
+
+# Sim embargo también tiene inconvenientes. Suelen consumir mucha más memoria y tiempo de ejecución cuando el número de veces que se tienen
+# que llamar a sí mismas es grande. Esto hace que sean más complicadas de depurar si hay algún error. Si no tiene cuidado al programarlas podemos 
+# caer en una recursión infinita, de la que no se pueda salir sin un error o una interrupción externa.
+
+## LAMBDA ##
+
+# En ocasiones, necesitamos utilizar una pequeña función para realizar algún cálculo en un punto específico de nuestro programa y nada más. 
+# En Python podemos conseguir esto utilizando las funciones anónimas, también llamadas funciones o expresiones 'lambda', por la cláusula
+# que se utiliza para definirlas. Una función anónima efectivamente comienza con la palabra lambda (el lugar de 'def como las funciones normales)
+# y no tiene un nombre identificador. Puede tener cualquier número de argumentos, pero su cuerpo solamente puede constar de una 
+# expresión que devuelva un valor.
+
+# Creamos uan función anónima y se la asignamos a la variable 'triple'
+triple = lambda x: 3 * x
+print (triple(5))
+
+# Después de la palabra clave 'lambda' colocamos todos los parámetros separados por comas. No ponemos paréntesis. Después de la lista de parámetros 
+# se ponen dos puntos (:) y seguidamente la expresión que calcula el resultado a devolver. 
+
+# Sin embargo, la verdadera utilidad viene cuando tenemos funciones que pueden recibir otras funciones como parámetros. O funciones que devuelven 
+# como resultado otra función. Veamos un ejemplo para entender de qué hablamos.
