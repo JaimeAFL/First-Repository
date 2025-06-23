@@ -276,4 +276,3 @@ print (max ([1,2,3,4,5]))
 # organizada para poder reutilizarlo. Los módulos son la forma de organizar nuestro código, agrupando definiciones y funcionalidades relacionadas en unidades 
 # que podemos cargar y reutilizar en nuestros programas. En Python, cada archivo de código terminado con el sufijo '.py' es un módulo.
 
-git config --global pull.rebase false
