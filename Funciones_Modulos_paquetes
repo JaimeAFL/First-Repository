@@ -5,7 +5,7 @@
 # que sea necesario. El uso de funciones nos permite no tener que reescribir el mismo código en distintas partes de nuestro 
 # programa, sustituyéndolo por llamadas a una función. No solo tiene la ventaja de la reutilización y evitarnos escribir 
 # mucho más código. También hace los programas más modulares y fáciles de leer, depurar y modificar. En Python indicamos que 
-# vamos a definir uan función utilizando la plabra reservada 'def'.
+# vamos a definir una función utilizando la plabra reservada 'def'.
 
 #Vamos a definir la función:
 def mi_primera_funcion():
@@ -71,7 +71,7 @@ print (llama_a_la_puerta_de (" Amy", 1))
 
 # Al definir una función, los parámetros para los que no se especifique un valor por defecto deben ir delante de los parámetros con valor por 
 # omisión. Al llamar a una función es obligatorio dar valores para todos los parámetros que no tengan valor por omisión especificado. Por defecto, 
-# deben proporcionarse los valores en el mismo orden en el que se han definido los parámetros. No obstante, podemos llamar a uan función indicando 
+# deben proporcionarse los valores en el mismo orden en el que se han definido los parámetros. No obstante, podemos llamar a una función indicando 
 # los valores para cada parámetro por su nombre, como pares 'nombre parámetro = valor'. Haciéndolo así, podemos dar valor a los parámetros en el 
 # orden que queremos.
 
@@ -84,7 +84,7 @@ print (llama_a_la_puerta_de (n_veces = 3, persona = "Howard"))
 # Tomaremos como ejemplo la sucesión de Fibonacci
 # Fib(0) = 0;  Fib (1) = 1; Fib (n) = Fib (n -1) + Fib (n - 2)
 
-# El elemento n-ésimo de la sucesión (para n >= 2) se construye sumando los elementos para (n - 1), Esto es uan definición recursiva.
+# El elemento n-ésimo de la sucesión (para n >= 2) se construye sumando los elementos para (n - 1), Esto es una definición recursiva.
 
 def fibonacci (n):
     """ Calcula el n-ésimo elemento de la serie de Fbonacci"""
@@ -113,7 +113,7 @@ print (fibonacci (6))
 # y no tiene un nombre identificador. Puede tener cualquier número de argumentos, pero su cuerpo solamente puede constar de una 
 # expresión que devuelva un valor.
 
-# Creamos uan función anónima y se la asignamos a la variable 'triple'
+# Creamos una función anónima y se la asignamos a la variable 'triple'
 triple = lambda x: 3 * x
 print (triple(5))
 
@@ -132,7 +132,7 @@ doble = genera_multiplicador (2)
 print (doble(3))
 print (doble(5))
 
-# Ahora vamos a generar uan nueva función que multiplique su entrada por 3
+# Ahora vamos a generar una nueva función que multiplique su entrada por 3
 triple = genera_multiplicador(3)
 # La variable 'triple' apunta ahora a una función anónima que devuelve su entrada multiplicada por 3
 print (triple(7))
@@ -173,7 +173,7 @@ print (list (cuadrados))
 
 # FILTER
 
-# La función 'filter' sirve para seleccionar (o filtrar) aquellos elementos de uan secuencia o colección que cumplen una condición determinada. 
+# La función 'filter' sirve para seleccionar (o filtrar) aquellos elementos de una secuencia o colección que cumplen una condición determinada. 
 # La condición se le pasa a 'filter' en forma de otra función.
 pares = filter(lambda x: x % 2 == 0, [1,2,3,4,5])
 print (list(pares))
@@ -187,7 +187,7 @@ print (list(pares))
 
 # REDUCE 
 
-# La función 'reduce' sirve para ejecutatr otra función 'f' de forma acumulativa sobre uan colección de elementos
+# La función 'reduce' sirve para ejecutatr otra función 'f' de forma acumulativa sobre una colección de elementos
 import functools
 suma = functools.reduce(lambda x,y: x + y, [1,2,3,4,5])
 print (suma)
@@ -272,6 +272,7 @@ print (max ([1,2,3,4,5]))
 
 ### MÓDULOS Y PAQUETES ###
 
-# Conforme empezamos a desarrollar programas con estructuras cada vez más complejas, tenemos la necesidad de poder guardar nuestro código de uan forma 
+# Conforme empezamos a desarrollar programas con estructuras cada vez más complejas, tenemos la necesidad de poder guardar nuestro código de una forma 
 # organizada para poder reutilizarlo. Los módulos son la forma de organizar nuestro código, agrupando definiciones y funcionalidades relacionadas en unidades 
 # que podemos cargar y reutilizar en nuestros programas. En Python, cada archivo de código terminado con el sufijo '.py' es un módulo.
+
