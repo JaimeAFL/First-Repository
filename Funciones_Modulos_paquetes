@@ -1,0 +1,70 @@
+### FUNCIONES ###
+
+# Una función es un conjunto de operaciones que sirven para completar un cálculo o tarea específica y que se agrupan 
+# y encapsulan como unidades de código independientes para poder ser reutilizadas a lo largo de nuestro programa siempre 
+# que sea necesario. El uso de funciones nos permite no tener que reescribir el mismo código en distintas partes de nuestro 
+# programa, sustituyrndolo por llamadas a una función. No solo tiene la ventaja de la reutilización y evitarnos escribir 
+# mucho más código. También hace los programas más modulares y fáciles de leer, depurar y modificar. En Python indicamos que 
+# vamos a definir uan función utilizando la plabra reservada 'def'.
+
+#Vamos a definir la función:
+def mi_primera_funcion():
+    print ("Soy la primerita función")
+
+# Podemos dividir la definición en dos partes: el encabezado y el cuerpo. El encabezado empieza con la palabra clave 'def', 
+# seguida del nombre de la función (mi_primera_funcion). Para los nombres de funciones se aplican las mismas reglas que para 
+# los nombres de variables. Después del nombre de la función se colocan los paréntesis de apertura y cierre y finalmente los 
+# dos puntos (:) para indicar el final de la cabecera. Justo después del encabezado, en la linea siguiente, comienza el cuerpo 
+# de la función, que es donde incluiremos todas las instrucciones quer componen el cálculo o tarea que queremos implementar. 
+# Al igual que vimos con las sentencias de control de flujo, este cuerpo va identado respecto a la cabecera. La primera línea 
+# que vuelva al mismo nivel de identación que el encabezado nos marcará el fin de la función. Una vez que tenemos definida la 
+# función, ya podemos utilizarla. Para 'invocar' una función, simplemente utilizaremos su nombre seguido de los paréntesis.
+
+mi_primera_funcion()
+
+# En el caso de las funciones, Python permite añadir una documentación específica añadiendo una cadena de texto justo entre el 
+# encabezado y el cuerpo de la función. Aestas cadenas en Python se las conoce como 'docstring'. Normalmente se utilizan cadenas 
+# rodeadas por comillas triples. Utiliza las docstrings para describir qué es lo que hacen tus funciones y qué parámetros necesitan.
+
+def mi_primera_funcion():
+    """ Función trivial de ejemplo. Imprime un mensaje de prueba."""
+    print ("Soy la primerita función")
+
+# Podemos  hacer que la función devuelva un valor como resultado utilizando la sentencia 'return'. Podemos añadir parámetros 
+# que necesita la función para utilizarlos en sus cálculos. Indicamos los parámetros a la función añadiéndolos entre los 
+# paréntesis de la definición, como nombres de variables.
+
+# Definimos una nueva función que devuelve el cuadrado del número x que pasamos como argumento
+def cuadrado (x):
+    """ Devuelve el cuadrado del número x"""
+    return x**2
+# Probamos que funciona
+print ("El cuadrado de 7 es", cuadrado(7))
+print ("El cuadrado de 12 es", cuadrado (12))
+
+# En esta nueva función 'cuadrado' hemos incluido el parámetro 'x'. Dentro del cuerpo de la función podemos utilizar el parámetro 
+# como si fuera una variablenormal. Cuando llamamos a la función dentro de la sentencia 'print', lo hacemos indicando entre paréntesis 
+# cuál es el valor que queremos dar a 'x' en esta ejecución. Estamos haciendo algo similar a una asignación de variables. Solo que el 
+# parámetro 'x' es uan especie de variavle 'local', únicamente va a existir y ser visible dentro de la función. Una función puede recibir 
+# parámetros, cada uno del tipo que sea necesario. También puede devolver cualquier tipo de elemento.
+
+# Una función con dos parámetros y que devuelve una lista definida por compresión
+def llama_a_la_puerta_de(persona, n_veces):
+    """ Llama al a puerta de la persona las veces que haga falta"""
+    return ["Toc, toc, toc!" + persona + "!" for i in range (n_veces)]
+print (llama_a_la_puerta_de(" Penny", 3))
+
+# Al definir una función, también podemos especificar un valor por defecto para cualquiera de los parámetros. Se indicia como si 
+# hicieramos una asignación del parámetro en el encabezado. El valor por defecto o por omisión solamente se aplicará si al llamar a la función 
+# no incluimos un valor explícito para ese parámetro (omitimos su valor).
+
+# Redefinimos la función con dos parámetros indicando un valor por omisión para 'n_veces'.
+def llama_a_la_puerta_de (persona, n_veces = 3):
+    """ Llama a la puerta de la persona las veces que haga falta"""
+    return ["Toc, toc, toc!" + persona + "!" for i in range (n_veces)]
+
+# Ahora podemos usar la función sin especificar 'n_veces' y tomará el valor por omisión.
+llama_a_la_puerta_de(" Penny")
+
+# Si incluimos un valor para el parámetro se ignora el valor por omisión.
+print (llama_a_la_puerta_de (" Amy", 1))
