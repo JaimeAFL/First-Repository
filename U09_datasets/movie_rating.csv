@@ -1,0 +1,5044 @@
+movie_title;imdb_score;movie_facebook_likes
+Avatar;7.9;33000
+Pirates of the Caribbean: At World's End;7.1;0
+Spectre;6.8;85000
+The Dark Knight Rises;8.5;164000
+Star Wars: Episode VII - The Force Awakens;7.1;0
+John Carter;6.6;24000
+Spider-Man 3;6.2;0
+Tangled;7.8;29000
+Avengers: Age of Ultron;7.5;118000
+Harry Potter and the Half-Blood Prince;7.5;10000
+Batman v Superman: Dawn of Justice;6.9;197000
+Superman Returns;6.1;0
+Quantum of Solace;6.7;0
+Pirates of the Caribbean: Dead Man's Chest;7.3;5000
+The Lone Ranger;6.5;48000
+Man of Steel;7.2;118000
+The Chronicles of Narnia: Prince Caspian;6.6;0
+The Avengers;8.1;123000
+Pirates of the Caribbean: On Stranger Tides;6.7;58000
+Men in Black 3;6.8;40000
+The Hobbit: The Battle of the Five Armies;7.5;65000
+The Amazing Spider-Man;7.0;56000
+Robin Hood;6.7;17000
+The Hobbit: The Desolation of Smaug;7.9;83000
+The Golden Compass;6.1;0
+King Kong;7.2;0
+Titanic;7.7;26000
+Captain America: Civil War;8.2;72000
+Battleship;5.9;44000
+Jurassic World;7.0;150000
+Skyfall;7.8;80000
+Spider-Man 2;7.3;0
+Iron Man 3;7.2;95000
+Alice in Wonderland;6.5;24000
+X-Men: The Last Stand;6.8;0
+Monsters University;7.3;44000
+Transformers: Revenge of the Fallen;6.0;0
+Transformers: Age of Extinction;5.7;56000
+Oz the Great and Powerful;6.4;60000
+The Amazing Spider-Man 2;6.7;41000
+TRON: Legacy;6.8;30000
+Cars 2;6.3;10000
+Green Lantern;5.6;24000
+Toy Story 3;8.3;30000
+Terminator Salvation;6.6;0
+Furious 7;7.2;94000
+World War Z;7.0;129000
+X-Men: Days of Future Past;8.0;82000
+Star Trek Into Darkness;7.8;92000
+Jack the Giant Slayer;6.3;22000
+The Great Gatsby;7.3;115000
+Prince of Persia: The Sands of Time;6.6;23000
+Pacific Rim;7.0;83000
+Transformers: Dark of the Moon;6.3;46000
+Indiana Jones and the Kingdom of the Crystal Skull;6.2;5000
+The Good Dinosaur;6.8;20000
+Brave;7.2;39000
+Star Trek Beyond;7.5;30000
+WALL·E;8.4;16000
+Rush Hour 3;6.2;0
+2012;5.8;13000
+A Christmas Carol;6.8;0
+Jupiter Ascending;5.4;44000
+The Legend of Tarzan;6.6;29000
+The Chronicles of Narnia: The Lion, the Witch and the Wardrobe;6.9;0
+X-Men: Apocalypse;7.3;54000
+The Dark Knight;9.0;37000
+Up;8.3;27000
+Monsters vs. Aliens;6.5;0
+Iron Man;7.9;10000
+Hugo;7.5;42000
+Wild Wild West;4.8;0
+The Mummy: Tomb of the Dragon Emperor;5.2;0
+Suicide Squad;6.9;80000
+Evan Almighty;5.4;2000
+Edge of Tomorrow;7.9;77000
+Waterworld;6.1;0
+G.I. Joe: The Rise of Cobra;5.8;0
+Inside Out;8.3;118000
+The Jungle Book;7.8;65000
+Iron Man 2;7.0;18000
+Snow White and the Huntsman;6.1;53000
+Maleficent;7.0;89000
+Dawn of the Planet of the Apes;7.6;45000
+The Lovers;4.5;677
+47 Ronin;6.3;35000
+Captain America: The Winter Soldier;7.8;55000
+Shrek Forever After;6.4;0
+Tomorrowland;6.5;37000
+Big Hero 6;7.9;41000
+Wreck-It Ralph;7.8;40000
+The Polar Express;6.6;10000
+Independence Day: Resurgence;5.5;67000
+How to Train Your Dragon;8.2;33000
+Terminator 3: Rise of the Machines;6.4;0
+Guardians of the Galaxy;8.1;96000
+Interstellar;8.6;349000
+Inception;8.8;175000
+Godzilla Resurgence;8.2;0
+The Hobbit: An Unexpected Journey;7.9;166000
+The Fast and the Furious;6.7;14000
+The Curious Case of Benjamin Button;7.8;23000
+X-Men: First Class;7.8;54000
+The Hunger Games: Mockingjay - Part 2;6.6;38000
+The Sorcerer's Apprentice;6.1;11000
+Poseidon;5.6;0
+Alice Through the Looking Glass;6.4;30000
+Shrek the Third;6.1;0
+Warcraft;7.3;89000
+Terminator Genisys;6.6;82000
+The Chronicles of Narnia: The Voyage of the Dawn Treader;6.3;11000
+Pearl Harbor;6.1;0
+Transformers;7.1;8000
+Alexander;5.5;0
+Harry Potter and the Order of the Phoenix;7.5;0
+Harry Potter and the Goblet of Fire;7.6;0
+Hancock;6.4;0
+I Am Legend;7.2;11000
+Charlie and the Chocolate Factory;6.7;0
+Ratatouille;8.0;10000
+Batman Begins;8.3;15000
+Madagascar: Escape 2 Africa;6.7;0
+Night at the Museum: Battle of the Smithsonian;5.9;2000
+X-Men Origins: Wolverine;6.7;0
+The Matrix Revolutions;6.7;0
+Frozen;7.6;58000
+The Matrix Reloaded;7.2;0
+Thor: The Dark World;7.1;63000
+Mad Max: Fury Road;8.1;191000
+Angels & Demons;6.7;0
+Thor;7.0;63000
+Bolt;6.9;0
+G-Force;5.1;0
+Wrath of the Titans;5.8;19000
+Dark Shadows;6.2;82000
+Mission: Impossible - Rogue Nation;7.4;47000
+The Wolfman;5.8;0
+The Legend of Tarzan;6.6;29000
+Bee Movie;6.2;0
+Kung Fu Panda 2;7.3;20000
+The Last Airbender;4.2;18000
+Mission: Impossible III;6.9;0
+White House Down;6.4;33000
+Mars Needs Moms;5.4;0
+Flushed Away;6.7;0
+Pan;5.8;24000
+Mr. Peabody & Sherman;6.9;11000
+Troy;7.2;0
+Madagascar 3: Europe's Most Wanted;6.9;17000
+Die Another Day;6.1;0
+Ghostbusters;5.5;62000
+Armageddon;6.6;11000
+Men in Black II;6.1;2000
+Beowulf;6.3;3000
+Kung Fu Panda 3;7.2;24000
+Mission: Impossible - Ghost Protocol;7.4;35000
+Rise of the Guardians;7.3;25000
+Fun with Dick and Jane;6.1;2000
+The Last Samurai;7.7;0
+Exodus: Gods and Kings;6.1;51000
+Star Trek;8.0;19000
+Spider-Man;7.3;5000
+How to Train Your Dragon 2;7.9;46000
+Gods of Egypt;5.5;24000
+Stealth;5.0;0
+Watchmen;7.7;18000
+Lethal Weapon 4;6.6;0
+Hulk;5.7;0
+G.I. Joe: Retaliation;5.8;42000
+Sahara;6.0;0
+Final Fantasy: The Spirits Within;6.4;0
+Captain America: The First Avenger;6.9;46000
+The World Is Not Enough;6.4;2000
+Master and Commander: The Far Side of the World;7.4;0
+The Twilight Saga: Breaking Dawn - Part 2;5.5;65000
+Happy Feet 2;5.9;0
+The Incredible Hulk;6.8;0
+Miami Vice;7.5;0
+The BFG;6.8;27000
+The Revenant;8.1;190000
+Turbo;6.5;13000
+Rango;7.2;26000
+Penguins of Madagascar;6.7;11000
+The Bourne Ultimatum;8.1;0
+Kung Fu Panda;7.6;6000
+Ant-Man;7.4;61000
+The Hunger Games: Catching Fire;7.6;82000
+The Twilight Saga: Breaking Dawn - Part 2;5.5;65000
+Home;6.7;26000
+War of the Worlds;6.5;0
+Bad Boys II;6.6;0
+Puss in Boots;6.7;16000
+Salt;6.4;23000
+Noah;5.8;71000
+The Adventures of Tintin;7.4;44000
+Harry Potter and the Prisoner of Azkaban;7.8;11000
+Australia;6.6;0
+After Earth;4.9;37000
+Dinosaur;6.5;0
+Harry Potter and the Deathly Hallows: Part II;7.5;40
+Night at the Museum: Secret of the Tomb;6.2;11000
+Megamind;7.3;13000
+Harry Potter and the Sorcerer's Stone;7.5;16000
+R.I.P.D.;5.6;20000
+Godzilla Resurgence;8.2;0
+Pirates of the Caribbean: The Curse of the Black Pearl;8.1;10000
+Harry Potter and the Deathly Hallows: Part I;6.4;25
+The Hunger Games: Mockingjay - Part 1;6.7;52000
+The Da Vinci Code;6.6;0
+Rio 2;6.4;0
+X-Men 2;7.5;0
+Fast Five;7.3;54000
+Sherlock Holmes: A Game of Shadows;7.5;39000
+Clash of the Titans;5.8;15000
+Total Recall;7.5;0
+The 13th Warrior;6.6;0
+The Bourne Legacy;6.7;31000
+Batman & Robin;3.7;0
+How the Grinch Stole Christmas;6.0;0
+The Day After Tomorrow;6.4;19000
+Mission: Impossible II;6.1;0
+The Perfect Storm;6.4;0
+Fantastic 4: Rise of the Silver Surfer;5.6;0
+Life of Pi;8.0;122000
+Ghost Rider;5.2;0
+Jason Bourne;7.1;31000
+Charlie's Angels: Full Throttle;4.8;0
+Prometheus;7.0;97000
+Stuart Little 2;5.4;459
+Elysium;6.6;61000
+The Chronicles of Riddick;6.7;0
+RoboCop;6.2;60000
+Speed Racer;6.1;0
+How Do You Know;5.3;0
+Knight and Day;6.3;11000
+Oblivion;7.0;71000
+Star Wars: Episode III - Revenge of the Sith;7.6;10000
+Star Wars: Episode II - Attack of the Clones;6.7;0
+Monsters, Inc.;8.1;0
+The Wolverine;6.7;68000
+Star Wars: Episode I - The Phantom Menace;6.5;13000
+The Croods;7.3;28000
+Asterix at the Olympic Games;5.1;291
+Windtalkers;6.0;0
+The Huntsman: Winter's War;6.1;16000
+Teenage Mutant Ninja Turtles;5.9;62000
+Gravity;7.8;147000
+Dante's Peak;5.8;0
+Teenage Mutant Ninja Turtles: Out of the Shadows;6.3;12000
+Fantastic Four;4.3;41000
+Night at the Museum;6.4;3000
+San Andreas;6.1;52000
+Tomorrow Never Dies;6.5;0
+The Patriot;7.1;4000
+Ocean's Twelve;6.4;0
+Mr. & Mrs. Smith;6.5;0
+Insurgent;6.3;27000
+The Aviator;7.5;0
+Gulliver's Travels;4.9;0
+The Green Hornet;5.8;14000
+The A-Team;7.6;0
+300: Rise of an Empire;6.2;71000
+The Smurfs;5.5;31000
+Home on the Range;5.4;304
+Allegiant;5.8;12000
+Real Steel;7.1;36000
+The Smurfs 2;5.4;0
+Speed 2: Cruise Control;3.7;894
+Ender's Game;6.7;123000
+Live Free or Die Hard;7.2;0
+The Lord of the Rings: The Fellowship of the Ring;8.8;21000
+Around the World in 80 Days;5.8;0
+Ali;6.8;0
+The Cat in the Hat;3.8;946
+I, Robot;7.1;0
+Kingdom of Heaven;7.2;0
+Stuart Little;5.9;0
+The Princess and the Frog;7.1;5000
+The Martian;8.1;153000
+10,000 B.C.;7.2;0
+The Island;6.9;0
+Town & Country;4.4;53
+Gone in Sixty Seconds;6.5;0
+Gladiator;8.5;21000
+Minority Report;7.7;0
+Harry Potter and the Chamber of Secrets;7.4;0
+Casino Royale;8.0;0
+Planet of the Apes;5.7;0
+Terminator 2: Judgment Day;8.5;13000
+Public Enemies;7.0;0
+American Gangster;7.8;0
+True Lies;7.2;0
+The Taking of Pelham 1 2 3;6.4;0
+Little Fockers;5.5;0
+The Other Guys;6.7;16000
+Eraser;6.1;0
+Django Unchained;8.5;199000
+The Hunchback of Notre Dame;6.9;0
+The Emperor's New Groove;7.3;0
+The Expendables 2;6.7;108000
+National Treasure;6.9;0
+Eragon;5.1;0
+Where the Wild Things Are;6.8;11000
+Pan;5.8;24000
+Epic;6.7;17000
+The Tourist;6.0;25000
+End of Days;5.7;2000
+Blood Diamond;8.0;14000
+The Wolf of Wall Street;8.2;138000
+Batman Forever;5.4;0
+Starship Troopers;7.2;0
+Cloud Atlas;7.5;124000
+Legend of the Guardians: The Owls of Ga'Hoole;7.0;16000
+Catwoman;3.3;0
+Hercules;6.0;21000
+Treasure Planet;7.1;0
+Land of the Lost;5.4;0
+The Expendables 3;6.1;56000
+Point Break;5.3;37000
+Son of the Mask;2.2;881
+In the Heart of the Sea;7.0;27000
+The Adventures of Pluto Nash;3.8;416
+Green Zone;6.9;0
+The Peanuts Movie;7.2;33000
+The Spanish Prisoner;7.3;578
+The Mummy Returns;6.3;0
+Gangs of New York;7.5;0
+The Flowers of War;7.6;13000
+Surf's Up;6.8;0
+The Stepford Wives;5.2;0
+Black Hawk Down;7.7;10000
+The Campaign;6.2;18000
+The Fifth Element;7.7;18000
+Sex and the City 2;4.3;0
+The Road to El Dorado;6.9;0
+Ice Age: Continental Drift;6.6;14000
+Cinderella;7.0;56000
+The Lovely Bones;6.7;16000
+Finding Nemo;8.2;11000
+The Lord of the Rings: The Return of the King;8.9;16000
+The Lord of the Rings: The Two Towers;8.7;10000
+Seventh Son;5.5;16000
+Lara Croft: Tomb Raider;5.7;0
+Transcendence;6.3;37000
+Jurassic Park III;5.9;0
+Rise of the Planet of the Apes;7.6;47000
+The Spiderwick Chronicles;6.6;0
+A Good Day to Die Hard;5.3;66000
+The Alamo;6.0;701
+The Incredibles;8.0;0
+Cutthroat Island;5.6;1000
+Percy Jackson & the Olympians: The Lightning Thief;5.9;9000
+Men in Black;7.3;0
+Toy Story 2;7.9;0
+Unstoppable;6.8;18000
+Rush Hour 2;6.6;0
+What Lies Beneath;6.6;0
+Cloudy with a Chance of Meatballs;7.0;0
+Ice Age: Dawn of the Dinosaurs;7.0;0
+The Secret Life of Walter Mitty;7.3;70000
+Charlie's Angels;5.5;0
+The Departed;8.5;29000
+Mulan;7.5;12000
+Tropic Thunder;7.0;0
+The Girl with the Dragon Tattoo;7.8;54000
+Die Hard with a Vengeance;7.6;0
+Sherlock Holmes;7.6;20000
+Ben-Hur;6.1;0
+Atlantis: The Lost Empire;6.8;0
+Alvin and the Chipmunks: The Road Chip;5.0;0
+Valkyrie;7.1;0
+You Don't Mess with the Zohan;5.5;0
+Pixels;5.6;39000
+A.I. Artificial Intelligence;7.1;11000
+The Haunted Mansion;4.9;988
+Contact;7.4;15000
+Hollow Man;5.7;0
+The Interpreter;6.4;0
+Percy Jackson: Sea of Monsters;5.9;28000
+Lara Croft Tomb Raider: The Cradle of Life;5.5;0
+Now You See Me 2;6.9;15000
+The Saint;6.2;0
+Spy Game;7.0;0
+Mission to Mars;5.6;0
+Rio;7.0;19000
+Bicentennial Man;6.8;0
+Volcano;5.4;2000
+The Devil's Own;6.1;979
+K-19: The Widowmaker;6.7;0
+Fantastic Four;4.3;41000
+Conan the Barbarian;6.9;0
+Cinderella Man;8.0;0
+The Nutcracker in 3D;4.4;788
+Seabiscuit;7.3;0
+Twister;6.3;0
+The Fast and the Furious;6.7;14000
+Cast Away;7.7;23000
+Happy Feet;6.5;0
+The Bourne Supremacy;7.8;0
+Air Force One;6.4;0
+Ocean's Eleven;7.8;0
+The Three Musketeers;5.8;19000
+Hotel Transylvania;7.1;28000
+Enchanted;7.1;0
+Hannibal;8.6;59000
+Safe House;6.8;19000
+102 Dalmatians;4.8;372
+Tower Heist;6.2;0
+The Holiday;6.9;19000
+Enemy of the State;7.3;0
+It's Complicated;6.6;0
+Ocean's Thirteen;6.9;0
+Open Season;6.2;863
+Divergent;6.7;49000
+Enemy at the Gates;7.6;0
+The Rundown;6.7;0
+Last Action Hero;6.2;0
+Memoirs of a Geisha;7.3;0
+The Fast and the Furious: Tokyo Drift;6.0;0
+Arthur Christmas;7.1;0
+Meet Joe Black;7.1;10000
+Collateral Damage;5.5;941
+All That Jazz;7.8;0
+Mirror Mirror;5.6;18000
+Scott Pilgrim vs. the World;7.5;36000
+The Core;5.4;0
+Nutty Professor II: The Klumps;4.3;374
+Scooby-Doo;4.9;0
+Dredd;7.1;46000
+Click;6.4;7000
+Creepshow;6.9;0
+Cats & Dogs: The Revenge of Kitty Galore;4.3;0
+Jumper;6.1;0
+Hellboy II: The Golden Army;7.0;3000
+Zodiac;7.7;12000
+The 6th Day;5.9;0
+Bruce Almighty;6.7;0
+The Expendables;6.5;57000
+Mission: Impossible;7.1;0
+The Hunger Games;7.3;140000
+The Hangover Part II;6.5;56000
+Batman Returns;7.0;0
+Over the Hedge;6.8;0
+Lilo & Stitch;7.2;0
+Charlotte's Web;6.4;0
+Deep Impact;6.1;0
+RED 2;6.7;22000
+The Longest Yard;6.4;0
+Alvin and the Chipmunks: Chipwrecked;4.4;0
+Grown Ups 2;5.4;14000
+Get Smart;6.5;0
+Something's Gotta Give;6.7;0
+Shutter Island;8.1;53000
+Four Christmases;5.6;0
+Robots;6.3;0
+Face/Off;7.3;11000
+Bedtime Stories;6.1;0
+Road to Perdition;7.7;0
+Just Go with It;6.4;19000
+Daredevil;8.8;55000
+Con Air;6.8;0
+Eagle Eye;6.6;0
+Cold Mountain;7.2;0
+The Book of Eli;6.9;20000
+Flubber;5.2;0
+The Haunting;4.9;0
+Space Jam;6.3;0
+The Pink Panther;5.6;0
+The Day the Earth Stood Still;5.5;0
+Conspiracy Theory;6.7;0
+Fury;7.6;82000
+Six Days Seven Nights;5.7;0
+Yogi Bear;4.6;0
+Spirit: Stallion of the Cimarron;7.0;4000
+Zookeeper;5.2;0
+Lost in Space;5.1;0
+The Manchurian Candidate;6.6;0
+Déjà Vu;7.0;91
+Hotel Transylvania 2;6.7;16000
+Bewitched;7.6;0
+Fantasia 2000;7.3;607
+The Time Machine;5.9;3000
+Mighty Joe Young;5.6;0
+Swordfish;6.5;0
+The Legend of Zorro;5.9;951
+What Dreams May Come;7.0;32000
+Little Nicky;5.3;0
+The Brothers Grimm;5.9;0
+Mars Attacks!;6.3;0
+Evolution;6.4;257
+The Edge;6.9;0
+Surrogates;6.3;0
+Thirteen Days;7.3;0
+Daylight;5.8;0
+Walking with Dinosaurs 3D;5.2;0
+Battlefield Earth;2.4;0
+Looney Tunes: Back in Action;5.7;665
+Nine;5.8;0
+Timeline;5.6;0
+The Postman;6.0;0
+Babe: Pig in the City;5.8;964
+The Last Witch Hunter;6.0;21000
+Red Planet;5.7;995
+Arthur and the Invisibles;6.0;941
+Oceans;7.8;0
+A Sound of Thunder;4.2;785
+Pompeii;5.6;20000
+Top Cat Begins;4.4;138
+A Beautiful Mind;8.2;29000
+The Lion King;8.5;17000
+Journey 2: The Mysterious Island;5.8;0
+Cloudy with a Chance of Meatballs 2;6.5;15000
+Red Dragon;7.2;0
+Hidalgo;6.7;0
+Jack and Jill;3.4;0
+2 Fast 2 Furious;5.9;0
+The Little Prince;7.8;31000
+The Invasion;5.9;0
+The Adventures of Rocky & Bullwinkle;4.1;413
+The Secret Life of Pets;6.8;36000
+The League of Extraordinary Gentlemen;5.8;0
+Despicable Me 2;7.5;56000
+Independence Day;6.9;16000
+The Lost World: Jurassic Park;6.5;0
+Madagascar;6.9;0
+Children of Men;7.9;17000
+X-Men;7.4;0
+Wanted;6.7;0
+The Rock;7.4;51000
+Ice Age: The Meltdown;6.9;0
+50 First Dates;6.8;11000
+Hairspray;6.7;0
+Exorcist: The Beginning;5.1;893
+Inspector Gadget;4.1;509
+Now You See Me;7.3;105000
+Grown Ups;6.0;12000
+The Terminal;7.3;16000
+Constantine;7.5;10000
+Hotel for Dogs;5.4;1000
+Vertical Limit;5.9;0
+Charlie Wilson's War;7.1;0
+Shark Tale;6.0;0
+Dreamgirls;6.5;0
+Life;8.3;0
+Be Cool;5.7;0
+Munich;7.6;0
+Tears of the Sun;6.6;0
+Killers;5.4;0
+The Man from U.N.C.L.E.;7.3;43000
+Spanglish;6.5;0
+Monster House;6.6;0
+Bandits;6.6;0
+First Knight;5.9;0
+Anna and the King;6.7;0
+Immortals;6.1;30000
+Hostage;6.6;0
+Titan A.E.;6.6;0
+Hollywood Homicide;5.3;648
+Soldier;6.0;0
+Carriers;6.0;0
+Monkeybone;4.7;683
+Flight of the Phoenix;6.1;1000
+Unbreakable;7.2;0
+Minions;6.4;70000
+Sucker Punch;6.1;42000
+Snake Eyes;5.9;880
+Sphere;6.0;0
+The Angry Birds Movie;6.3;14000
+Fool's Gold;5.6;0
+Funny People;6.4;0
+The Kingdom;7.1;0
+Talladega Nights: The Ballad of Ricky Bobby;6.6;0
+Dr. Dolittle 2;4.6;266
+Braveheart;8.4;17000
+Jarhead;7.1;0
+The Simpsons Movie;7.4;0
+The Majestic;6.9;0
+Driven;4.5;886
+Two Brothers;7.1;2000
+The Village;6.5;0
+Doctor Dolittle;5.3;694
+Signs;6.7;0
+Shrek 2;7.2;0
+Cars;7.2;0
+Runaway Bride;5.5;0
+xXx;5.8;10000
+The SpongeBob Movie: Sponge Out of Water;6.0;16000
+Ransom;6.6;1000
+Inglourious Basterds;8.3;42000
+Hook;6.7;13000
+Hercules;6.0;21000
+Die Hard 2;7.1;0
+S.W.A.T.;6.0;0
+Sleepy Hollow;7.5;14000
+Vanilla Sky;6.9;0
+Lady in the Water;5.6;0
+AVP: Alien vs. Predator;5.6;0
+Alvin and the Chipmunks: The Squeakquel;4.5;2000
+We Were Soldiers;7.1;5000
+Olympus Has Fallen;6.5;45000
+Star Trek: Insurrection;6.4;1000
+Battle Los Angeles;5.8;25000
+Big Fish;8.0;26000
+Wolf;6.2;0
+War Horse;7.2;28000
+The Monuments Men;6.1;34000
+The Abyss;7.6;0
+Wall Street: Money Never Sleeps;6.3;13000
+Dracula Untold;6.3;37000
+The Siege;6.3;0
+Stardust;7.7;15000
+Seven Years in Tibet;7.0;0
+The Dilemma;5.3;0
+Bad Company;5.6;792
+Doom;5.2;0
+I Spy;5.4;531
+Underworld: Awakening;6.4;24000
+Rock of Ages;5.9;33000
+Hart's War;6.3;997
+Killer Elite;6.5;17000
+Rollerball;3.0;584
+Ballistic: Ecks vs. Sever;3.6;391
+Hard Rain;5.8;815
+Osmosis Jones;6.2;2000
+Legends of Oz: Dorothy's Return;5.6;5000
+Blackhat;5.4;11000
+Sky Captain and the World of Tomorrow;6.1;0
+Basic Instinct 2;4.2;764
+Escape Plan;6.7;34000
+The Legend of Hercules;4.2;12000
+The Sum of All Fears;6.4;0
+The Twilight Saga: Eclipse;4.9;29000
+The Score;6.8;0
+Despicable Me;7.7;31000
+Money Train;5.6;617
+Ted 2;6.4;30000
+Agora;7.2;29000
+Mystery Men;6.0;0
+Hall Pass;5.9;10000
+The Insider;7.9;0
+The Finest Hours;6.8;12000
+Body of Lies;7.1;0
+Dinner for Schmucks;5.9;0
+Abraham Lincoln: Vampire Hunter;5.9;98000
+Entrapment;6.2;0
+Last Man Standing;7.4;0
+The X Files;7.0;0
+The Last Legion;5.4;0
+Saving Private Ryan;8.6;22000
+Need for Speed;6.5;32000
+What Women Want;6.4;0
+Ice Age;7.6;3000
+Dreamcatcher;5.5;4000
+Lincoln;7.4;71000
+The Matrix;8.7;25000
+Apollo 13;7.6;5000
+Total Recall;7.5;0
+The Santa Clause 2;5.5;1000
+Les Misérables;7.6;144000
+You've Got Mail;6.5;0
+Step Brothers;6.9;0
+The Mask of Zorro;6.7;0
+Due Date;6.6;25000
+Unbroken;7.2;35000
+Space Cowboys;6.4;0
+Cliffhanger;6.4;0
+Broken Arrow;6.0;0
+The Kid;6.1;0
+World Trade Center;6.0;0
+Mona Lisa Smile;6.4;0
+The Dictator;6.4;59000
+Eyes Wide Shut;7.3;10000
+Annie;5.2;16000
+Focus;6.6;23000
+This Means War;6.3;18000
+Blade: Trinity;5.9;0
+Red Dawn;6.4;0
+Primary Colors;6.7;688
+Resident Evil: Retribution;5.4;32000
+Death Race;6.4;0
+The Long Kiss Goodnight;6.7;4000
+Proof of Life;6.2;892
+Zathura: A Space Adventure;6.1;0
+Fight Club;8.8;48000
+We Are Marshall;7.1;0
+The Missing;8.1;0
+Hudson Hawk;5.7;0
+Lucky Numbers;5.0;177
+I, Frankenstein;5.1;15000
+Oliver Twist;6.9;0
+Elektra;4.8;0
+Sin City: A Dame to Kill For;6.5;32000
+Random Hearts;5.1;295
+Everest;7.1;40000
+Perfume: The Story of a Murderer;7.5;26000
+Austin Powers in Goldmember;6.2;0
+Astro Boy;6.3;0
+Jurassic Park;8.1;19000
+Wyatt Earp;6.6;0
+Clear and Present Danger;6.9;0
+Dragon Blade;6.1;0
+Littleman;4.3;0
+U-571;6.6;0
+The American President;6.8;0
+The Love Guru;3.8;0
+3000 Miles to Graceland;5.9;0
+The Hateful Eight;7.9;114000
+Blades of Glory;6.3;0
+Hop;5.5;0
+300;7.7;13000
+Meet the Fockers;6.3;0
+Marley & Me;7.1;11000
+The Green Mile;8.5;30000
+Wild Hogs;5.9;0
+Chicken Little;5.8;912
+Gone Girl;8.1;146000
+The Bourne Identity;7.9;0
+GoldenEye;7.2;0
+The General's Daughter;6.3;885
+The Truman Show;8.1;18000
+The Prince of Egypt;7.0;0
+Daddy Day Care;5.5;886
+2 Guns;6.7;22000
+Cats & Dogs;5.2;0
+The Italian Job;7.0;0
+Two Weeks Notice;6.1;0
+Antz;6.6;0
+Couples Retreat;5.5;0
+Days of Thunder;5.9;0
+Cheaper by the Dozen 2;5.4;781
+The Scorch Trials;6.4;24000
+Eat Pray Love;5.7;26000
+The Family Man;6.7;0
+RED;7.1;32000
+Any Given Sunday;6.8;0
+The Horse Whisperer;6.5;0
+Collateral;7.6;0
+The Scorpion King;5.5;0
+Ladder 49;6.5;0
+Jack Reacher;7.0;38000
+Deep Blue Sea;5.8;0
+This Is It;7.3;0
+Contagion;6.6;42000
+Kangaroo Jack;4.4;858
+Coraline;7.7;10000
+The Happening;5.0;6000
+Man on Fire;7.7;14000
+The Shaggy Dog;4.4;747
+Starsky & Hutch;6.1;0
+Jingle All the Way;5.4;0
+Hellboy;6.8;0
+A Civil Action;6.5;1000
+ParaNorman;7.0;12000
+The Jackal;6.3;0
+Paycheck;6.3;0
+Up Close & Personal;6.1;829
+The Tale of Despereaux;6.1;0
+Rules of Engagement;7.3;0
+The Tuxedo;5.3;797
+Under Siege 2: Dark Territory;5.4;1000
+Jack Ryan: Shadow Recruit;6.2;17000
+Joy;6.6;24000
+London Has Fallen;5.9;28000
+Alien: Resurrection;6.3;0
+Shooter;7.2;0
+The Boxtrolls;6.8;11000
+Practical Magic;6.1;0
+The Lego Movie;7.8;64000
+Miss Congeniality 2: Armed and Fabulous;5.0;621
+Reign of Fire;6.2;0
+Gangster Squad;6.7;40000
+Year One;4.9;0
+Invictus;7.4;23000
+State of Play;7.1;0
+Duplicity;6.2;0
+My Favorite Martian;4.9;448
+The Sentinel;6.1;690
+Planet 51;6.1;0
+Star Trek: Nemesis;6.4;0
+Intolerable Cruelty;6.3;0
+Trouble with the Curve;6.8;11000
+Edge of Darkness;6.6;0
+The Relic;5.7;956
+Analyze That;5.9;846
+Righteous Kill;6.0;0
+Mercury Rising;6.1;0
+The Soloist;6.7;0
+The Legend of Bagger Vance;6.7;0
+Almost Famous;7.9;15000
+Garfield 2;5.0;470
+xXx: State of the Union;4.3;0
+Priest;5.7;20000
+Sinbad: Legend of the Seven Seas;6.7;880
+Event Horizon;6.7;10000
+The Avengers;8.1;123000
+Dragonfly;6.1;0
+The Black Dahlia;5.6;0
+Flyboys;6.6;2000
+The Last Castle;6.9;0
+Supernova;4.8;589
+Winter's Tale;6.2;17000
+The Mortal Instruments: City of Bones;6.0;44000
+Meet Dave;4.9;791
+Dark Water;5.6;0
+Edtv;6.1;641
+Inkheart;6.1;0
+The Spirit;4.8;2000
+Mortdecai;5.5;12000
+In the Name of the King: A Dungeon Siege Tale;3.8;0
+Beyond Borders;6.5;0
+Xi you ji zhi: Sun Wukong san da Baigu Jing;6.0;426
+The Great Raid;6.7;0
+Deadpool;8.1;117000
+Holy Man;4.9;296
+American Sniper;7.3;112000
+Goosebumps;6.4;35000
+Sabrina, the Teenage Witch;6.6;990
+Just Like Heaven;6.7;0
+The Flintstones in Viva Rock Vegas;3.6;500
+Rambo III;5.7;2000
+Leatherheads;6.0;472
+The Ridiculous 6;4.9;0
+Did You Hear About the Morgans?;4.7;0
+The Internship;6.3;22000
+Resident Evil: Afterlife;5.9;19000
+Red Tails;5.9;0
+Sex and the City;7.0;0
+The Devil's Advocate;7.5;11000
+That's My Boy;5.6;12000
+DragonHeart;6.4;0
+After the Sunset;6.3;782
+Ghost Rider: Spirit of Vengeance;4.3;18000
+Captain Corelli's Mandolin;5.9;0
+Anger Management;6.7;0
+The Pacifier;5.5;0
+Walking Tall;6.2;0
+Forrest Gump;8.8;59000
+Alvin and the Chipmunks;5.2;0
+Meet the Parents;7.0;0
+Pocahontas;6.6;0
+Superman;7.3;0
+The Nutty Professor;5.6;960
+Hitch;6.6;0
+George of the Jungle;5.4;5000
+American Wedding;6.3;0
+Captain Phillips;7.9;65000
+Date Night;6.3;0
+Casper;6.0;0
+The Equalizer;7.2;56000
+Maid in Manhattan;5.1;0
+Crimson Tide;7.3;0
+The Pursuit of Happyness;8.0;32000
+Flightplan;6.2;0
+Disclosure;6.0;0
+City of Angels;6.7;0
+Kill Bill: Vol. 1;8.1;13000
+Bowfinger;6.4;0
+Stargate SG-1;8.4;0
+Kill Bill: Vol. 2;8.0;0
+Tango & Cash;6.3;0
+Death Becomes Her;6.4;8000
+Shanghai Noon;6.6;0
+Executive Decision;6.4;0
+Mr. Popper's Penguins;6.0;14000
+The Forbidden Kingdom;6.6;0
+Free Birds;5.9;0
+Alien 3;6.4;0
+Evita;6.3;0
+Ronin;7.3;0
+The Ghost and the Darkness;6.8;0
+Paddington;7.2;30000
+The Watch;5.7;15000
+The Hunted;6.0;0
+Instinct;6.5;0
+Stuck on You;5.8;0
+Semi-Pro;5.8;0
+The Pirates! Band of Misfits;6.7;0
+Changeling;7.8;14000
+Chain Reaction;5.6;1000
+The Fan;5.8;0
+The Phantom of the Opera;7.4;0
+Elizabeth: The Golden Age;6.9;0
+Æon Flux;5.5;0
+Gods and Generals;6.3;953
+Turbulence;4.7;316
+Imagine That;5.6;610
+Muppets Most Wanted;6.4;10000
+Thunderbirds;4.2;437
+Burlesque;6.4;19000
+A Very Long Engagement;7.7;0
+Lolita;7.7;0
+Eye See You;5.3;448
+Blade II;6.7;0
+Seven Pounds;7.7;26000
+Bullet to the Head;5.7;10000
+The Godfather: Part III;7.6;0
+Elizabethtown;6.4;0
+You, Me and Dupree;5.6;0
+Superman II;6.8;0
+Gigli;2.4;2000
+All the King's Men;6.2;0
+Shaft;5.9;0
+Anastasia;7.1;0
+Moulin Rouge!;7.6;10000
+Domestic Disturbance;5.5;361
+Black Mass;7.0;44000
+Flags of Our Fathers;7.1;0
+Law Abiding Citizen;7.4;21000
+Grindhouse;7.6;0
+Beloved;5.9;853
+Lucky You;5.9;672
+Catch Me If You Can;8.0;15000
+Zero Dark Thirty;7.4;39000
+The Break-Up;5.8;0
+Mamma Mia!;6.3;10000
+Valentine's Day;5.7;9000
+The Dukes of Hazzard;5.1;0
+The Thin Red Line;7.6;0
+The Change-Up;6.4;13000
+Man on the Moon;7.4;0
+Casino;8.2;11000
+From Paris with Love;6.5;0
+Bulletproof Monk;5.5;846
+Me, Myself & Irene;6.5;0
+Barnyard;5.6;605
+Deck the Halls;4.9;1000
+The Twilight Saga: New Moon;4.6;13000
+Shrek;7.9;0
+The Adjustment Bureau;7.1;36000
+Robin Hood: Prince of Thieves;6.9;0
+Jerry Maguire;7.3;0
+Ted;7.0;74000
+As Good as It Gets;7.7;11000
+Patch Adams;6.7;0
+Anchorman 2: The Legend Continues;6.3;41000
+Mr. Deeds;5.8;0
+Super 8;7.1;37000
+Erin Brockovich;7.3;0
+How to Lose a Guy in 10 Days;6.4;0
+22 Jump Street;7.1;24000
+Interview with the Vampire: The Vampire Chronicles;7.6;11000
+Yes Man;6.8;0
+Central Intelligence;6.6;10000
+Stepmom;6.7;0
+Daddy's Home;6.1;13000
+Into the Woods;6.0;90000
+Inside Man;7.6;0
+Payback;7.1;0
+Congo;5.0;0
+We Bought a Zoo;7.1;22000
+Knowing;6.2;0
+Failure to Launch;5.6;2000
+The Ring Two;5.4;0
+Crazy, Stupid, Love.;7.4;44000
+Garfield;5.0;795
+Christmas with the Kranks;5.2;0
+Moneyball;7.6;27000
+Outbreak;6.6;0
+Non-Stop;7.0;24000
+Race to Witch Mountain;5.7;0
+V for Vendetta;8.2;48000
+Shanghai Knights;6.2;955
+Unforgotten;7.9;0
+Curious George;6.6;624
+Herbie Fully Loaded;4.7;1000
+Don't Say a Word;6.3;970
+Hansel & Gretel: Witch Hunters;6.1;45000
+Unfaithful;6.7;0
+I Am Number Four;6.1;27000
+Syriana;7.0;0
+13 Hours;7.4;44000
+The Book of Life;7.3;18000
+Firewall;5.8;773
+Absolute Power;6.7;1000
+G.I. Jane;5.8;2000
+The Game;7.8;25000
+Silent Hill;6.6;0
+The Replacements;6.5;0
+American Reunion;6.7;39000
+The Negotiator;7.3;3000
+Into the Storm;5.8;15000
+Beverly Hills Cop III;5.5;669
+Gremlins 2: The New Batch;6.3;0
+The Judge;7.4;47000
+The Peacemaker;5.9;0
+Resident Evil: Apocalypse;6.2;0
+Bridget Jones: The Edge of Reason;5.9;0
+Out of Time;6.5;1000
+On Deadly Ground;4.4;812
+The Adventures of Sharkboy and Lavagirl 3-D;3.5;0
+The Beach;6.6;0
+Raising Helen;6.0;718
+Ninja Assassin;6.4;0
+For Love of the Game;6.5;0
+A Touch of Frost;7.8;361
+Striptease;4.3;877
+Marmaduke;4.2;0
+Hereafter;6.5;16000
+Murder by Numbers;6.1;0
+Assassins;6.3;0
+Hannibal Rising;6.2;3000
+The Story of Us;5.9;0
+The Host;5.9;43000
+Basic;6.5;0
+Blood Work;6.4;705
+The International;6.5;0
+Escape from L.A.;5.7;0
+Twisted;7.5;915
+The Iron Giant;8.0;0
+The Life Aquatic with Steve Zissou;7.3;0
+Free State of Jones;6.7;10000
+The Life of David Gale;7.5;0
+Man of the House;5.4;779
+Run All Night;6.6;15000
+Eastern Promises;7.7;0
+Into the Blue;5.8;0
+The Messenger: The Story of Joan of Arc;6.4;0
+Your Highness;5.6;18000
+Dream House;6.0;0
+Mad City;6.2;697
+Baby's Day Out;5.9;0
+The Scarlet Letter;5.1;943
+Fair Game;6.8;9000
+Defiance;7.0;0
+Domino;6.0;0
+Jade;5.1;422
+Gamer;5.8;0
+Beautiful Creatures;6.2;14000
+Death to Smoochy;6.4;0
+Zoolander 2;4.8;28000
+The Big Bounce;4.9;288
+What Planet Are You From?;5.6;255
+Drive Angry;5.5;15000
+Street Fighter: The Legend of Chun-Li;3.7;0
+The One;5.9;0
+Outlander;8.5;31000
+The Adventures of Ford Fairlane;6.3;2000
+Pirate Radio;7.4;21000
+Traffic;7.6;0
+Indiana Jones and the Last Crusade;8.3;0
+Anna Karenina;6.6;36000
+Chappie;6.9;67000
+The Bone Collector;6.7;0
+Panic Room;6.8;0
+The Tooth Fairy;4.6;352
+Three Kings;7.1;3000
+Child 44;6.4;18000
+Rat Race;6.4;0
+K-PAX;7.4;0
+Kate & Leopold;6.4;0
+Bedazzled;6.0;0
+The Cotton Club;6.5;828
+3:10 to Yuma;7.8;0
+Taken 3;6.0;38000
+Out of Sight;7.0;0
+The Cable Guy;6.0;0
+Earth;7.8;522
+Dick Tracy;6.1;2000
+The Thomas Crown Affair;6.8;0
+Riding in Cars with Boys;6.4;0
+First Blood;7.7;0
+Solaris;8.1;0
+Happily N'Ever After;4.5;261
+Mary Reilly;5.8;616
+My Best Friend's Wedding;6.3;0
+America's Sweethearts;5.7;881
+Insomnia;7.2;0
+Star Trek: First Contact;7.6;3000
+Jonah Hex;4.7;0
+Courage Under Fire;6.6;975
+Liar Liar;6.8;0
+The Infiltrator;7.3;0
+Inchon;2.7;115
+The Flintstones;4.8;0
+Taken 2;6.3;63000
+Scary Movie 3;5.5;0
+Miss Congeniality;6.2;0
+Journey to the Center of the Earth;5.8;0
+The Princess Diaries 2: Royal Engagement;5.7;1000
+The Pelican Brief;6.5;0
+The Client;6.7;1000
+The Bucket List;7.4;22000
+Patriot Games;6.9;0
+Monster-in-Law;5.5;0
+Prisoners;8.1;86000
+Training Day;7.7;0
+Galaxy Quest;7.3;19000
+Scary Movie 2;5.2;0
+The Muppets;7.1;26000
+Blade;7.1;0
+Coach Carter;7.2;0
+Changing Lanes;6.5;0
+Anaconda;4.6;0
+Coyote Ugly;5.6;0
+Love Actually;7.7;52000
+A Bug's Life;7.2;0
+From Hell;6.8;0
+The Specialist;5.4;0
+Tin Cup;6.3;1000
+Yours, Mine and Ours;7.2;0
+Kicking & Screaming;5.6;743
+The Hitchhiker's Guide to the Galaxy;6.8;10000
+Fat Albert;4.3;531
+Resident Evil: Extinction;6.3;0
+Blended;6.5;12000
+Last Holiday;6.4;0
+The River Wild;6.3;0
+The Indian in the Cupboard;5.9;0
+Savages;6.5;28000
+Cellular;6.5;2000
+Johnny English;6.1;2000
+The Ant Bully;5.9;593
+Dune;6.6;11000
+Across the Universe;7.4;14000
+Revolutionary Road;7.3;0
+16 Blocks;6.6;0
+Babylon A.D.;5.6;0
+The Glimmer Man;5.3;451
+Multiplicity;6.0;0
+Aliens in the Attic;5.4;916
+The Pledge;6.8;0
+The Producers;6.4;0
+Dredd;7.1;46000
+The Phantom;4.9;0
+All the Pretty Horses;5.8;652
+Nixon;7.1;915
+The Ghost Writer;7.2;15000
+Deep Rising;6.0;0
+Miracle at St. Anna;6.0;0
+Curse of the Golden Flower;7.0;0
+Bangkok Dangerous;5.4;0
+Big Trouble;6.5;892
+Love in the Time of Cholera;6.4;0
+The Returned;8.3;17000
+Shadow Conspiracy;4.9;68
+Johnny English Reborn;6.3;17000
+Foodfight!;1.7;0
+Argo;7.7;89000
+The Fugitive;7.8;0
+The Bounty Hunter;5.5;0
+Sleepers;7.5;0
+Rambo: First Blood Part II;6.4;0
+The Juror;5.6;353
+Pinocchio;7.5;0
+Heaven's Gate;6.8;1000
+Underworld: Evolution;6.8;0
+Victor Frankenstein;6.0;11000
+Finding Forrester;7.3;0
+28 Days;6.0;0
+Unleashed;7.0;0
+The Sweetest Thing;5.1;0
+The Firm;6.8;0
+Charlie St. Cloud;6.5;0
+The Mechanic;6.6;16000
+21 Jump Street;7.2;39000
+Notting Hill;7.0;11000
+Chicken Run;7.0;0
+Along Came Polly;5.9;0
+Boomerang;5.4;0
+The Heat;6.6;24000
+Cleopatra;7.0;0
+Here Comes the Boom;6.5;17000
+High Crimes;6.3;893
+The Mirror Has Two Faces;6.5;0
+The Mothman Prophecies;6.5;0
+Brüno;5.8;0
+Licence to Kill;6.6;0
+Red Riding Hood;5.4;20000
+15 Minutes;6.1;748
+Super Mario Bros.;4.0;0
+Lord of War;7.6;10000
+Hero;7.9;0
+One for the Money;5.3;19000
+The Interview;6.6;50000
+The Warrior's Way;6.3;0
+McHale's Navy;7.5;455
+Micmacs;7.2;0
+8 Mile;7.0;0
+Animal Kingdom: Let's go Ape;4.9;161
+A Knight's Tale;6.9;0
+The Medallion;5.2;505
+The Sixth Sense;8.1;14000
+Man on a Ledge;6.6;11000
+The Big Year;6.2;11000
+The Karate Kid;7.2;0
+American Hustle;7.3;63000
+The Proposal;6.7;10000
+Double Jeopardy;6.4;0
+Back to the Future Part II;7.8;12000
+Lucy;6.4;83000
+Fifty Shades of Grey;4.1;101000
+Spy Kids 3-D: Game Over;4.1;681
+A Time to Kill;7.4;0
+Cheaper by the Dozen;5.8;0
+Lone Survivor;7.6;58000
+A League of Their Own;7.2;0
+The Conjuring 2;7.8;40000
+The Social Network;7.7;74000
+He's Just Not That Into You;6.4;12000
+Scary Movie 4;5.1;1000
+Scream 3;5.5;0
+Back to the Future Part III;7.4;0
+Get Hard;6.0;14000
+Bram Stoker's Dracula;7.5;14000
+Julie & Julia;7.0;13000
+42;7.5;28000
+The Talented Mr. Ripley;7.3;0
+Dumb and Dumber To;5.7;55000
+Eight Below;7.3;11000
+The Intern;7.2;54000
+Ride Along 2;5.9;0
+The Last of the Mohicans;7.8;0
+Ray;7.7;0
+Sin City;8.1;13000
+Vantage Point;6.6;0
+I Love You, Man;7.1;0
+Shallow Hal;5.9;0
+JFK;8.0;0
+Big Momma's House 2;4.6;663
+The Mexican;6.1;2000
+Unbroken;7.2;35000
+17 Again;6.4;0
+The Other Woman;6.0;16000
+The Final Destination;5.2;0
+Bridge of Spies;7.6;55000
+Behind Enemy Lines;6.4;0
+Get Him to the Greek;6.4;12000
+Shall We Dance;6.1;0
+Small Soldiers;6.1;0
+Spawn;5.2;0
+The Count of Monte Cristo;7.7;0
+The Lincoln Lawyer;7.3;25000
+Unknown;6.9;29000
+The Prestige;8.5;49000
+Horrible Bosses 2;6.3;12000
+Escape from Planet Earth;5.9;0
+Apocalypto;7.8;14000
+The Living Daylights;6.7;0
+Predators;6.4;17000
+Legal Eagles;5.9;263
+Secret Window;6.6;0
+The Lake House;6.8;0
+The Skeleton Key;6.5;0
+The Odd Life of Timothy Green;6.6;11000
+Made of Honor;5.8;3000
+Jersey Boys;6.9;16000
+The Rainmaker;7.1;0
+Gothika;5.8;0
+Amistad;7.2;0
+Medicine Man;6.0;694
+Aliens vs. Predator: Requiem;4.7;0
+Ri¢hie Ri¢h;5.2;0
+Autumn in New York;5.5;0
+Music and Lyrics;6.5;0
+Paul;7.0;42000
+The Guilt Trip;5.8;0
+Scream 4;6.2;26000
+8MM;6.5;0
+The Doors;7.2;0
+Sex Tape;5.1;0
+Hanging Up;4.7;390
+Final Destination 5;5.9;20000
+Mickey Blue Eyes;5.8;445
+Pay It Forward;7.2;16000
+Fever Pitch;6.2;0
+Arthur;7.4;301
+Drillbit Taylor;5.7;702
+A Million Ways to Die in the West;6.1;24000
+The Shadow;6.0;0
+Extremely Loud & Incredibly Close;6.9;39000
+Morning Glory;6.5;0
+Get Rich or Die Tryin';5.0;0
+The Art of War;5.7;470
+Rent;7.0;3000
+Bless the Child;5.1;394
+The Out-of-Towners;5.3;279
+The Island of Dr. Moreau;4.4;0
+The Musketeer;4.7;299
+The Other Boleyn Girl;6.7;0
+Sweet November;6.7;8000
+The Reaping;5.7;0
+Mean Streets;7.4;0
+Renaissance Man;6.1;680
+Colombiana;6.4;15000
+The Magic Sword: Quest for Camelot;6.2;0
+City by the Sea;6.2;416
+At First Sight;5.9;0
+Torque;4.0;0
+City Hall;6.2;309
+Showgirls;4.6;0
+Marie Antoinette;6.4;0
+Kiss of Death;5.9;555
+Get Carter;5.1;604
+The Impossible;7.6;54000
+Ishtar;4.2;754
+Fantastic Mr. Fox;7.8;15000
+Life or Something Like It;5.8;835
+Memoirs of an Invisible Man;5.9;630
+Amélie;8.4;39000
+New York Minute;4.8;849
+Alfie;6.2;0
+Big Miracle;6.5;0
+The Deep End of the Ocean;6.3;579
+Feardotcom;3.3;612
+Cirque du Freak: The Vampire's Assistant;5.9;0
+Victor Frankenstein;6.0;11000
+Duplex;5.8;0
+Soul Men;6.5;866
+Raise the Titanic;4.7;328
+Universal Soldier: The Return;4.1;401
+Pandorum;6.8;10000
+Impostor;6.2;892
+Extreme Ops;4.5;158
+Just Visiting;5.8;565
+Sunshine;7.3;15000
+A Thousand Words;5.9;0
+Delgo;4.4;211
+The Gunman;5.8;0
+Alex Rider: Operation Stormbreaker;5.1;823
+Disturbia;6.9;0
+Hackers;6.2;12000
+The Hunting Party;6.9;0
+The Hudsucker Proxy;7.3;0
+The Warlords;7.1;0
+Nomad: The Warrior;6.0;265
+Snowpiercer;7.0;58000
+A Monster in Paris;6.8;0
+The Last Shot;5.7;89
+The Crow;7.6;15000
+Baahubali: The Beginning;8.4;21000
+The Time Traveler's Wife;7.1;13000
+Because I Said So;5.6;0
+The Fast and the Furious;6.7;14000
+Frankenweenie;7.0;25000
+Serenity;8.0;14000
+Against the Ropes;5.3;177
+Superman III;4.9;0
+Grudge Match;6.4;12000
+Red Cliff;7.4;0
+Sweet Home Alabama;6.1;0
+The Ugly Truth;6.5;9000
+Sgt. Bilko;5.7;478
+Spy Kids 2: Island of Lost Dreams;5.1;478
+Star Trek: Generations;6.6;0
+The Grandmaster;6.5;13000
+Water for Elephants;6.9;33000
+3rd Rock from the Sun;7.8;0
+Dragon Nest: Warriors' Dawn;6.4;0
+The Hurricane;7.6;0
+Enough;5.6;0
+Heartbreakers;6.2;989
+Paul Blart: Mall Cop 2;4.4;8000
+Angel Eyes;5.6;689
+Joe Somebody;5.5;168
+The Ninth Gate;6.7;0
+Extreme Measures;6.1;352
+Rock Star;6.2;0
+Precious;7.3;12000
+White Squall;6.6;911
+The Thing;8.2;23000
+Riddick;6.4;39000
+Switchback;6.4;389
+Texas Rangers;5.2;474
+City of Ember;6.5;0
+The Master;7.1;27000
+Virgin Territory;4.8;366
+The Express;7.3;0
+The 5th Wave;5.2;14000
+Creed;7.7;70000
+The Town;7.6;29000
+What to Expect When You're Expecting;5.7;14000
+Burn After Reading;7.0;0
+Nim's Island;6.0;0
+Rush;8.1;83000
+Magnolia;8.0;13000
+Cop Out;5.6;0
+How to Be Single;6.1;15000
+Dolphin Tale;6.9;0
+Twilight;5.2;19000
+John Q;7.0;0
+Blue Streak;6.3;0
+We're the Millers;7.0;35000
+Obitaemyy ostrov;5.3;240
+Breakdown;6.9;0
+Never Say Never Again;6.2;0
+Hot Tub Time Machine;6.4;12000
+Dolphin Tale 2;6.4;0
+Reindeer Games;5.7;852
+A Man Apart;6.1;0
+Aloha;5.4;11000
+Ghosts of Mississippi;6.7;591
+Snow Falling on Cedars;6.8;846
+The Rite;6.0;23000
+Gattaca;7.8;17000
+Isn't She Great;5.3;133
+Space Chimps;4.5;279
+Head of State;5.4;638
+The Hangover;7.8;24000
+Ip Man 3;7.2;12000
+Austin Powers: The Spy Who Shagged Me;6.6;0
+Batman;7.6;12000
+There Be Dragons;5.9;2000
+Lethal Weapon 3;6.7;0
+The Blind Side;7.7;38000
+Rush Hour;5.8;0
+Spy Kids;5.4;0
+Horrible Bosses;6.9;31000
+True Grit;7.7;36000
+The Devil Wears Prada;6.8;0
+Star Trek: The Motion Picture;6.4;0
+Identity Thief;5.7;17000
+Cape Fear;7.3;0
+21;6.8;0
+Trainwreck;6.3;25000
+Guess Who;5.9;919
+The English Patient;7.4;0
+L.A. Confidential;8.3;11000
+Sky High;6.2;0
+In & Out;6.3;0
+Species;5.8;0
+A Nightmare on Elm Street;7.5;10000
+The Cell;6.3;0
+The Man in the Iron Mask;6.4;0
+Secretariat;7.2;0
+TMNT;6.3;0
+Radio;6.9;0
+Friends with Benefits;6.6;41000
+Neighbors 2: Sorority Rising;6.0;0
+Saving Mr. Banks;7.5;39000
+Malcolm X;7.7;0
+This Is 40;6.2;18000
+Old Dogs;5.4;0
+Underworld: Rise of the Lycans;6.6;0
+License to Wed;5.3;913
+The Benchwarmers;5.6;0
+Must Love Dogs;5.9;0
+Donnie Brasco;7.8;0
+Resident Evil;6.7;0
+Poltergeist;7.4;11000
+The Ladykillers;6.2;0
+Max Payne;5.4;0
+In Time;6.7;52000
+The Back-up Plan;5.3;0
+Something Borrowed;5.9;13000
+Hit the Floor;7.0;265
+Black Knight;4.8;0
+The Bad News Bears;7.3;0
+Street Fighter;3.8;0
+The Pianist;8.5;21000
+From Hell;6.8;0
+The Nativity Story;6.8;0
+House of Wax;5.3;0
+Closer;7.3;12000
+J. Edgar;6.6;16000
+Mirrors;6.2;5000
+Queen of the Damned;5.2;0
+Predator 2;6.2;0
+Untraceable;6.2;0
+Blast from the Past;6.6;0
+Flash Gordon;6.4;12000
+Jersey Girl;6.2;0
+Alex Cross;5.1;11000
+Midnight in the Garden of Good and Evil;6.6;0
+Heist;6.1;0
+Nanny McPhee Returns;6.1;0
+Hoffa;6.6;949
+The X Files: I Want to Believe;5.9;0
+Ella Enchanted;6.3;0
+Concussion;7.1;23000
+Abduction;5.0;13000
+Valiant;5.6;538
+Wonder Boys;7.4;0
+Superhero Movie;4.5;0
+Broken City;6.2;0
+Cursed;5.0;0
+Premium Rush;6.5;20000
+Hot Pursuit;5.1;0
+The Four Feathers;6.5;0
+Parker;6.2;17000
+Wimbledon;6.3;0
+Furry Vengeance;3.8;0
+Bait;5.2;0
+Krull;6.0;0
+Lions for Lambs;6.2;0
+Flight of the Intruder;5.7;452
+Walk Hard: The Dewey Cox Story;6.7;0
+The Shipping News;6.8;0
+American Outlaws;6.0;433
+The Young Victoria;7.3;0
+Whiteout;5.5;0
+The Tree of Life;6.7;39000
+Knock Off;4.8;471
+Sabotage;5.7;10000
+The Order;5.1;704
+Punisher: War Zone;6.0;0
+Zoom;4.2;494
+The Walk;7.4;24000
+Warriors of Virtue;4.6;0
+A Good Year;6.9;9000
+Luther;8.6;20000
+Radio Flyer;6.9;892
+Blood In, Blood Out;8.0;6000
+Smilla's Sense of Snow;6.4;561
+Femme Fatale;6.3;675
+Lion of the Desert;8.4;0
+The Horseman on the Roof;7.1;262
+Ride with the Devil;6.8;633
+Biutiful;7.5;29000
+The Lovers;4.5;677
+Bandidas;5.7;0
+Black Water Transit;7.2;26
+The Maze Runner;6.8;38000
+Unfinished Business;5.4;0
+The Age of Innocence;7.2;0
+The Fountain;7.3;23000
+Chill Factor;5.2;120
+Stolen;5.5;0
+Ponyo;7.7;0
+The Longest Ride;7.1;23000
+The Astronaut's Wife;5.3;1000
+I Dreamed of Africa;5.6;314
+Playing for Keeps;5.7;0
+Mandela: Long Walk to Freedom;7.1;13000
+Reds;7.5;0
+A Few Good Men;7.6;0
+Exit Wounds;5.5;742
+Big Momma's House;5.1;1000
+Thunder and the House of Magic;6.3;0
+The Darkest Hour;4.9;0
+Step Up Revolution;6.5;19000
+Snakes on a Plane;5.6;4000
+The Watcher;5.3;463
+The Punisher;6.5;4000
+Goal! The Dream Begins;6.8;0
+Safe;6.5;12000
+Pushing Tin;6.0;783
+Star Wars: Episode VI - Return of the Jedi;8.4;14000
+Doomsday;6.0;0
+The Reader;7.6;15000
+Wanderlust;5.6;0
+Elf;6.9;21000
+Phenomenon;6.4;0
+Snow Dogs;5.1;0
+Scrooged;7.0;11000
+Nacho Libre;5.7;0
+Bridesmaids;6.8;27000
+This Is the End;6.7;97000
+Stigmata;6.2;0
+Men of Honor;7.2;0
+Takers;6.2;0
+The Big Wedding;5.6;0
+Big Mommas: Like Father, Like Son;4.4;0
+Source Code;7.5;56000
+Alive;7.1;0
+The Number 23;6.4;10000
+The Young and Prodigious T.S. Spivet;7.1;5000
+1941;5.9;2000
+Dreamer: Inspired by a True Story;6.9;0
+A History of Violence;7.5;0
+Transporter 2;6.3;0
+The Quick and the Dead;6.4;0
+Laws of Attraction;5.9;702
+Bringing Out the Dead;6.8;0
+Repo Men;6.3;12000
+Dragon Wars: D-War;3.6;0
+Bogus;5.3;350
+The Incredible Burt Wonderstone;5.9;13000
+Cats Don't Dance;6.9;643
+Cradle Will Rock;6.9;625
+The Good German;6.1;559
+George and the Dragon;5.7;290
+Apocalypse Now;8.5;19000
+Going the Distance;6.3;0
+Mr. Holland's Opus;7.3;0
+Criminal;6.3;0
+Out of Africa;7.2;0
+Flight;7.3;64000
+Moonraker;6.3;0
+The Grand Budapest Hotel;8.1;149000
+Hearts in Atlantis;6.9;0
+Arachnophobia;6.3;0
+Frequency;7.3;0
+Ghostbusters;5.5;62000
+Vacation;6.1;28000
+Get Shorty;6.9;0
+Chicago;7.2;0
+Big Daddy;6.4;0
+American Pie 2;6.4;0
+Toy Story;8.3;0
+Speed;7.2;0
+The Vow;6.8;32000
+Extraordinary Measures;6.5;0
+Remember the Titans;7.8;0
+The Hunt for Red October;7.6;0
+Lee Daniels' The Butler;7.2;41000
+Dodgeball: A True Underdog Story;6.7;0
+The Addams Family;6.8;5000
+Ace Ventura: When Nature Calls;6.3;0
+The Princess Diaries;6.2;0
+The First Wives Club;6.2;0
+Se7en;8.6;39000
+District 9;8.0;22000
+The SpongeBob SquarePants Movie;7.0;0
+Mystic River;8.0;12000
+Million Dollar Baby;8.1;14000
+Analyze This;6.7;0
+The Notebook;7.9;57000
+27 Dresses;6.1;0
+Hannah Montana: The Movie;4.2;0
+Rugrats in Paris: The Movie;6.1;181
+The Prince of Tides;6.6;883
+Legends of the Fall;7.5;11000
+Up in the Air;7.4;19000
+About Schmidt;7.2;0
+Warm Bodies;6.9;81000
+Looper;7.4;75000
+Down to Earth;5.4;602
+Babe;6.8;5000
+Hope Springs;6.3;0
+Forgetting Sarah Marshall;7.2;0
+Friday Night Lights;8.7;0
+Four Brothers;6.9;0
+Baby Mama;6.0;0
+Hope Floats;5.9;0
+Bride Wars;5.4;0
+Without a Paddle;5.9;0
+13 Going on 30;6.1;0
+Midnight in Paris;7.7;78000
+The Nut Job;5.8;0
+Blow;7.6;13000
+Message in a Bottle;6.1;0
+Star Trek V: The Final Frontier;5.4;0
+Like Mike;5.1;1000
+Naked Gun 33 1/3: The Final Insult;6.4;1000
+A View to a Kill;6.3;0
+The Curse of the Were-Rabbit;7.5;0
+P.S. I Love You;7.1;20000
+Racing Stripes;5.2;771
+Atonement;7.8;12000
+Letters to Juliet;6.5;13000
+Black Rain;6.6;0
+The Three Stooges;5.1;13000
+Corpse Bride;7.4;0
+Glory Road;7.2;0
+Sicario;7.6;59000
+Southpaw;7.5;44000
+Drag Me to Hell;6.6;11000
+The Age of Adaline;7.2;34000
+Secondhand Lions;7.6;0
+Step Up 3D;6.2;16000
+Blue Crush;5.6;0
+Stranger Than Fiction;7.6;13000
+30 Days of Night;6.6;0
+The Cabin in the Woods;7.0;66000
+Meet the Spartans;2.7;0
+Midnight Run;7.6;0
+The Running Man;6.6;0
+Little Shop of Horrors;6.9;0
+Hanna;6.8;38000
+The Family;7.5;0
+Mortal Kombat: Annihilation;3.7;1000
+Larry Crowne;6.1;0
+Carrie;5.9;39000
+Take the Lead;6.7;0
+Entourage;8.5;0
+Gridiron Gang;6.9;0
+What's the Worst That Could Happen?;5.5;304
+9;7.1;13000
+Side Effects;7.1;29000
+The Prince and Me;5.9;0
+Winnie the Pooh;7.3;0
+Dumb and Dumberer: When Harry Met Lloyd;3.4;1000
+Bulworth;6.8;0
+Get on Up;6.9;11000
+One True Thing;7.0;592
+Virtuosity;5.5;0
+My Super Ex-Girlfriend;5.1;1000
+Deliver Us from Evil;6.2;18000
+Sanctum;5.9;11000
+Little Black Book;5.2;484
+The Five-Year Engagement;6.2;11000
+Mr 3000;5.5;491
+The Next Three Days;7.4;27000
+Ultraviolet;4.4;0
+Assault on Precinct 13;6.3;999
+The Replacement Killers;6.1;629
+Fled;5.3;204
+Eight Legged Freaks;5.4;0
+Love & Other Drugs;6.7;24000
+88 Minutes;5.9;0
+North Country;7.3;0
+The Whole Ten Yards;5.5;462
+Splice;5.8;12000
+Howard the Duck;4.6;0
+Pride and Glory;6.7;0
+The Cave;5.1;0
+Alex & Emma;5.6;625
+Wicker Park;7.0;0
+Fright Night;6.4;23000
+The New World;6.7;0
+Wing Commander;4.1;858
+In Dreams;5.5;654
+Dragonball: Evolution;2.7;0
+The Last Stand;6.4;24000
+Godsend;4.8;387
+Chasing Liberty;6.1;0
+Hoodwinked Too! Hood vs. Evil;4.8;0
+An Unfinished Life;7.0;0
+The Imaginarium of Doctor Parnassus;6.8;19000
+Barney's Version;7.3;0
+Trapped;8.2;0
+Runner Runner;5.6;0
+Antitrust;6.1;0
+Glory;7.9;0
+Once Upon a Time in America;8.4;12000
+Dead Man Down;6.5;0
+The Merchant of Venice;7.1;0
+The Good Thief;6.6;287
+Supercross;4.0;353
+Miss Potter;7.0;0
+The Promise;5.6;445
+DOA: Dead or Alive;4.8;0
+The Assassination of Jesse James by the Coward Robert Ford;7.5;0
+1911;6.0;0
+Little Nicholas;7.2;0
+Wild Card;5.6;0
+Machine Gun Preacher;6.8;21000
+Animals United;4.9;885
+The Color of Freedom;7.1;0
+United Passions;2.0;0
+Grace of Monaco;5.7;6000
+A Warrior's Tail;4.1;161
+Ripley's Game;6.7;447
+Sausage Party;7.5;13000
+Pitch Perfect 2;6.5;40000
+Walk the Line;7.9;11000
+12 Monkeys;7.6;12000
+Keeping the Faith;6.4;0
+The Borrowers;5.8;0
+Frost/Nixon;7.7;0
+Confessions of a Dangerous Mind;7.1;3000
+Serving Sara;5.3;201
+The Boss;5.3;0
+Cry Freedom;7.5;0
+Mumford;6.9;209
+Seed of Chucky;4.9;0
+The Jacket;7.1;0
+Aladdin;8.0;0
+Straight Outta Compton;7.9;76000
+Indiana Jones and the Temple of Doom;7.6;0
+The Rugrats Movie;5.9;418
+Along Came a Spider;6.3;0
+Florence Foster Jenkins;7.1;0
+Once Upon a Time in Mexico;6.4;0
+Die Hard;8.2;25000
+Role Models;6.9;0
+The Big Short;7.8;99000
+Taking Woodstock;6.7;0
+Miracle;7.5;0
+Dawn of the Dead;7.4;7000
+The Wedding Planner;5.2;0
+Harlock: Space Pirate;6.5;0
+The Royal Tenenbaums;7.6;0
+Identity;7.3;11000
+Last Vegas;6.6;27000
+For Your Eyes Only;6.8;2000
+Serendipity;6.9;12000
+Timecop;5.8;0
+Zoolander;6.6;0
+Safe Haven;6.7;23000
+Hocus Pocus;6.7;16000
+No Reservations;6.3;0
+Kick-Ass;7.7;36000
+30 Minutes or Less;6.1;0
+Dracula 2000;4.9;0
+Alexander and the Terrible, Horrible, No Good, Very Bad Day;6.2;12000
+Pride & Prejudice;7.8;17000
+Blade Runner;8.2;34000
+Rob Roy;6.9;0
+3 Days to Kill;6.2;10000
+We Own the Night;6.9;0
+Lost Souls;4.8;209
+Winged Migration;8.0;1000
+Just My Luck;5.3;0
+Mystery, Alaska;6.7;913
+The Spy Next Door;5.4;0
+A Simple Wish;5.4;517
+Ghosts of Mars;4.9;0
+Our Brand Is Crisis;6.1;0
+Pride and Prejudice and Zombies;5.8;73000
+Kundun;7.0;0
+How to Lose Friends & Alienate People;6.5;0
+Kick-Ass 2;6.6;36000
+Captain Alatriste: The Spanish Musketeer;6.1;0
+Brick Mansions;5.7;0
+Octopussy;6.6;0
+Knocked Up;7.0;0
+My Sister's Keeper;7.4;15000
+Welcome Home, Roscoe Jenkins;5.3;464
+A Passage to India;7.4;845
+Notes on a Scandal;7.4;0
+Rendition;6.8;0
+Limitless;7.9;11000
+Star Trek VI: The Undiscovered Country;7.2;0
+Divine Secrets of the Ya-Ya Sisterhood;6.0;0
+The Jungle Book;7.8;65000
+Kiss the Girls;6.6;0
+The Blues Brothers;7.9;14000
+The Sisterhood of the Traveling Pants 2;6.2;894
+Joyful Noise;5.7;0
+About a Boy;7.1;0
+Lake Placid;5.6;2000
+Lucky Number Slevin;7.8;10000
+The Right Stuff;7.9;0
+Anonymous;6.9;15000
+The NeverEnding Story;7.4;21000
+Dark City;7.7;14000
+The Duchess;6.9;0
+The Honeymooners;8.7;459
+Return to Oz;6.7;0
+The Newton Boys;6.0;315
+Case 39;6.2;0
+Suspect Zero;5.9;817
+Martian Child;6.8;0
+Spy Kids: All the Time in the World in 4D;3.6;0
+Money Monster;6.7;0
+Formula 51;6.3;0
+Flawless;6.4;0
+Mindhunters;6.4;2000
+What Just Happened;5.7;845
+The Statement;6.2;188
+The Magic Flute;6.6;359
+Paul Blart: Mall Cop;5.2;0
+Freaky Friday;6.1;0
+The 40-Year-Old Virgin;7.1;0
+Shakespeare in Love;7.2;0
+A Walk Among the Tombstones;6.5;15000
+Kindergarten Cop;6.0;0
+Pineapple Express;7.0;0
+Ever After: A Cinderella Story;7.0;0
+Open Range;7.5;0
+Flatliners;6.6;0
+It's Always Sunny in Philadelphia;8.8;0
+A Bridge Too Far;7.4;0
+Red Eye;6.5;0
+Final Destination 2;6.2;0
+O Brother, Where Art Thou?;7.8;16000
+Legion;5.2;0
+Pain & Gain;6.5;43000
+In Good Company;6.5;736
+Clockstoppers;5.2;874
+Silverado;7.2;0
+Brothers;7.1;10000
+Agent Cody Banks 2: Destination London;4.5;167
+New Year's Eve;5.7;20000
+Original Sin;6.0;3000
+The Raven;6.4;35000
+Welcome to Mooseport;5.2;260
+Highlander: The Final Dimension;4.3;319
+Blood and Wine;6.1;145
+Snow White: A Tale of Terror;6.3;0
+The Curse of the Jade Scorpion;6.8;826
+Accidental Love;4.0;0
+Flipper;5.2;504
+Self/less;6.5;11000
+The Constant Gardener;7.5;0
+The Passion of the Christ;7.1;13000
+Mrs. Doubtfire;6.9;0
+Rain Man;8.0;12000
+Gran Torino;8.2;28000
+W.;6.4;0
+Taken;7.9;29000
+The Best of Me;6.7;19000
+The Bodyguard;6.1;0
+Schindler's List;8.9;41000
+The Help;8.1;75000
+The Fifth Estate;6.2;11000
+Scooby-Doo 2: Monsters Unleashed;4.9;567
+Viy;5.4;0
+Freddy vs. Jason;5.8;3000
+The Face of an Angel;4.7;488
+Jimmy Neutron: Boy Genius;6.0;425
+Cloverfield;7.0;0
+Teenage Mutant Ninja Turtles II: The Secret of the Ooze;6.0;0
+The Untouchables;7.9;0
+No Country for Old Men;8.1;21000
+Ride Along;6.2;0
+Bridget Jones's Diary;6.7;0
+Chocolat;7.3;18000
+Legally Blonde 2: Red, White & Blonde;4.6;660
+Parental Guidance;6.1;0
+No Strings Attached;6.2;24000
+Tombstone;7.8;11000
+Romeo Must Die;6.1;0
+The Omen;7.6;7000
+Final Destination 3;5.8;0
+The Lucky One;6.5;29000
+Bridge to Terabithia;7.2;6000
+Finding Neverland;7.8;0
+A Madea Christmas;4.7;0
+The Grey;6.8;32000
+Hide and Seek;5.9;0
+Anchorman: The Legend of Ron Burgundy;7.2;0
+Goodfellas;8.7;25000
+Agent Cody Banks;5.0;542
+Nanny McPhee;6.6;0
+Scarface;8.3;19000
+Nothing to Lose;6.7;0
+The Last Emperor;7.8;0
+Contraband;6.5;0
+Money Talks;6.1;666
+There Will Be Blood;8.1;16000
+The Wild Thornberrys Movie;5.2;187
+Rugrats Go Wild;5.6;329
+Undercover Brother;5.8;0
+The Sisterhood of the Traveling Pants;6.6;0
+Kiss of the Dragon;6.6;0
+The House Bunny;5.5;0
+Beauty Shop;5.5;671
+Million Dollar Arm;7.0;10000
+The Giver;6.5;58000
+What a Girl Wants;5.8;0
+Jeepers Creepers II;5.6;0
+Good Luck Chuck;5.6;0
+Cradle 2 the Grave;5.8;1000
+The Hours;7.6;0
+She's the Man;6.4;0
+Mr. Bean's Holiday;6.3;0
+Anacondas: The Hunt for the Blood Orchid;4.6;686
+Blood Ties;6.5;0
+August Rush;7.5;18000
+Elizabeth;7.5;0
+Bride of Chucky;5.3;0
+Tora! Tora! Tora!;7.5;0
+Spice World;3.3;0
+The Sitter;5.7;0
+Dance Flick;3.5;657
+The Shawshank Redemption;9.3;108000
+Crocodile Dundee in Los Angeles;4.8;387
+Kingpin;6.9;3000
+The Gambler;6.0;0
+August: Osage County;7.3;30000
+Ice Princess;6.0;901
+A Lot Like Love;6.6;0
+Eddie the Eagle;7.5;15000
+He Got Game;6.9;0
+Don Juan DeMarco;6.8;0
+Shaun the Sheep;8.3;834
+Dear John;6.3;14000
+The Losers;6.4;0
+Don't Be Afraid of the Dark;5.6;10000
+War;6.3;0
+Punch-Drunk Love;7.3;0
+EuroTrip;6.6;0
+Half Past Dead;4.6;564
+Unaccompanied Minors;5.1;498
+Bright Lights, Big City;5.6;377
+The Adventures of Pinocchio;5.3;246
+The Greatest Game Ever Played;7.5;0
+The Box;5.6;0
+The Ruins;5.9;0
+The Next Best Thing;4.7;378
+My Soul to Take;4.8;0
+The Girl Next Door;6.8;0
+Maximum Risk;5.4;503
+Stealing Harvard;5.1;215
+Legend;7.0;43000
+Hot Rod;6.7;0
+Shark Night 3D;4.0;0
+Angela's Ashes;7.3;0
+Draft Day;6.8;14000
+Lifeforce;6.1;0
+The Powerpuff Girls;7.2;581
+The Conspirator;7.0;0
+Lords of Dogtown;7.1;5000
+The 33;6.9;0
+Big Trouble in Little China;7.3;19000
+A Perfect Plan;6.3;853
+Warrior;8.2;77000
+Michael Collins;7.1;0
+Gettysburg;7.7;0
+Stop-Loss;6.5;982
+Abandon;4.9;261
+Brokedown Palace;6.4;0
+The Possession;5.9;17000
+Mrs. Winterbourne;6.2;491
+Straw Dogs;5.8;7000
+The Hoax;6.7;348
+Stone Cold;5.9;0
+The Road;7.3;32000
+Sheena;4.8;739
+Underclassman;4.1;206
+Say It Isn't So;4.9;295
+The World's Fastest Indian;7.9;11000
+Snakes on a Plane;5.6;4000
+Tank Girl;5.2;0
+King's Ransom;4.1;83
+Blindness;6.6;0
+BloodRayne;2.9;937
+Carnage;7.2;21000
+Where the Truth Lies;6.5;507
+Cirque du Soleil: Worlds Away;6.8;0
+Without Limits;7.2;942
+Me and Orson Welles;6.8;0
+The Best Offer;7.8;31000
+Bad Lieutenant: Port of Call New Orleans;6.7;6000
+A Turtle's Tale: Sammy's Adventures;6.1;0
+Little White Lies;7.1;0
+Love Ranch;5.7;636
+The True Story of Puss'N Boots;2.9;90
+Space Dogs;5.2;200
+The Counselor;5.3;24000
+Ironclad;6.2;0
+Waterloo;7.3;690
+Kung Fu Killer;6.5;0
+Red Sky;4.1;437
+Dangerous Liaisons;7.7;0
+On the Road;6.1;27000
+Star Trek IV: The Voyage Home;7.3;0
+Rocky Balboa;7.2;0
+Point Break;5.3;37000
+Scream 2;6.1;0
+Jane Got a Gun;5.8;0
+Think Like a Man Too;5.7;3000
+The Whole Nine Yards;6.7;0
+Footloose;6.5;0
+Old School;7.2;0
+The Fisher King;7.6;12000
+I Still Know What You Did Last Summer;4.6;891
+Return to Me;6.9;0
+Zack and Miri Make a Porno;6.6;0
+Nurse Betty;6.3;455
+The Men Who Stare at Goats;6.2;15000
+Double Take;5.3;204
+Girl, Interrupted;7.3;0
+Win a Date with Tad Hamilton!;5.6;876
+Muppets from Space;6.2;619
+The Wiz;5.2;0
+Ready to Rumble;5.3;650
+Play It to the Bone;5.4;153
+I Don't Know How She Does It;4.9;0
+Piranha 3D;5.5;13000
+Beyond the Sea;6.7;0
+Meet the Deedles;3.9;839
+The Princess and the Cobbler;7.2;408
+The Bridge of San Luis Rey;5.1;181
+Faster;6.5;12000
+Howl's Moving Castle;8.2;13000
+Zombieland;7.7;26000
+King Kong;7.2;0
+The Waterboy;6.1;0
+Star Wars: Episode V - The Empire Strikes Back;8.8;17000
+Bad Boys;6.8;0
+The Naked Gun 2½: The Smell of Fear;6.8;0
+Final Destination;6.7;0
+The Ides of March;7.1;22000
+Pitch Black;7.1;5000
+Someone Like You...;6.1;0
+Her;8.0;148000
+Eddie the Eagle;7.5;15000
+Joy Ride;6.6;0
+The Adventurer: The Curse of the Midas Box;5.4;0
+Anywhere But Here;6.1;638
+Chasing Liberty;6.1;0
+The Crew;5.6;153
+Haywire;5.8;0
+Jaws: The Revenge;2.8;0
+Marvin's Room;6.7;1000
+The Longshots;5.1;376
+The End of the Affair;7.2;0
+Harley Davidson and the Marlboro Man;6.0;0
+In the Valley of Elah;7.2;0
+Coco Before Chanel;6.7;0
+Forsaken;6.3;0
+Chéri;6.2;0
+Rogue;6.8;532
+Vanity Fair;6.2;767
+Bodyguards and Assassins;6.9;765
+1408;6.8;11000
+Spaceballs;7.1;13000
+The Water Diviner;7.1;18000
+Ghost;7.0;0
+There's Something About Mary;7.1;0
+The Santa Clause;6.4;0
+The Rookie;7.0;0
+The Game Plan;6.2;0
+The Bridges of Madison County;7.5;0
+The Animal;4.8;1000
+Gandhi;8.1;12000
+The Hundred-Foot Journey;7.3;55000
+The Net;5.8;0
+I Am Sam;7.6;15000
+Son of God;5.6;15000
+Underworld;7.0;0
+Derailed;6.6;0
+The Informant!;6.5;0
+Shadowlands;7.4;2000
+Deuce Bigalow: European Gigolo;4.6;887
+Delivery Man;6.4;0
+Victor Frankenstein;6.0;11000
+Our Kind of Traitor;6.4;0
+Saving Silverman;5.9;739
+Diary of a Wimpy Kid: Dog Days;6.4;0
+Summer of Sam;6.6;0
+Jay and Silent Bob Strike Back;6.9;0
+The Island;6.9;0
+The Glass House;5.8;804
+Hail, Caesar!;6.4;23000
+Josie and the Pussycats;5.3;0
+Homefront;6.5;15000
+The Little Vampire;5.7;0
+I Heart Huckabees;6.7;0
+RoboCop 3;3.9;716
+Megiddo: The Omega Code 2;4.1;158
+Darling Lili;6.2;104
+Dudley Do-Right;3.8;272
+The Transporter Refueled;5.1;0
+The Libertine;6.4;0
+Black Book;7.8;0
+Joyeux Noel;7.8;11000
+Hit and Run;6.1;0
+Mad Money;5.8;687
+Before I Go to Sleep;6.3;11000
+Sorcerer;7.7;0
+Stone;5.4;0
+Molière;7.3;815
+Out of the Furnace;6.8;17000
+Michael Clayton;7.3;0
+My Fellow Americans;6.5;758
+Arlington Road;7.2;0
+Underdogs;6.7;0
+To Rome with Love;6.3;18000
+Firefox;5.9;0
+South Park: Bigger Longer & Uncut;7.8;0
+Death at a Funeral;7.4;0
+Teenage Mutant Ninja Turtles III;4.8;1000
+Hardball;6.3;0
+Silver Linings Playbook;7.8;117000
+Freedom Writers;7.5;10000
+For Colored Girls;6.0;0
+The Transporter;6.8;0
+Never Back Down;6.6;0
+The Rage: Carrie 2;4.6;897
+The Bachelor;2.9;141
+Away We Go;7.1;7000
+Swing Vote;6.1;1000
+Moonlight Mile;6.7;365
+Tinker Tailor Soldier Spy;7.1;24000
+Molly;5.8;284
+The Beaver;6.7;17000
+The Best Little Whorehouse in Texas;5.8;0
+eXistenZ;6.8;6000
+Raiders of the Lost Ark;8.5;16000
+Home Alone 2: Lost in New York;6.6;0
+Close Encounters of the Third Kind;7.7;0
+Pulse;4.7;0
+Beverly Hills Cop II;6.4;0
+Bringing Down the House;5.5;800
+The Silence of the Lambs;8.6;40000
+Wayne's World;7.0;0
+Jackass 3D;7.1;0
+Jaws 2;5.7;0
+Beverly Hills Chihuahua;3.7;0
+The Conjuring;7.5;131000
+Are We There Yet?;4.6;773
+Tammy;4.9;11000
+Disturbia;6.9;0
+School of Rock;7.1;0
+Mortal Kombat;5.8;0
+Wicker Park;7.0;0
+White Chicks;5.4;0
+The Descendants;7.3;22000
+Holes;7.1;0
+The Last Song;5.8;10000
+12 Years a Slave;8.1;83000
+Drumline;5.7;2000
+Why Did I Get Married Too?;4.4;0
+Edward Scissorhands;7.9;16000
+Me Before You;7.6;51000
+Madea's Witness Protection;4.8;0
+The French Connection;7.8;0
+Bad Moms;6.7;18000
+Date Movie;2.7;806
+Return to Never Land;5.8;302
+Selma;7.5;22000
+The Jungle Book 2;5.4;227
+Boogeyman;4.1;1000
+Premonition;5.9;0
+The Tigger Movie;6.3;347
+Orphan;7.0;20000
+Max;6.8;33000
+Meet the Browns;3.5;211
+Epic Movie;2.3;0
+Conan the Barbarian;6.9;0
+Spotlight;8.1;80000
+Lakeview Terrace;6.1;0
+The Grudge 2;5.0;930
+How Stella Got Her Groove Back;5.5;0
+Bill & Ted's Bogus Journey;6.2;0
+Man of the Year;6.2;0
+The Black Hole;5.9;4000
+The American;6.3;10000
+Selena;6.7;0
+Vampires Suck;3.5;16000
+Babel;7.5;0
+This Is Where I Leave You;6.6;14000
+Doubt;7.5;0
+Team America: World Police;7.2;0
+Texas Chainsaw 3D;4.8;16000
+Copycat;6.6;0
+Scary Movie 5;3.5;13000
+Paint Your Wagon;6.7;0
+Milk;7.6;10000
+Risen;6.3;21000
+Ghost Ship;5.5;0
+A Very Harold & Kumar 3D Christmas;6.3;21000
+Wild Things;6.5;0
+The Stepfather;5.6;0
+The Debt;6.9;0
+High Fidelity;7.6;10000
+One Missed Call;3.9;0
+Eye for an Eye;6.1;613
+The Bank Job;7.3;0
+Eternal Sunshine of the Spotless Mind;8.3;52000
+You Again;5.8;0
+Street Kings;6.8;0
+The World's End;7.0;49000
+Nancy Drew;5.9;590
+Daybreakers;6.5;0
+She's Out of My League;6.4;0
+Monte Carlo;5.8;6000
+Stay Alive;5.1;0
+Quigley Down Under;6.8;0
+Alpha and Omega;5.3;0
+The Covenant;5.3;3000
+Stick It;6.4;0
+Shorts;4.9;431
+To Die For;6.8;1000
+Nerve;7.1;0
+Appaloosa;6.8;0
+Vampires;6.1;0
+Yu-Gi-Oh! Duel Monsters;7.0;124
+Psycho;8.5;18000
+My Best Friend's Girl;5.9;0
+Endless Love;6.3;0
+Georgia Rule;5.9;681
+Under the Rainbow;5.4;501
+Ladyhawke;7.0;0
+Simon Birch;6.9;0
+Reign Over Me;7.5;0
+Into the Wild;8.2;76000
+School for Scoundrels;5.9;484
+Silent Hill: Revelation 3D;5.0;25000
+From Dusk Till Dawn;7.3;12000
+Pooh's Heffalump Movie;6.4;264
+Home for the Holidays;6.6;0
+Kung Fu Hustle;7.8;0
+Fired Up;6.7;4
+The Country Bears;4.0;422
+The Kite Runner;7.6;0
+21 Grams;7.7;0
+Paparazzi;5.8;269
+Twilight;5.2;19000
+A Guy Thing;5.6;401
+Loser;5.3;1000
+Capitalism: A Love Story;7.4;10000
+The Greatest Story Ever Told;6.6;1000
+Secret in Their Eyes;6.2;0
+Disaster Movie;1.9;0
+Armored;5.7;0
+The Man Who Knew Too Little;6.6;0
+What's Your Number?;6.0;0
+Lockout;6.1;10000
+Envy;4.8;713
+Crank: High Voltage;6.2;0
+Bullets Over Broadway;7.5;979
+One Night with the King;6.3;0
+The Quiet American;7.1;983
+The Weather Man;6.6;0
+Undisputed;6.1;977
+Ghost Town;6.7;0
+12 Rounds;5.6;0
+Let Me In;7.2;25000
+3 Ninjas Kick Back;4.3;444
+Be Kind Rewind;6.4;0
+Mrs Henderson Presents;7.1;0
+Triple 9;6.3;0
+Deconstructing Harry;7.4;0
+Three to Tango;6.1;311
+Burnt;6.6;25000
+We're No Angels;6.0;855
+Everyone Says I Love You;6.8;0
+Death at a Funeral;7.4;0
+Death Sentence;6.8;0
+Everybody's Fine;7.2;10000
+Superbabies: Baby Geniuses 2;1.9;0
+The Man;5.5;676
+Code Name: The Cleaner;4.5;233
+Connie and Carla;6.3;924
+Sweet Charity;7.0;548
+Inherent Vice;6.7;18000
+Doogal;2.8;346
+Battle of the Year;5.0;0
+Perception;7.5;0
+An American Carol;4.3;797
+Machete Kills;5.6;48000
+Willard;6.2;0
+Strange Wilderness;5.3;847
+Topsy-Turvy;7.4;608
+Little Boy;7.4;15000
+A Dangerous Method;6.5;36000
+A Scanner Darkly;7.1;0
+Chasing Mavericks;7.2;13000
+Alone in the Dark;2.3;1000
+Bandslam;6.4;1000
+Birth;6.1;0
+A Most Violent Year;7.0;0
+Passchendaele;6.5;971
+Flash of Genius;7.0;0
+I'm Not There.;7.0;0
+The Cold Light of Day;4.9;0
+The Brothers Bloom;6.9;0
+Synecdoche, New York;7.5;13000
+Princess Mononoke;8.4;11000
+Bon voyage;6.9;235
+Can't Stop the Music;4.5;1000
+The Proposition;7.4;0
+Courage;7.0;0
+Marci X;2.8;241
+Equilibrium;7.5;20000
+The Children of Huang Shi;7.1;1000
+The Yards;6.4;401
+The Oogieloves in the Big Balloon Adventure;6.7;831
+By the Sea;5.3;0
+Steamboy;6.9;973
+The Game of Their Lives;6.2;445
+All Good Things;6.3;0
+Rapa Nui;6.4;399
+CJ7;6.5;1000
+Les couloirs du temps: Les visiteurs II;6.0;136
+Dylan Dog: Dead of Night;5.1;0
+People I Know;5.5;217
+The Doombolt Chase;7.2;0
+The Tempest;5.4;0
+Regression;5.7;0
+The Touch;5.2;30
+Three Kingdoms: Resurrection of the Dragon;6.2;314
+Shattered;6.7;0
+Zambezia;5.8;1000
+Ramanujan;7.0;58
+Dwegons and Leprechauns;4.8;70
+Hands of Stone;7.2;0
+Survivor;5.6;0
+The Frozen Ground;6.4;11000
+The Painted Veil;7.5;0
+The Baader Meinhof Complex;7.4;0
+Dances with Wolves;8.0;0
+Bad Teacher;5.7;16000
+Sea of Love;6.8;0
+A Cinderella Story;5.9;0
+Scream;7.2;11000
+Thir13en Ghosts;5.5;0
+The Shining;8.4;37000
+Back to the Future;8.5;39000
+House on Haunted Hill;5.6;0
+I Can Do Bad All by Myself;4.1;1000
+Fight Valley;5.0;1000
+The Switch;6.1;0
+Just Married;5.4;0
+The Devil's Double;7.1;14000
+Gone, Baby, Gone;6.6;0
+Thomas and the Magic Railroad;3.6;663
+The Crazies;6.5;0
+Spirited Away;8.6;28000
+Firestorm;6.2;332
+The Bounty;7.0;1000
+The Book Thief;7.6;53000
+Sex Drive;6.5;0
+Leap Year;6.4;13000
+The Fall of the Roman Empire;6.7;560
+Take Me Home Tonight;6.3;0
+Won't Back Down;6.4;0
+The Nutcracker;5.7;238
+Kansas City;6.3;228
+Indignation;7.8;599
+The Amityville Horror;6.0;0
+Adaptation.;7.7;0
+Land of the Dead;6.2;0
+Out of Inferno;5.7;124
+Fear and Loathing in Las Vegas;7.7;15000
+The Invention of Lying;6.4;13000
+Neighbors;6.4;21000
+The Mask;6.9;0
+Big;7.3;0
+Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan;7.3;0
+Legally Blonde;6.2;0
+Star Trek III: The Search for Spock;6.6;0
+The Exorcism of Emily Rose;6.7;0
+Deuce Bigalow: Male Gigolo;5.7;0
+Left Behind;3.1;31000
+The Family Stone;6.3;0
+Barbershop 2: Back in Business;5.7;265
+Bad Santa;7.1;10000
+Austin Powers: International Man of Mystery;7.0;0
+My Big Fat Greek Wedding 2;6.1;19000
+Diary of a Wimpy Kid: Rodrick Rules;6.6;0
+Predator;7.8;13000
+Amadeus;8.3;16000
+Prom Night;3.9;1000
+Mean Girls;7.0;0
+Under the Tuscan Sun;6.7;0
+Gosford Park;7.3;0
+The O.C.;7.5;0
+Peggy Sue Got Married;6.3;0
+Birdman or (The Unexpected Virtue of Ignorance);7.8;114000
+Blue Jasmine;7.3;36000
+United 93;7.6;0
+Honey;5.3;0
+Glory;7.9;0
+Spy Hard;5.3;588
+The Fog;6.8;7000
+Soul Surfer;7.1;15000
+Catch-22;7.2;0
+Observe and Report;5.8;0
+Conan the Destroyer;5.8;2000
+Raging Bull;8.3;0
+Love Happens;5.6;0
+Young Sherlock Holmes;6.8;0
+Fame;5.0;0
+127 Hours;7.6;63000
+Small Time Crooks;6.7;812
+Center Stage;6.7;0
+Love the Coopers;5.7;0
+Catch That Kid;5.2;591
+Life as a House;7.5;0
+Steve Jobs;7.2;23000
+I Love You, Beth Cooper;5.3;0
+Youth in Revolt;6.5;0
+The Legend of the Lone Ranger;5.0;346
+The Tailor of Panama;6.1;813
+Blow Out;7.4;2000
+Getaway;4.4;4000
+The Ice Storm;7.5;0
+And So It Goes;5.7;3000
+Troop Beverly Hills;5.5;0
+Being Julia;7.1;562
+9½ Weeks;5.9;0
+Dragonslayer;6.7;0
+The Last Station;7.0;0
+Ed Wood;7.9;0
+Labor Day;6.9;0
+Mongol: The Rise of Genghis Khan;7.3;0
+RocknRolla;7.3;12000
+Megaforce;3.5;0
+Hamlet;7.8;0
+Mao's Last Dancer;7.4;0
+Midnight Special;6.7;0
+Anything Else;6.4;827
+The Railway Man;7.1;18000
+Unforgettable;6.7;0
+The White Ribbon;7.8;0
+Restoration;4.0;378
+The Wraith;5.9;0
+The Salton Sea;7.2;2000
+Metallica Through the Never;7.2;19000
+The Informers;5.1;1000
+Carlos;7.7;0
+I Come with the Rain;5.5;342
+One Man's Hero;6.2;271
+Day of the Dead;7.2;3000
+I Am Wrath;5.2;0
+Renaissance;6.7;0
+Forsaken;6.3;0
+Red Sonja;5.0;0
+Red Lights;6.2;10000
+Superbad;7.6;0
+Madea Goes to Jail;4.1;804
+Wolves;5.3;0
+Step Up 2: The Streets;6.2;0
+Hoodwinked!;6.5;0
+Hotel Rwanda;8.1;12000
+Hitman;6.3;0
+Black Nativity;4.4;0
+The Prince;4.6;0
+City of Ghosts;6.0;204
+The Others;7.6;20000
+Aliens;8.4;18000
+My Fair Lady;7.9;0
+I Know What You Did Last Summer;5.6;0
+Let's Be Cops;6.5;14000
+Sideways;7.5;0
+Beerfest;6.3;0
+Halloween;7.9;12000
+Hero;7.9;0
+Good Boy!;5.1;309
+The Best Man Holiday;6.7;7000
+Smokin' Aces;6.7;3000
+Saw 3D: The Final Chapter;5.6;12000
+40 Days and 40 Nights;5.6;2000
+TRON: Legacy;6.8;30000
+A Night at the Roxbury;6.2;0
+Beastly;5.6;16000
+The Hills Have Eyes;6.4;0
+Dickie Roberts: Former Child Star;5.6;320
+McFarland, USA;7.4;21000
+Lottery Ticket;4.9;0
+ATL;6.0;874
+Pitch Perfect;7.2;36000
+Summer Catch;4.9;476
+A Simple Plan;7.5;0
+They;4.8;814
+Larry the Cable Guy: Health Inspector;3.1;110
+The Adventures of Elmo in Grouchland;5.8;339
+Brooklyn's Finest;6.7;4000
+55 Days at Peking;6.8;419
+Evil Dead;6.5;70000
+My Life in Ruins;5.9;0
+American Dreamz;5.5;300
+Superman IV: The Quest for Peace;3.6;1000
+How She Move;3.3;238
+Running Scared;7.4;0
+Bobby Jones: Stroke of Genius;6.7;352
+Shanghai Surprise;3.0;154
+The Illusionist;7.6;15000
+Roar;6.4;0
+Veronica Guerin;6.9;0
+Escobar: Paradise Lost;6.6;0
+Southland Tales;5.5;0
+Dragon Hunters;6.6;0
+Damnation Alley;5.2;903
+The Apparition;4.1;0
+My Girl;6.8;0
+Fur: An Imaginary Portrait of Diane Arbus;6.5;0
+The Illusionist;7.6;15000
+Wall Street;7.4;0
+Sense and Sensibility;7.7;0
+Becoming Jane;7.1;0
+Sydney White;6.3;0
+House of Sand and Fog;7.6;0
+Dead Poets Society;8.0;23000
+Dumb & Dumber;7.3;0
+When Harry Met Sally...;7.6;0
+The Verdict;7.8;0
+Road Trip;6.5;0
+Varsity Blues;6.4;0
+The Artist;8.0;30000
+The Unborn;4.8;0
+Moonrise Kingdom;7.8;71000
+The Texas Chainsaw Massacre: The Beginning;5.9;0
+The Young Messiah;5.4;0
+The Master of Disguise;3.3;1000
+Pan's Labyrinth;8.2;27000
+The Messengers;6.6;0
+See Spot Run;5.4;393
+Baby Boy;6.4;1000
+The Roommate;4.8;0
+Joe Dirt;5.9;0
+Double Impact;5.5;0
+Hot Fuzz;7.9;17000
+The Women;4.9;0
+Vicky Cristina Barcelona;7.2;14000
+Arn: The Knight Templar;6.6;0
+Bad Moms;6.7;18000
+Boys and Girls;5.3;487
+White Oleander;7.2;0
+Jennifer's Body;5.1;6000
+Drowning Mona;5.6;492
+Radio Days;7.6;0
+Left Behind;3.1;31000
+Remember Me;7.2;24000
+How to Deal;5.7;371
+My Stepmother Is an Alien;5.2;818
+Philadelphia;7.7;0
+The Thirteenth Floor;7.0;0
+The Cookout;3.6;177
+Meteor;4.9;392
+Duets;6.0;573
+Hollywood Ending;6.6;762
+Detroit Rock City;6.8;0
+Highlander;7.2;0
+Things We Lost in the Fire;7.2;0
+Steel;2.8;0
+The Immigrant;6.6;0
+The White Countess;6.7;356
+Trance;7.0;23000
+Soul Plane;4.4;0
+Welcome to the Sticks;7.1;3000
+Good;6.2;921
+Enter the Void;7.3;23000
+Vamps;5.1;0
+Hachi: A Dog's Tale;8.1;115000
+Zulu;6.7;0
+The Homesman;6.6;0
+Juwanna Mann;4.5;939
+Lilyhammer;8.1;16000
+Ararat;6.6;824
+Madison;6.5;282
+Slow Burn;5.9;191
+Wasabi;6.6;0
+Slither;6.5;0
+Beverly Hills Cop;7.3;0
+Home Alone;7.5;20000
+3 Men and a Baby;5.9;3000
+Tootsie;7.4;0
+Top Gun;6.9;19000
+Crouching Tiger, Hidden Dragon;7.9;0
+American Beauty;8.4;22000
+The King's Speech;8.0;64000
+Twins;6.0;0
+Scream: The TV Series;7.3;0
+The Yellow Handkerchief;6.8;1000
+The Color Purple;7.8;6000
+Tidal Wave;5.7;558
+Ben-Hur;6.1;0
+The Imitation Game;8.1;165000
+Private Benjamin;6.1;855
+Coal Miner's Daughter;7.5;0
+Diary of a Wimpy Kid;6.2;0
+Mama;6.2;57000
+Halloween;7.9;12000
+National Lampoon's Vacation;7.4;0
+Bad Grandpa;6.6;26000
+The Queen;7.3;0
+Beetlejuice;7.5;15000
+Why Did I Get Married?;5.6;1000
+Little Women;7.3;0
+The Woman in Black;6.4;29000
+When a Stranger Calls;5.0;0
+Big Fat Liar;5.4;896
+The Deer Hunter;8.2;11000
+Wag the Dog;7.1;12000
+The Lizzie McGuire Movie;5.3;0
+Snitch;6.5;12000
+Krampus;6.2;27000
+The Faculty;6.4;0
+What's Love Got to Do with It;7.2;0
+Cop Land;6.9;2000
+Not Another Teen Movie;5.7;0
+End of Watch;7.7;38000
+Aloha;5.4;11000
+The Skulls;5.6;0
+The Theory of Everything;7.7;90000
+Malibu's Most Wanted;5.1;0
+Where the Heart Is;6.8;0
+Lawrence of Arabia;8.4;11000
+Halloween II;4.9;3000
+Wild;7.1;38000
+The Last House on the Left;6.6;0
+The Wedding Date;6.1;0
+Halloween: Resurrection;4.1;0
+Clash of the Titans;5.8;15000
+The Princess Bride;8.1;33000
+The Great Debaters;7.6;0
+Drive;7.8;81000
+Confessions of a Teenage Drama Queen;4.6;810
+The Object of My Affection;6.0;849
+28 Weeks Later;7.0;0
+When the Game Stands Tall;6.7;0
+Because of Winn-Dixie;6.4;1000
+Love & Basketball;7.2;0
+Grosse Pointe Blank;7.4;0
+All About Steve;4.8;0
+Book of Shadows: Blair Witch 2;4.0;949
+The Craft;6.2;6000
+Match Point;7.7;0
+Ramona and Beezus;6.7;0
+The Remains of the Day;7.9;0
+Boogie Nights;7.9;0
+Nowhere to Run;5.5;466
+Flicka;6.2;1000
+The Hills Have Eyes II;5.1;0
+Urban Legends: Final Cut;4.1;243
+Tuck Everlasting;6.7;0
+The Marine;4.7;0
+Keanu;6.4;0
+Country Strong;6.3;0
+Disturbing Behavior;5.5;673
+The Place Beyond the Pines;7.3;47000
+The November Man;6.3;0
+Eye of the Beholder;4.9;327
+The Hurt Locker;7.6;16000
+Firestarter;6.0;0
+Killing Them Softly;6.2;20000
+A Most Wanted Man;6.8;13000
+Freddy Got Fingered;4.5;0
+The Pirates Who Don't Do Anything: A VeggieTales Movie;5.7;175
+U2 3D;8.4;116
+Highlander: Endgame;4.6;356
+Idlewild;6.2;489
+One Day;7.0;49000
+Whip It;6.9;10000
+Knockaround Guys;6.1;566
+Confidence;6.7;622
+The Muse;5.6;251
+De-Lovely;6.6;1000
+New York Stories;6.4;877
+Barney's Great Adventure;2.8;436
+The Man with the Iron Fists;5.4;29000
+Home Fries;5.0;247
+Here on Earth;5.1;648
+Brazil;8.0;16000
+Raise Your Voice;5.9;1000
+The Dead Zone;7.5;576
+The Big Lebowski;8.2;35000
+Black Snake Moan;7.0;0
+Dark Blue;6.6;455
+A Mighty Heart;6.7;923
+Whatever It Takes;5.5;816
+Boat Trip;4.9;1000
+The Importance of Being Earnest;6.9;0
+The Love Letter;7.4;515
+Hoot;5.6;647
+In Bruges;8.0;32000
+Peeples;5.3;0
+The Rocker;6.2;0
+Post Grad;5.3;0
+Promised Land;6.6;10000
+Whatever Works;7.2;10000
+The In Crowd;4.6;157
+Three Burials;7.5;0
+Jakob the Liar;6.5;0
+Kiss Kiss Bang Bang;7.6;0
+Idle Hands;6.2;0
+Mulholland Drive;8.0;16000
+Blood and Chocolate;5.5;0
+You Will Meet a Tall Dark Stranger;6.3;0
+Never Let Me Go;7.2;33000
+The Company;7.9;733
+Transsiberian;6.7;0
+The Clan of the Cave Bear;5.3;843
+Crazy in Alabama;6.3;391
+Funny Games;6.5;0
+Listening;5.6;708
+Felicia's Journey;7.0;284
+Metropolis;8.3;12000
+District B13;7.2;0
+Things to Do in Denver When You're Dead;6.8;0
+The Assassin;6.4;0
+Buffalo Soldiers;6.9;664
+The Return;8.0;0
+Ong-bak 2;6.2;0
+Centurion;6.4;0
+Silent Trigger;5.6;154
+The Midnight Meat Train;6.1;0
+Winnie Mandela;6.0;705
+The Son of No One;5.1;0
+All the Queen's Men;4.5;193
+The Good Night;5.9;445
+Bathory: Countess of Blood;6.0;0
+Khumba;5.8;0
+Automata;6.1;13000
+Dungeons & Dragons: Wrath of the Dragon God;4.9;473
+Chiamatemi Francesco - Il Papa della gente;5.7;18
+Shinjuku Incident;7.1;821
+Pandaemonium;6.6;277
+Groundhog Day;8.1;38000
+Magic Mike XXL;5.7;41000
+Romeo + Juliet;6.8;10000
+Sarah's Key;7.5;0
+Freedom;6.2;998
+Unforgiven;8.3;10000
+Manderlay;7.4;1000
+Slumdog Millionaire;8.0;13000
+Fatal Attraction;6.9;3000
+Pretty Woman;6.9;11000
+Towering Inferno;9.5;0
+Crocodile Dundee II;5.5;489
+Broken Horses;5.7;0
+Born on the Fourth of July;7.2;4000
+Cool Runnings;6.9;0
+My Bloody Valentine;5.5;0
+The Possession;5.9;17000
+First Blood;7.7;0
+Stomp the Yard;5.2;0
+The Spy Who Loved Me;7.1;0
+Ghost Hunters;6.6;373
+Urban Legend;5.5;0
+Dangerous Liaisons;7.7;0
+Good Deeds;5.4;0
+White Fang;6.7;0
+Superstar;5.0;2000
+The Iron Lady;6.4;18000
+Jonah: A VeggieTales Movie;6.6;184
+Poetic Justice;5.9;0
+All About the Benjamins;5.7;530
+Vampire in Brooklyn;4.5;1000
+Exorcist II: The Heretic;3.7;889
+An American Haunting;5.0;0
+My Boss's Daughter;4.6;411
+A Perfect Getaway;6.5;4000
+Our Family Wedding;4.9;1000
+Dead Man on Campus;6.0;645
+Tea with Mussolini;6.9;970
+Thinner;5.7;0
+New York, New York;6.7;932
+Crooklyn;6.9;905
+I Think I Love My Wife;5.5;488
+Jason X;4.4;0
+Big Fat Liar;5.4;896
+Bobby;7.0;0
+Head Over Heels;5.4;613
+Fun Size;5.4;0
+The Diving Bell and the Butterfly;8.0;13000
+Little Children;7.6;5000
+Gossip;5.9;853
+A Walk on the Moon;6.6;860
+Catch a Fire;6.7;447
+Soul Survivors;3.9;231
+Jefferson in Paris;5.7;127
+Easy Virtue;6.7;2000
+Caravans;6.5;76
+Mr. Turner;6.8;0
+Wild Grass;6.3;512
+Amen.;7.3;0
+Reign of Assassins;6.9;1000
+The Lucky Ones;7.0;702
+Margaret;6.5;0
+Stan Helsing;3.6;934
+Flipped;7.7;14000
+Brokeback Mountain;7.7;13000
+Teenage Mutant Ninja Turtles;5.9;62000
+Clueless;6.8;0
+Far from Heaven;7.4;0
+Hot Tub Time Machine 2;5.1;0
+Dekalog;9.1;0
+Quills;7.4;0
+Seven Psychopaths;7.2;52000
+The Caveman's Valentine;6.0;329
+The Border;7.4;64
+Downfall;8.3;14000
+The Sea Inside;8.1;0
+Under the Skin;6.3;29000
+Good Morning, Vietnam;7.3;0
+The Last Godfather;3.6;502
+Justin Bieber: Never Say Never;1.6;62000
+Black Swan;8.0;106000
+RoboCop;6.2;60000
+The Godfather: Part II;9.0;14000
+Save the Last Dance;6.1;0
+A Nightmare on Elm Street 4: The Dream Master;5.7;0
+Miracles from Heaven;6.8;16000
+Dude, Where's My Car?;5.5;0
+Young Guns;6.8;0
+St. Vincent;7.3;33000
+About Last Night;6.1;0
+10 Things I Hate About You;7.2;10000
+The New Guy;5.9;1000
+Loaded Weapon 1;6.1;0
+The Shallows;6.8;0
+The Butterfly Effect;7.7;15000
+Snow Day;4.9;0
+This Christmas;6.1;0
+Baby Geniuses;2.5;0
+The Big Hit;6.1;934
+Harriet the Spy;5.9;833
+Child's Play 2;5.7;0
+No Good Deed;5.6;0
+The Mist;7.2;20000
+Ex Machina;7.7;109000
+Being John Malkovich;7.8;0
+Two Can Play That Game;6.1;593
+Earth to Echo;5.8;0
+Crazy/Beautiful;6.5;0
+Letters from Iwo Jima;7.9;5000
+The Astronaut Farmer;6.3;862
+Woo;3.8;204
+Room;8.3;72000
+Dirty Work;6.4;679
+Serial Mom;6.7;3000
+Dick;6.1;0
+Del 1 - Män som hatar kvinnor;8.1;22
+Light It Up;6.0;251
+54;5.8;0
+Bubble Boy;5.6;0
+Birthday Girl;6.1;618
+21 & Over;5.9;11000
+Paris, je t'aime;7.3;0
+Resurrecting the Champ;6.8;689
+Admission;5.7;5000
+The Widow of Saint-Pierre;7.3;186
+Chloe;6.3;0
+Faithful;5.9;69
+Brothers;7.1;10000
+Find Me Guilty;7.1;0
+The Perks of Being a Wallflower;8.0;131000
+Excessive Force;5.1;107
+Infamous;7.1;0
+The Claim;6.5;141
+The Vatican Tapes;4.5;0
+Attack the Block;6.6;18000
+In the Land of Blood and Honey;4.3;0
+The Call;6.7;23000
+Operation Chromite;6.8;139
+The Crocodile Hunter: Collision Course;5.4;332
+I Love You Phillip Morris;6.6;11000
+Quest for Fire;7.4;0
+Antwone Fisher;7.3;0
+The Emperor's Club;6.9;0
+True Romance;8.0;15000
+Womb;6.4;0
+Glengarry Glen Ross;7.8;0
+The Killer Inside Me;6.1;0
+Cat People;6.1;0
+Sorority Row;5.1;0
+The Prisoner of Zenda;7.8;337
+Lars and the Real Girl;7.4;19000
+The Boy in the Striped Pajamas;7.8;38000
+Dancer in the Dark;8.0;0
+Oscar and Lucinda;6.7;329
+The Funeral;6.6;344
+Solitary Man;6.4;0
+Machete;6.7;44000
+Casino Jack;6.2;0
+The Land Before Time;7.3;5000
+Tae Guk Gi: The Brotherhood of War;8.1;0
+The Perfect Game;7.0;0
+The Exorcist;8.0;18000
+Jaws;8.0;21000
+American Pie;7.0;0
+Ernest & Celestine;7.9;0
+The Golden Child;5.9;0
+Think Like a Man;6.6;0
+Barbershop;6.3;770
+Star Trek II: The Wrath of Khan;7.7;0
+Ace Ventura: Pet Detective;6.9;0
+WarGames;7.1;0
+Witness;7.4;0
+Act of Valor;6.5;15000
+Step Up;6.5;0
+Beavis and Butt-Head Do America;6.8;0
+Jackie Brown;7.5;0
+Harold & Kumar Escape from Guantanamo Bay;6.6;0
+Chronicle;7.1;32000
+Yentl;6.6;0
+Time Bandits;7.0;0
+Crossroads;3.3;0
+Project X;6.7;29000
+Patton;8.0;0
+One Hour Photo;6.8;0
+Quarantine;6.0;0
+The Eye;5.4;0
+Johnson Family Vacation;4.3;243
+How High;6.2;0
+The Muppet Christmas Carol;7.7;0
+Casino Royale;8.0;0
+Frida;7.4;0
+Katy Perry: Part of Me;5.9;0
+The Fault in Our Stars;7.8;93000
+Rounders;7.4;0
+Top Five;6.5;0
+Prophecy;5.4;902
+Stir of Echoes;7.0;0
+Spartacus: War of the Damned;8.6;31000
+Philomena;7.6;37000
+The Upside of Anger;6.9;549
+The Boys from Brazil;7.0;0
+Aquamarine;5.3;0
+Paper Towns;6.4;0
+My Baby's Daddy;4.5;151
+Nebraska;7.8;28000
+Tales from the Crypt: Demon Knight;6.7;0
+Max Keeble's Big Move;5.3;371
+Young Adult;6.3;0
+Crank;7.0;0
+How to Be a Player;5.3;439
+Living Out Loud;6.6;242
+Just Wright;5.8;0
+Rachel Getting Married;6.7;0
+The Postman Always Rings Twice;6.6;1000
+Girl with a Pearl Earring;7.0;0
+Das Boot;8.4;11000
+The Alamo;6.0;701
+Sorority Boys;5.4;507
+About Time;7.8;105000
+House of Flying Daggers;7.6;0
+Arbitrage;6.6;0
+Project Almanac;6.4;0
+Cadillac Records;7.0;0
+Screwed;5.7;262
+Fortress;5.9;1000
+For Your Consideration;6.3;650
+Celebrity;6.3;652
+Running with Scissors;6.2;0
+From Justin to Kelly;2.1;0
+Girl 6;5.0;251
+In the Cut;5.3;656
+Two Lovers;7.1;0
+Last Orders;7.0;305
+The Host;7.0;7000
+The Pursuit of D.B. Cooper;5.7;135
+Ravenous;7.1;0
+Charlie Bartlett;7.0;0
+The Great Beauty;7.7;29000
+The Dangerous Lives of Altar Boys;7.1;677
+Stoker;6.8;27000
+2046;7.5;0
+Married Life;6.3;314
+Duma;7.3;0
+Ondine;6.8;0
+Brother;7.2;0
+Welcome to Collinwood;6.4;423
+Critical Care;6.0;88
+The Life Before Her Eyes;6.4;1000
+Darling Companion;5.1;0
+Trade;7.5;0
+Fateless;7.1;607
+Breakfast of Champions;4.6;458
+A Woman, a Gun and a Noodle Shop;5.7;784
+Cypher;6.8;0
+City of Life and Death;7.7;0
+Home;6.7;26000
+Legend of Kung Fu Rabbit;3.2;211
+Space Battleship Yamato;6.1;0
+5 Days of War;5.6;0
+Triangle;6.9;13000
+10 Days in a Madhouse;7.5;26000
+Heaven Is for Real;5.8;23000
+Snatch;8.3;27000
+Dancin' It's On;2.8;634
+Pet Sematary;6.6;0
+Madadayo;7.5;355
+The Cry of the Owl;6.0;443
+A Tale of Three Cities;6.2;4
+Gremlins;7.2;14000
+Star Wars: Episode IV - A New Hope;8.7;33000
+Dirty Grandpa;6.0;11000
+Doctor Zhivago;8.0;7000
+Trash;7.2;0
+High School Musical 3: Senior Year;4.5;0
+The Fighter;7.9;36000
+Jackass Number Two;7.1;641
+My Cousin Vinny;7.5;7000
+If I Stay;6.8;15000
+Drive Hard;4.3;774
+Major League;7.2;0
+St. Trinian's;5.8;0
+Phone Booth;7.1;0
+A Walk to Remember;7.4;19000
+Dead Man Walking;7.6;0
+Cruel Intentions;6.9;0
+Saw VI;6.0;0
+History of the World: Part I;6.9;0
+The Secret Life of Bees;7.3;0
+Corky Romano;4.6;365
+Raising Cain;6.0;541
+F.I.S.T.;6.4;745
+Invaders from Mars;5.5;902
+Brooklyn;7.5;36000
+Barry Lyndon;8.1;0
+Out Cold;6.3;0
+The Ladies Man;5.1;671
+Quartet;6.8;13000
+Tomcats;5.3;449
+Frailty;7.3;5000
+Woman in Gold;7.3;34000
+Kinsey;7.1;0
+Army of Darkness;7.6;10000
+Slackers;5.3;405
+What's Eating Gilbert Grape;7.8;14000
+The Visual Bible: The Gospel of John;7.7;0
+Vera Drake;7.7;0
+The Guru;5.4;550
+The Perez Family;6.2;174
+Inside Llewyn Davis;7.4;26000
+O;6.2;0
+Return to the Blue Lagoon;5.1;967
+The Molly Maguires;6.9;608
+Romance & Cigarettes;6.3;0
+Copying Beethoven;6.8;0
+Poltergeist;7.4;11000
+Brighton Rock;5.7;0
+Saw V;5.8;0
+Machine Gun McCain;6.2;85
+LOL;4.3;18000
+Jindabyne;6.4;302
+Kabhi Alvida Naa Kehna;6.0;659
+An Ideal Husband;6.9;646
+The Last Days on Mars;5.5;0
+Darkness;5.4;1000
+2001: A Space Odyssey;8.3;24000
+E.T. the Extra-Terrestrial;7.9;34000
+In the Land of Women;6.5;1000
+The Blue Butterfly;6.3;392
+There Goes My Baby;6.4;119
+Lovesick;7.9;0
+Housefull;5.3;250
+September Dawn;5.8;411
+For Greater Glory: The True Story of Cristiada;6.6;0
+La Famille Bélier;7.4;0
+Good Will Hunting;8.3;31000
+Misconduct;5.3;0
+Saw III;6.2;0
+Stripes;6.9;0
+Bring It On;5.9;0
+The Purge: Election Year;6.1;0
+She's All That;5.8;0
+Precious;7.3;12000
+Saw IV;5.9;0
+White Noise;5.5;0
+Madea's Family Reunion;5.0;676
+The Color of Money;7.0;0
+The Longest Day;7.8;0
+The Mighty Ducks;6.4;0
+The Grudge;5.9;4000
+Happy Gilmore;7.0;0
+Jeepers Creepers;6.1;0
+Bill & Ted's Excellent Adventure;6.9;0
+Oliver!;7.5;0
+The Best Exotic Marigold Hotel;7.3;48000
+Recess: School's Out;6.5;227
+Mad Max Beyond Thunderdome;6.2;0
+Commando;6.7;0
+The Boy;6.0;20000
+Devil;6.3;16000
+Friday After Next;5.8;981
+Insidious: Chapter 3;6.1;29000
+The Last Dragon;6.9;0
+Snatch;8.3;27000
+The Lawnmower Man;5.4;0
+Nick and Norah's Infinite Playlist;6.7;0
+Dogma;7.4;10000
+The Banger Sisters;5.6;744
+Twilight Zone: The Movie;6.5;0
+Road House;6.5;0
+A Low Down Dirty Shame;5.8;368
+Swimfan;5.0;720
+Employee of the Month;5.5;0
+Can't Hardly Wait;6.5;0
+The Outsiders;7.2;10000
+Pete's Dragon;7.3;21000
+The Dead Zone;7.2;0
+Sinister 2;5.2;13000
+Sparkle;5.7;0
+Valentine;4.7;0
+The Fourth Kind;5.9;15000
+A Prairie Home Companion;6.8;683
+Sugar Hill;5.9;331
+Invasion U.S.A.;5.3;0
+Roll Bounce;6.0;997
+Rushmore;7.7;5000
+Skyline;4.4;13000
+The Second Best Exotic Marigold Hotel;6.6;21000
+Kit Kittredge: An American Girl;6.7;851
+The Perfect Man;5.5;767
+Mo' Better Blues;6.5;720
+Kung Pow: Enter the Fist;6.2;0
+Tremors;7.1;11000
+Wrong Turn;6.1;0
+The Long Riders;7.1;680
+The Corruptor;6.0;328
+Mud;7.4;27000
+Reno 911!: Miami;5.9;441
+One Direction: This Is Us;4.1;0
+The Goods: Live Hard, Sell Hard;5.8;0
+Hey Arnold! The Movie;5.9;227
+My Week with Marilyn;7.0;17000
+The Matador;6.8;808
+Love Jones;7.4;1000
+The Gift;7.1;15000
+End of the Spear;7.0;1000
+Get Over It;5.8;0
+Office Space;7.8;16000
+Drop Dead Gorgeous;6.5;0
+Big Eyes;7.0;20000
+Very Bad Things;6.3;0
+Sleepover;5.3;0
+Body Double;6.8;0
+MacGruber;5.5;0
+Dirty Pretty Things;7.4;0
+Movie 43;4.3;25000
+The Tourist;6.0;25000
+Over Her Dead Body;5.2;518
+Seeking a Friend for the End of the World;6.7;25000
+Cedar Rapids;6.3;0
+Bones;7.9;0
+American History X;8.6;35000
+The Collection;6.1;14000
+Teacher's Pet;5.8;49
+The Red Violin;7.7;0
+The Straight Story;8.0;0
+Deuces Wild;5.6;398
+Bad Words;6.7;0
+Run, Fatboy, Run;6.6;0
+Heartbeeps;4.2;425
+Black or White;6.6;0
+On the Line;4.1;0
+Rescue Dawn;7.3;0
+Danny Collins;7.1;0
+Jeff, Who Lives at Home;6.5;0
+I Am Love;7.0;0
+Atlas Shrugged II: The Strike;5.5;0
+Romeo Is Bleeding;6.6;561
+The Limey;7.1;944
+Crash;7.9;18000
+The House of Mirth;7.1;345
+Malone;5.6;208
+Peaceful Warrior;7.3;0
+Bucky Larson: Born to Be a Star;3.3;0
+Bamboozled;6.5;1000
+The Forest;4.8;10000
+Sphinx;5.2;106
+While We're Young;6.3;0
+A Better Life;7.2;0
+Spider;6.8;0
+Gun Shy;5.7;242
+Nicholas Nickleby;7.2;0
+The Iceman;6.9;20000
+Dekalog;9.1;0
+Krrish;6.3;533
+Cecil B. DeMented;6.2;795
+Killer Joe;6.7;12000
+The Joneses;6.5;0
+Owning Mahowny;7.2;0
+The Brothers Solomon;5.3;319
+My Blueberry Nights;6.7;0
+Illuminata;6.2;74
+Swept Away;3.6;725
+War, Inc.;5.7;883
+Shaolin Soccer;7.3;0
+The Brown Bunny;5.0;952
+The Swindle;6.6;33
+Rosewater;6.6;5000
+The Chambermaid on the Titanic;6.8;85
+Coriolanus;6.2;12000
+Imaginary Heroes;7.3;345
+High Heels and Low Lifes;6.2;117
+World's Greatest Dad;6.9;0
+Severance;6.6;0
+Edmond;6.3;661
+Welcome to the Rileys;7.0;0
+Police Academy: Mission to Moscow;3.3;321
+Blood Done Sign My Name;6.7;503
+Cinco de Mayo, La Batalla;6.2;874
+Elsa & Fred;6.5;0
+An Alan Smithee Film: Burn Hollywood Burn;3.5;89
+The Open Road;5.5;370
+The Good Guy;5.9;1000
+Motherhood;4.7;546
+Free Style;4.2;58
+Strangerland;5.2;0
+The Janky Promoters;5.2;402
+Blonde Ambition;3.9;160
+The Oxford Murders;6.1;0
+The Reef;5.8;0
+Eulogy;6.7;376
+White Noise 2: The Light;5.7;509
+You Got Served: Beat the World;4.5;0
+Fifty Dead Men Walking;6.9;0
+Jungle Shuffle;4.8;186
+Adam Resurrected;6.3;589
+Of Horses and Men;6.9;1000
+It's a Wonderful Afterlife;5.4;695
+The Devil's Tomb;3.8;486
+Partition;7.0;746
+Good Intentions;5.2;119
+The Good, the Bad, the Weird;7.3;0
+Nurse 3D;4.6;0
+Gunless;6.5;850
+Adventureland;6.8;0
+The Lost City;6.7;957
+Next Friday;6.1;0
+American Heist;5.2;0
+You Only Live Twice;6.9;0
+Plastic;6.0;1000
+Amour;7.9;33000
+Poltergeist III;4.5;616
+Re-Kill;5.1;898
+It's a Mad, Mad, Mad, Mad World;7.6;0
+Volver;7.6;0
+Heavy Metal;6.7;0
+Gentlemen Broncos;6.1;0
+Richard III;7.5;0
+Into the Grizzly Maze;5.3;0
+Kites;6.0;0
+Melancholia;7.1;50000
+Red Dog;7.5;10000
+Jab Tak Hai Jaan;6.9;12000
+Alien;8.5;23000
+The Texas Chain Saw Massacre;7.5;0
+The Runaways;6.6;0
+Fiddler on the Roof;8.0;0
+Thunderball;7.0;0
+Detention;5.8;0
+Loose Cannons;7.3;0
+Set It Off;6.8;0
+The Best Man;6.7;0
+Child's Play;6.5;0
+Sicko;8.0;0
+The Purge: Anarchy;6.5;15000
+Down to You;4.9;580
+Harold & Kumar Go to White Castle;7.1;0
+The Contender;7.0;1000
+Boiler Room;7.0;0
+Trading Places;7.5;0
+Black Christmas;4.5;0
+Breakin' All the Rules;5.5;266
+Henry V;7.7;0
+The Savages;7.2;0
+Chasing Papi;4.8;419
+The Way of the Gun;6.7;1000
+Igby Goes Down;7.0;838
+PCU;6.5;0
+The Ultimate Gift;7.4;0
+The Bold and the Beautiful;3.5;748
+The Ice Pirates;5.7;0
+Gracie;6.2;313
+Trust the Man;5.7;215
+Hamlet 2;6.4;1000
+Velvet Goldmine;7.0;0
+The Wailing;7.7;0
+Glee: The 3D Concert Movie;5.4;0
+The Legend of Suriyothai;6.6;124
+Two Evil Eyes;6.1;375
+Barbecue;6.1;348
+All or Nothing;7.6;484
+Princess Kaiulani;6.2;0
+Opal Dream;6.6;135
+Heist;6.1;0
+Flame and Citron;7.3;0
+Undiscovered;4.2;128
+Red Riding: In the Year of Our Lord 1974;7.1;0
+The Girl on the Train;6.0;120
+Veronika Decides to Die;6.5;3000
+Crocodile Dundee;6.5;0
+Ultramarines: A Warhammer 40,000 Movie;5.7;0
+The I Inside;6.1;458
+Beneath Hill 60;7.1;0
+Polisse;7.3;0
+Awake;6.5;0
+Star Wars: The Clone Wars;7.9;2000
+Skin Trade;5.7;0
+The Lost Boys;7.2;19000
+Crazy Heart;7.3;0
+The Rose;6.9;1000
+Baggage Claim;5.0;0
+Barbarella;5.9;0
+Shipwrecked;6.7;278
+Election;7.3;0
+The Namesake;7.6;0
+The DUFF;6.5;8000
+Glitter;2.1;0
+The Haunting in Connecticut 2: Ghosts of Georgia;5.3;0
+Silmido;7.2;387
+Bright Star;7.0;0
+My Name Is Khan;8.0;27000
+Footloose;6.5;0
+All Is Lost;6.9;18000
+Limbo;7.1;196
+Namastey London;7.3;341
+The Wind That Shakes the Barley;7.5;0
+Yeh Jawaani Hai Deewani;6.9;0
+The Karate Kid;7.2;0
+Quo Vadis;7.2;1000
+Repo! The Genetic Opera;6.7;8000
+Valley of the Wolves: Iraq;6.0;467
+Pulp Fiction;8.9;45000
+The Muppet Movie;7.7;0
+Nightcrawler;7.9;65000
+Club Dread;5.6;713
+The Sound of Music;8.0;15000
+Splash;6.2;0
+Little Miss Sunshine;7.9;15000
+Stand by Me;8.1;24000
+28 Days Later...;7.6;11000
+You Got Served;3.5;0
+Escape from Alcatraz;7.6;0
+Brown Sugar;6.5;0
+A Thin Line Between Love and Hate;5.6;559
+50/50;7.7;40000
+Shutter;5.2;0
+Creepshow;6.9;0
+That Awkward Moment;6.1;0
+Modern Problems;5.0;495
+Kicks;7.8;240
+Much Ado About Nothing;7.4;0
+On Her Majesty's Secret Service;6.8;0
+The Player;7.1;0
+New Nightmare;6.4;0
+Drive Me Crazy;5.7;0
+Akeelah and the Bee;7.5;0
+Half Baked;6.7;0
+New in Town;5.6;0
+Syriana;7.0;0
+American Psycho;7.6;18000
+The Good Girl;6.5;938
+Bon Cop Bad Cop;7.0;758
+The Boondock Saints II: All Saints Day;6.3;0
+The City of Your Final Destination;6.4;638
+Enough Said;7.1;12000
+Easy A;7.1;19000
+The Inkwell;6.5;160
+Shadow of the Vampire;6.9;0
+Prom;5.4;0
+The Pallbearer;4.9;125
+Held Up;5.1;77
+Woman on Top;5.3;859
+Howards End;7.5;788
+Preacher;8.3;18000
+Anomalisa;7.3;0
+Another Year;7.3;0
+8 Women;7.1;0
+Showdown in Little Tokyo;6.0;0
+Clay Pigeons;6.6;515
+It's Kind of a Funny Story;7.2;20000
+Made in Dagenham;7.2;0
+When Did You Last See Your Father?;6.9;429
+Prefontaine;6.8;0
+The Wicked Lady;4.0;79
+The Secret of Kells;7.7;11000
+Begin Again;7.4;43000
+Down in the Valley;6.5;412
+Brooklyn Rules;6.4;226
+Restless;7.2;434
+The Singing Detective;5.6;494
+The Land Girls;6.3;75
+Fido;6.8;0
+The Wendell Baker Story;5.5;143
+Wild Target;6.9;0
+Pathology;6.0;3000
+Wuthering Heights;7.7;0
+10th & Wolf;6.4;294
+Dear Wendy;6.6;532
+Aloft;5.3;675
+Akira;8.1;0
+The Death and Life of Bobby Z;5.9;0
+The Rocket: The Legend of Rocket Richard;7.7;520
+Swelter;4.6;438
+My Lucky Star;5.1;81
+Imagine Me & You;6.9;0
+Mr. Church;8.0;205
+Swimming Pool;6.8;0
+Green Street 3: Never Back Down;5.4;0
+The Blood of Heroes;6.5;999
+Code of Honor;4.2;689
+Driving Miss Daisy;7.4;3000
+Soul Food;6.9;508
+Rumble in the Bronx;6.7;0
+Far from Men;7.3;2000
+Thank You for Smoking;7.6;0
+Hostel: Part II;5.4;0
+An Education;7.3;12000
+Shopgirl;6.4;1000
+The Hotel New Hampshire;6.0;345
+Narc;7.2;1000
+Men with Brooms;6.0;0
+Witless Protection;3.1;140
+The Work and the Glory;6.9;31
+Extract;6.2;0
+Masked and Anonymous;5.5;655
+Alias Betty;6.9;26
+Code 46;6.3;0
+Outside Bet;4.8;223
+Crash;7.9;18000
+Albert Nobbs;6.7;0
+Black November;5.6;389
+Ta Ra Rum Pum;5.4;108
+Persepolis;8.0;14000
+The Hole;5.7;0
+The Wave;7.6;25000
+The Neon Demon;7.0;0
+Harry Brown;7.2;0
+Spider-Man 3;6.2;0
+The Omega Code;3.5;129
+Juno;7.5;10000
+Pound of Flesh;5.1;0
+Diamonds Are Forever;6.7;0
+The Godfather;9.2;43000
+Flashdance;6.1;0
+500 Days of Summer;7.7;40000
+The Piano;7.6;0
+Magic Mike;6.1;54000
+Darkness Falls;4.9;2000
+Live and Let Die;6.8;0
+My Dog Skip;7.0;0
+Definitely, Maybe;7.2;0
+Jumping the Broom;5.7;0
+The Great Gatsby;7.3;115000
+Good Night, and Good Luck.;7.5;0
+Capote;7.4;0
+Desperado;7.2;0
+The Claim;6.5;141
+Fargo;9.0;61000
+Logan's Run;6.8;0
+The Man with the Golden Gun;6.8;2000
+Action Jackson;5.2;978
+The Descent;7.2;10000
+Michael Jordan to the Max;7.5;407
+Devil's Due;4.0;0
+Flirting with Disaster;6.8;824
+The Devil's Rejects;6.9;0
+Buffy the Vampire Slayer;8.2;6000
+Dope;7.3;23000
+In Too Deep;6.1;375
+Skyfall;7.8;80000
+House of 1000 Corpses;6.0;0
+Alien Zone;4.1;44
+A Serious Man;7.0;10000
+Get Low;7.1;0
+Warlock;6.2;0
+Beyond the Lights;6.9;0
+A Single Man;7.6;16000
+The Last Temptation of Christ;7.6;0
+Outside Providence;6.4;0
+Bride & Prejudice;6.2;0
+Rabbit-Proof Fence;7.5;0
+Who's Your Caddy?;2.0;446
+Split Second;6.2;0
+Nikita;7.7;0
+The Other Side of Heaven;6.5;650
+Dark Angel;7.4;0
+Veer-Zaara;7.9;2000
+Redbelt;6.8;0
+Cyrus;6.3;0
+A Dog of Flanders;6.3;157
+Auto Focus;6.6;357
+Factory Girl;6.4;3000
+We Need to Talk About Kevin;7.5;38000
+The Christmas Candle;5.8;962
+The Mighty Macs;6.5;797
+Losin' It;4.8;168
+Mother and Child;7.2;0
+March or Die;6.3;122
+Les visiteurs;7.0;0
+Somewhere;6.3;0
+I Hope They Serve Beer in Hell;5.3;0
+Chairman of the Board;2.3;724
+Hesher;7.1;19000
+Dom Hemingway;6.2;0
+Gerry;6.2;0
+The Heart of Me;6.7;97
+Freeheld;6.5;0
+The Extra Man;5.9;916
+Hard to Be a God;6.7;1000
+Ca$h;6.0;694
+Wah-Wah;6.9;311
+The Boondock Saints;7.9;16000
+Z Storm;5.3;55
+Twixt;4.8;0
+Snow Queen;5.3;453
+Alpha and Omega 4: The Legend of the Saw Toothed Cave;6.0;41
+Pale Rider;7.3;0
+Stargate: The Ark of Truth;7.4;389
+Dazed and Confused;7.7;10000
+High School Musical 2;4.8;586
+Two Lovers and a Bear;7.2;187
+Criminal Activities;5.8;0
+Aimee & Jaguar;7.3;687
+The Chumscrubber;7.0;1000
+Shade;6.4;413
+House at the End of the Street;5.6;10000
+Incendies;8.2;37000
+Remember Me, My Love;6.5;282
+Perrier's Bounty;6.4;663
+Elite Squad;8.1;11000
+Annabelle;5.4;45000
+Bran Nue Dae;6.3;479
+Boyz n the Hood;7.8;0
+La Bamba;6.8;0
+The Four Seasons;7.2;337
+Dressed to Kill;7.1;0
+The Adventures of Huck Finn;6.2;391
+Go;7.3;0
+Friends with Money;5.9;515
+The Andromeda Strain;7.2;0
+Bats;3.6;342
+Nowhere in Africa;7.7;802
+Shame;7.3;23000
+Layer Cake;7.4;0
+The Work and the Glory II: American Zion;6.6;19
+The East;6.9;12000
+A Home at the End of the World;6.8;1000
+Aberdeen;7.3;260
+The Messenger;7.2;0
+Tracker;6.5;830
+Control;7.7;13000
+The Terminator;8.1;13000
+Good Bye Lenin!;7.7;11000
+The Damned United;7.6;0
+The Return of the Living Dead;7.3;0
+Gomorrah;8.7;0
+Mallrats;7.2;0
+Grease;7.2;13000
+Platoon;8.1;9000
+Fahrenheit 9/11;7.5;0
+Butch Cassidy and the Sundance Kid;8.1;0
+Mary Poppins;7.8;0
+Ordinary People;7.8;0
+Around the World in 80 Days;5.8;0
+West Side Story;7.6;0
+Caddyshack;7.4;0
+The Brothers;6.3;478
+The Wood;6.9;990
+The Usual Suspects;8.6;28000
+A Nightmare on Elm Street 5: The Dream Child;5.1;1000
+Van Wilder: Party Liaison;6.4;0
+The Wrestler;7.9;10000
+Duel in the Sun;6.9;403
+Best in Show;7.5;0
+Escape from New York;7.2;0
+School Daze;5.8;624
+Daddy Day Camp;2.9;256
+Mr. Nice Guy;6.2;355
+A Mighty Wind;7.3;0
+Mystic Pizza;6.2;0
+War & Peace;8.2;11000
+Sliding Doors;6.8;0
+Tales from the Hood;6.1;985
+The Last King of Scotland;7.7;0
+Halloween 5;5.2;926
+Bernie;6.8;15000
+Dolphins and Whales 3D: Tribes of the Ocean;6.5;28
+Pollock;7.0;0
+200 Cigarettes;5.9;0
+The Words;7.1;21000
+Casa de mi Padre;5.5;9000
+City Island;7.4;0
+The Guard;7.3;17000
+College;4.6;422
+The Virgin Suicides;7.2;0
+Little Voice;7.0;915
+Miss March;5.1;985
+Wish I Was Here;6.7;0
+Simply Irresistible;5.3;901
+Veronica Mars;8.4;0
+Hedwig and the Angry Inch;7.8;0
+Only the Strong;6.7;0
+Goddess of Love;5.4;84
+Shattered Glass;7.2;0
+Novocaine;5.8;289
+The Business of Strangers;6.4;29
+The Wild Bunch;8.0;0
+The Wackness;7.0;0
+The Great Train Robbery;7.0;643
+Morvern Callar;6.7;605
+Beastmaster 2: Through the Portal of Time;3.8;125
+The 5th Quarter;5.7;0
+The Flower of Evil;6.6;52
+The Greatest;6.7;0
+Snow Flower and the Secret Fan;6.1;0
+Come Early Morning;6.2;224
+Lucky Break;6.2;30
+Julia;7.4;733
+Surfer, Dude;4.7;850
+Lake of Fire;8.3;570
+11:14;7.2;0
+Men of War;5.8;176
+Don McKay;5.9;275
+Deadfall;6.3;0
+A Shine of Rainbows;7.2;1000
+The Hit List;5.4;0
+Emma;8.2;0
+Videodrome;7.3;0
+L'auberge espagnole;7.3;0
+Song One;5.8;0
+Murder by Numbers;6.1;0
+Winter in Wartime;7.1;0
+Freaky Deaky;6.5;0
+The Train;7.9;0
+Trade of Innocents;5.4;543
+The Protector;7.1;0
+Stiff Upper Lips;6.4;109
+The Inbetweeners;8.4;0
+Bend It Like Beckham;6.7;0
+Sunshine State;6.9;160
+Crossover;2.1;244
+Khiladi 786;4.3;365
+[Rec] 2;6.6;4000
+Standing Ovation;3.4;277
+The Sting;8.3;0
+Chariots of Fire;7.2;0
+Diary of a Mad Black Woman;5.6;0
+Shine;7.7;0
+Don Jon;6.6;33000
+High Plains Drifter;7.6;0
+Ghost World;7.4;5000
+Iris;7.1;0
+Galaxina;3.4;438
+The Chorus;7.9;0
+Mambo Italiano;6.7;352
+Wonderland;6.6;1000
+Do the Right Thing;7.9;0
+Harvard Man;4.9;113
+Le Havre;7.2;0
+Irreversible;7.4;13000
+R100;6.1;543
+Rang De Basanti;8.4;0
+Animals;6.2;679
+Salvation Boulevard;5.3;1000
+The Ten;5.0;915
+A Room for Romeo Brass;7.7;484
+Headhunters;7.6;23000
+Grabbers;6.3;11000
+Saint Ralph;7.6;989
+Miss Julie;5.6;0
+Somewhere in Time;7.3;0
+Dum Maaro Dum;6.2;421
+Insidious: Chapter 2;6.6;35000
+Saw II;6.6;0
+10 Cloverfield Lane;7.3;33000
+Jackass: The Movie;6.6;0
+Lights Out;6.9;0
+Paranormal Activity 3;5.8;24000
+Ouija;4.4;18000
+A Nightmare on Elm Street 3: Dream Warriors;6.6;0
+The Gift;7.1;15000
+Instructions Not Included;7.6;14000
+Paranormal Activity 4;4.6;26000
+The Robe;6.8;0
+The Return of the Pink Panther;7.1;620
+Freddy's Dead: The Final Nightmare;4.9;963
+Monster;7.3;0
+20,000 Leagues Under the Sea;7.2;0
+Paranormal Activity: The Marked Ones;5.0;10000
+The Elephant Man;8.2;9000
+Dallas Buyers Club;8.0;65000
+The Lazarus Effect;5.2;0
+Memento;8.5;40000
+Oculus;6.5;23000
+Clerks II;7.4;0
+Billy Elliot;7.7;0
+The Way Way Back;7.4;22000
+House Party 2;5.1;232
+The Man from Snowy River;7.3;0
+Doug's 1st Movie;5.0;122
+The Apostle;7.2;1000
+Mommie Dearest;6.7;0
+Our Idiot Brother;6.4;11000
+Race;7.1;0
+The Players Club;5.6;575
+O;6.2;0
+As Above, So Below;6.1;14000
+Addicted;5.2;0
+Eve's Bayou;7.3;599
+Still Alice;7.5;45000
+The Egyptian;6.6;376
+Nighthawks;6.4;0
+Friday the 13th Part VIII: Jason Takes Manhattan;4.5;1000
+My Big Fat Greek Wedding;6.6;5000
+Spring Breakers;5.3;25000
+Halloween: The Curse of Michael Myers;4.9;0
+Y Tu Mamá También;7.7;0
+Shaun of the Dead;8.0;19000
+The Haunting of Molly Hartley;3.8;562
+Lone Star;7.6;0
+Halloween 4: The Return of Michael Myers;5.9;0
+April Fool's Day;6.2;0
+Diner;7.2;0
+Lone Wolf McQuade;6.3;0
+Apollo 18;5.2;0
+Sunshine Cleaning;6.9;0
+No Escape;6.8;16000
+The Beastmaster;6.2;0
+Solomon and Sheba;6.2;270
+Fifty Shades of Black;3.5;11000
+Not Easily Broken;6.1;738
+A Farewell to Arms;6.6;213
+The Perfect Match;4.5;740
+Digimon: The Movie;5.9;207
+Saved!;6.9;0
+The Barbarian Invasions;7.7;0
+Robin and Marian;6.6;672
+The Forsaken;5.3;327
+Force 10 from Navarone;6.3;729
+UHF;7.0;0
+Grandma's Boy;7.0;0
+Slums of Beverly Hills;6.6;462
+Once Upon a Time in the West;8.6;10000
+Made;6.4;393
+Moon;7.9;47000
+Keeping Up with the Steins;5.4;249
+Sea Rex 3D: Journey to a Prehistoric World;6.9;89
+The Sweet Hereafter;7.7;920
+Of Gods and Men;7.2;0
+Bottle Shock;6.8;0
+Jekyll and Hyde... Together Again;6.2;323
+Heavenly Creatures;7.4;0
+90 Minutes in Heaven;4.6;0
+Everything Must Go;6.4;0
+Zero Effect;7.0;507
+The Machinist;7.7;21000
+Light Sleeper;6.8;247
+Kill the Messenger;7.0;13000
+Rabbit Hole;7.0;0
+Party Monster;6.3;0
+Green Room;7.1;10000
+The Oh in Ohio;5.6;255
+Atlas Shrugged: Who Is John Galt?;4.4;0
+Bottle Rocket;7.1;0
+Albino Alligator;6.1;225
+Gandhi, My Father;7.4;133
+Standard Operating Procedure;7.5;489
+Out of the Blue;7.2;274
+Tucker and Dale vs Evil;7.6;49000
+Lovely, Still;7.3;777
+Tycoon;6.2;44
+Desert Blue;6.2;69
+Decoys;4.6;174
+The Visit;6.2;27000
+Redacted;6.2;559
+Fascination;3.3;40
+Saving Grace;7.5;634
+Area 51;4.2;0
+Sleep Tight;7.2;0
+The Cottage;6.2;639
+Dead Like Me: Life After Death;6.1;887
+Farce of the Penguins;4.2;419
+Flying By;4.5;38
+Psych;8.4;0
+Rudderless;7.5;0
+Henry & Me;6.7;165
+Christmas Eve;5.1;0
+We Have Your Husband;5.5;58
+Dying of the Light;4.4;0
+Born of War;4.4;190
+Capricorn One;6.8;2000
+Should've Been Romeo;6.7;35
+Running Forever;8.6;49
+Yoga Hosers;4.8;0
+Navy Seals vs. Zombies;3.4;0
+I Served the King of England;7.4;1000
+Soul Kitchen;7.3;0
+Sling Blade;8.0;0
+The Awakening;6.5;10000
+Hostel;5.9;0
+Tristram Shandy: A Cock and Bull Story;6.8;750
+Take Shelter;7.4;14000
+Lady in White;6.7;0
+Driving Lessons;6.8;864
+Let's Kill Ward's Wife;5.4;0
+The Texas Chainsaw Massacre 2;5.5;0
+Pat Garrett & Billy the Kid;7.4;0
+Only God Forgives;5.7;30000
+Camping sauvage;5.4;11
+Without Men;3.2;491
+Barfi;7.1;2
+Dear Frankie;7.8;2000
+All Hat;5.3;31
+The Names of Love;7.2;0
+Treading Water;6.2;199
+Savage Grace;5.9;0
+Out of the Blue;7.3;285
+Police Academy;6.7;0
+The Blue Lagoon;5.7;0
+Four Weddings and a Funeral;7.1;0
+Fast Times at Ridgemont High;7.2;0
+Moby Dick;7.4;0
+25th Hour;7.7;0
+Secrets and Lies;7.7;2000
+Bound;7.4;2000
+Requiem for a Dream;8.4;38000
+State Fair;7.1;501
+Tango;7.2;539
+Salvador;7.5;1000
+Moms' Night Out;5.4;0
+Donnie Darko;8.1;33000
+Saving Private Perez;6.0;0
+Character;7.8;689
+Spun;6.8;3000
+Life During Wartime;6.5;0
+Lady Vengeance;7.7;4000
+Mozart's Sister;6.4;0
+Mean Machine;6.5;0
+Exiled;7.3;528
+Blackthorn;6.6;0
+Lilya 4-Ever;7.9;0
+After.Life;5.9;7000
+Fugly;4.7;62
+One Flew Over the Cuckoo's Nest;8.7;32000
+R.L. Stine's Monsterville: The Cabinet of Souls;5.9;224
+Silent Movie;6.7;629
+Airlift;8.5;10000
+Anne of Green Gables;8.4;0
+Falcon Rising;5.8;0
+The Sweeney;6.1;0
+Sexy Beast;7.3;0
+Easy Money;6.7;0
+Whale Rider;7.6;0
+Paa;7.2;504
+Cargo;6.2;2000
+Pan;5.8;24000
+High School Musical;5.2;0
+Animal Kingdom;8.1;0
+Love and Death on Long Island;7.1;61
+Night Watch;6.5;0
+The Crying Game;7.3;0
+Porky's;6.2;0
+Survival of the Dead;5.0;0
+Night of the Living Dead;8.0;0
+Lost in Translation;7.8;17000
+Annie Hall;8.1;0
+The Greatest Show on Earth;6.7;625
+Exodus: Gods and Kings;6.1;51000
+Monster's Ball;7.1;0
+Maggie;5.6;22000
+Leaving Las Vegas;7.6;0
+Hansel & Gretel Get Baked;4.3;0
+The Return of the Living Dead;7.3;0
+The Front Page;7.3;661
+The Boy Next Door;4.6;8000
+Trapeze;6.8;283
+Saving Grace;7.5;634
+The Kids Are All Right;7.1;16000
+They Live;7.3;27000
+The Great Escape;8.3;8000
+What the #$*! Do We (K)now!?;5.4;2000
+The Last Exorcism Part II;4.0;0
+Boyhood;8.0;92000
+Scoop;6.7;0
+Planet of the Apes;5.7;0
+The Wash;4.6;842
+3 Strikes;4.0;118
+The Cooler;7.0;762
+The Misfits;7.4;0
+The Night Listener;5.9;576
+The Jerky Boys;4.6;138
+My Soul to Take;4.8;0
+The Orphanage;7.5;11000
+A Haunted House 2;4.7;0
+The Rules of Attraction;6.7;0
+Topaz;6.3;414
+Let's Go to Prison;6.0;931
+Four Rooms;6.7;0
+Secretary;7.1;15000
+The Real Cancun;2.7;131
+Talk Radio;7.3;816
+Waiting for Guffman;7.6;0
+Love Stinks;5.8;309
+You Kill Me;6.5;830
+Thumbsucker;6.6;708
+Red State;6.2;16000
+Mirrormask;6.9;0
+Samsara;8.5;26000
+The Barbarians;4.8;550
+The Art of Getting By;6.6;0
+Zipper;5.7;987
+Poolhall Junkies;7.0;872
+The Loss of Sexual Innocence;5.4;111
+Holy Motors;7.1;12000
+Joe;6.9;11000
+Shooting Fish;6.6;167
+Prison;5.9;314
+Psycho Beach Party;6.3;614
+The Big Tease;6.3;182
+Buen Día, Ramón;7.7;0
+Trust;7.0;10000
+An Everlasting Piece;6.3;132
+Among Giants;5.9;108
+Adore;6.2;0
+The Velocity of Gary;5.0;98
+Mondays in the Sun;7.7;0
+Stake Land;6.5;0
+Sonny with a Chance;6.1;325
+The Last Time I Committed Suicide;5.8;161
+Futuro Beach;6.1;278
+Another Happy Day;6.0;798
+A Lonely Place to Die;6.3;0
+Nothing;6.3;688
+The Geographer Drank His Globe Away;7.5;282
+1776;7.6;0
+Inescapable;5.2;657
+Hell's Angels;7.8;279
+Purple Violets;6.6;296
+The Veil;4.7;0
+The Loved Ones;6.7;0
+No Vacancy;4.2;531
+How to Fall in Love;6.3;170
+The Perfect Wave;4.7;365
+Ben-Hur;6.0;0
+A Man for All Seasons;7.9;2000
+Network;8.1;17000
+Gone with the Wind;8.2;16000
+Desert Dancer;6.0;0
+Major Dundee;6.8;251
+Down for Life;7.3;237
+Annie Get Your Gun;7.0;456
+Four Lions;7.3;17000
+House of Sand;7.5;385
+Defendor;6.8;0
+The Pirate;7.1;359
+The Good Heart;6.9;0
+The History Boys;6.9;0
+Unknown;6.9;29000
+M*A*S*H;8.4;0
+Midnight Cowboy;7.9;0
+The Full Monty;7.2;0
+Airplane!;7.8;16000
+Chain of Command;3.5;358
+Friday;7.3;8000
+Menace II Society;7.5;0
+Empire;7.8;14000
+Creepshow 2;6.0;1000
+The Ballad of Cable Hogue;7.3;357
+In Cold Blood;8.0;0
+The Nun's Story;7.6;930
+Harper;7.0;470
+Frenzy;7.5;0
+The Witch;6.8;43000
+I Got the Hook Up;3.9;280
+She's the One;6.1;453
+Gods and Monsters;7.5;0
+The Secret in Their Eyes;8.2;33000
+Day of the Dead;7.2;3000
+Train;4.8;804
+Evil Dead II;7.8;0
+Pootie Tang;5.2;0
+Sharknado;3.3;93000
+La otra conquista;6.8;140
+Trollhunter;7.0;38000
+Ira & Abby;6.5;360
+The Watch;5.7;15000
+Winter Passing;6.4;414
+D.E.B.S.;5.3;1000
+The Masked Saint;4.7;0
+The Betrayed;6.1;127
+Taxman;5.5;18
+The Secret;7.3;405
+2:13;4.8;211
+Batman: The Dark Knight Returns, Part 2;8.4;5000
+Time to Choose;7.0;121
+In the Name of the King: The Last Job;3.3;721
+Wicked Blood;5.4;482
+Dawn Patrol;4.8;570
+Lords of London;3.1;606
+High Anxiety;6.7;0
+March of the Penguins;7.6;0
+Margin Call;7.1;21000
+August;6.1;224
+Choke;6.5;0
+Whiplash;8.5;129000
+City of God;8.7;28000
+Human Traffic;7.1;0
+Day One;6.6;0
+The Dead Girl;6.7;799
+The Hunt;8.3;60000
+A Christmas Story;8.1;18000
+Bella;7.4;0
+Class of 1984;6.6;934
+The Opposite Sex;4.5;0
+Dreaming of Joseph Lees;6.4;100
+The Class;7.5;0
+Rosemary's Baby;8.0;13000
+The Man Who Shot Liberty Valance;8.1;0
+Adam;7.2;0
+Maria Full of Grace;7.5;0
+Beginners;7.2;15000
+Feast;6.4;0
+Animal House;7.6;0
+Goldfinger;7.8;0
+Antiviral;5.7;0
+It's a Wonderful Life;8.6;41000
+Trainspotting;8.2;21000
+The Original Kings of Comedy;6.6;290
+Paranormal Activity 2;5.7;14000
+Waking Ned Devine;7.4;0
+Bowling for Columbine;8.0;4000
+Coming Home;7.3;0
+A Nightmare on Elm Street 2: Freddy's Revenge;5.4;0
+A Room with a View;7.4;0
+The Purge;5.7;31000
+Sinister;6.8;58000
+Martin Lawrence Live: Runteldat;5.4;63
+Cat on a Hot Tin Roof;8.1;0
+Beneath the Planet of the Apes;6.1;0
+Air Bud;5.1;902
+Pokémon 3: The Movie;5.6;38
+Jason Lives: Friday the 13th Part VI;5.9;0
+The Bridge on the River Kwai;8.2;0
+Spaced Invaders;5.3;710
+Family Plot;6.8;609
+The Apartment;8.3;0
+Jason Goes to Hell: The Final Friday;4.3;949
+Torn Curtain;6.7;933
+Dave Chappelle's Block Party;7.2;635
+Slow West;6.9;0
+Krush Groove;6.6;889
+Next Day Air;5.9;545
+Elmer Gantry;7.9;808
+Judgment at Nuremberg;8.3;0
+Trippin';5.2;143
+Robot Chicken;7.8;1000
+Red River;7.8;0
+Phat Girlz;3.0;837
+Before Midnight;7.9;62000
+Teen Wolf Too;3.2;491
+Phantasm II;6.5;812
+Woman Thou Art Loosed;6.9;187
+Real Women Have Curves;7.0;595
+Deadline Gallipoli;7.4;367
+Water;7.8;0
+East Is East;6.9;1000
+Whipped;4.4;131
+Kama Sutra: A Tale of Love;6.0;0
+Please Give;6.6;0
+Willy Wonka & the Chocolate Factory;7.8;0
+Warlock: The Armageddon;5.3;217
+8 Heads in a Duffel Bag;5.3;417
+Days of Heaven;8.0;0
+Thirteen Conversations About One Thing;7.1;430
+Jawbreaker;5.4;0
+Basquiat;6.9;0
+Frances Ha;7.4;11000
+Tsotsi;7.3;0
+Happiness;7.8;0
+DysFunktional Family;6.6;26
+Tusk;5.4;20000
+Oldboy;8.4;43000
+Letters to God;6.3;0
+Hobo with a Shotgun;6.1;37000
+Compadres;5.0;174
+Freeway;6.9;0
+Love's Abiding Joy;7.2;76
+Fish Tank;7.3;0
+Damsels in Distress;5.7;0
+Creature;5.0;518
+Bachelorette;5.3;0
+BrainDead;7.9;3000
+Brave New Girl;5.0;47
+Tim and Eric's Billion Dollar Movie;5.3;0
+The Gambler;6.0;0
+The Grand;7.6;450
+Summer Storm;7.4;442
+Fort McCoy;5.9;348
+Chain Letter;4.1;0
+Just Looking;6.7;117
+The Divide;5.8;0
+The Eclipse;6.2;580
+Demonic;5.3;0
+My Big Fat Independent Movie;3.3;48
+Alice in Wonderland;6.5;24000
+The Deported;6.2;54
+Tanner Hall;5.9;448
+Open Road;5.5;433
+They Came Together;5.5;0
+30 Nights of Paranormal Activity with the Devil Inside the Girl with the Dragon Tattoo;2.6;2000
+Never Back Down 2: The Beatdown;5.8;6000
+Point Blank;7.4;3000
+Four Single Fathers;5.1;32
+Enter the Dangerous Mind;5.2;406
+Something Wicked;4.8;395
+AWOL-72;3.9;398
+Iguana;6.2;37
+Cinderella;7.0;56000
+Chicago Overcoat;6.2;229
+Barry Munday;5.9;480
+Central Station;8.0;0
+Pocketful of Miracles;7.3;612
+Close Range;4.9;968
+Boynton Beach Club;6.5;88
+Amnesiac;4.3;421
+Freakonomics;6.4;0
+The Omen;7.6;7000
+High Tension;6.8;0
+Griff the Invisible;6.1;0
+Unnatural;4.0;369
+Hustle & Flow;7.4;0
+Some Like It Hot;8.3;10000
+Friday the 13th Part VII: The New Blood;5.3;0
+The Wizard of Oz;8.1;14000
+Young Frankenstein;8.0;14000
+Diary of the Dead;5.7;0
+Lage Raho Munna Bhai;8.2;349
+Ulee's Gold;7.1;381
+The Black Stallion;7.4;0
+Sardaar Ji;6.6;50
+Journey to Saturn;5.7;77
+Donovan's Reef;6.9;573
+The Dress;7.0;121
+A Guy Named Joe;7.0;116
+Blazing Saddles;7.8;12000
+Friday the 13th: The Final Chapter;5.9;0
+Ida;7.4;17000
+Maurice;7.8;963
+Beer League;6.0;323
+The Astronaut's Wife;5.3;1000
+Riding Giants;7.9;0
+Timecrimes;7.2;0
+Silver Medallist;7.4;30
+Timber Falls;5.3;254
+Singin' in the Rain;8.3;0
+Fat, Sick & Nearly Dead;7.6;10000
+A Haunted House;5.1;0
+2016: Obama's America;5.1;0
+Halloween II;4.9;3000
+That Thing You Do!;6.9;0
+Halloween III: Season of the Witch;4.6;0
+Escape from the Planet of the Apes;6.3;819
+Hud;7.9;1000
+Kevin Hart: Let Me Explain;6.7;0
+My Own Private Idaho;7.1;0
+Garden State;7.6;0
+Before Sunrise;8.1;22000
+Sur le seuil;6.6;39
+Jesus' Son;7.0;500
+Saving Face;7.6;774
+Brick Lane;6.7;430
+Robot & Frank;7.1;13000
+My Life Without Me;7.6;0
+The Spectacular Now;7.1;10000
+Marilyn Hotchkiss' Ballroom Dancing and Charm School;7.1;16
+Religulous;7.7;24000
+Fuel;7.6;588
+Valley of the Heart's Delight;6.6;144
+Dodgeball: A True Underdog Story;6.7;0
+Eye of the Dolphin;5.7;140
+8: The Mormon Proposition;7.1;0
+The Other End of the Line;6.2;0
+Anatomy;6.1;560
+Sleep Dealer;5.9;0
+Super;6.8;19000
+Christmas Mail;5.8;190
+Stung;5.0;0
+Antibirth;6.3;89
+Get on the Bus;6.8;352
+Thr3e;5.1;250
+Idiocracy;6.6;79000
+The Rise of the Krays;5.0;0
+This Is England;7.7;11000
+Alien Uprising;3.1;0
+Bathing Beauty;6.5;144
+Go for It!;3.9;566
+Dancer, Texas Pop. 81;6.8;500
+Show Boat;7.0;438
+Redemption Road;5.9;279
+The Calling;5.8;0
+The Brave Little Toaster;7.3;0
+Fantasia;7.8;3000
+The French Connection;7.8;0
+8 Days;6.9;224
+Friday the 13th Part III;5.7;0
+Friday the 13th: A New Beginning;4.7;1000
+The Last Sin Eater;5.9;285
+Do You Believe?;5.9;13000
+Impact Point;4.3;77
+The Valley of Decision;7.5;68
+Eden;4.8;452
+Chicken Tikka Masala;5.8;172
+Always Woodstock;5.3;107
+Jack Brooks: Monster Slayer;6.0;870
+The Best Years of Our Lives;8.1;0
+Bully;7.0;0
+Elling;7.6;0
+Mi America;7.2;305
+[Rec];7.5;15000
+Lies in Plain Sight;6.3;162
+Sharkskin;6.7;14
+Containment;4.8;275
+The Timber;5.5;380
+From Russia with Love;7.5;0
+The Toxic Avenger Part II;5.1;321
+In the Heat of the Night;7.4;763
+Sleeper;7.3;0
+It Follows;6.9;45000
+Everything You Always Wanted to Know About Sex * But Were Afraid to Ask;6.8;0
+To Kill a Mockingbird;8.4;15000
+Mad Max 2: The Road Warrior;7.6;0
+The Legend of Drunken Master;7.6;0
+Lolita;7.7;0
+Boys Don't Cry;7.6;0
+Silent House;5.3;0
+The Lives of Others;8.5;39000
+Courageous;7.0;10000
+The Hustler;8.0;0
+Boom Town;7.1;236
+The Triplets of Belleville;7.8;0
+Smoke Signals;7.2;0
+American Splendor;7.5;0
+Before Sunset;8.0;13000
+Amores Perros;8.1;11000
+Thirteen;6.8;0
+Gentleman's Agreement;7.4;0
+Winter's Bone;7.2;20000
+Touching the Void;8.1;0
+Alexander's Ragtime Band;7.0;60
+Me and You and Everyone We Know;7.4;0
+Inside Job;8.3;63000
+We Are Your Friends;6.1;0
+Ghost Dog: The Way of the Samurai;7.5;0
+Harsh Times;7.0;0
+Captive;5.3;0
+Full Frontal;4.7;134
+Witchboard;5.7;0
+Strangers with Candy;8.1;558
+Hamlet;7.8;0
+Shortbus;6.5;0
+Waltz with Bashir;8.0;0
+The Book of Mormon Movie, Volume 1: The Journey;3.3;32
+No End in Sight;8.3;0
+The Diary of a Teenage Girl;6.9;0
+Get Real;7.3;43
+In the Shadow of the Moon;8.1;0
+Meek's Cutoff;6.5;0
+Inside Deep Throat;6.8;592
+Dinner Rush;7.3;495
+Clockwatchers;6.4;166
+The Virginity Hit;4.6;974
+Subway;6.5;739
+House of D;7.0;857
+Teeth;5.4;17000
+Six-String Samurai;6.7;0
+Hum To Mohabbat Karega;2.8;10
+It's All Gone Pete Tong;7.4;0
+Saint John of Las Vegas;5.8;407
+24 7: Twenty Four Seven;7.1;224
+Stonewall;4.5;0
+Eureka;7.9;3000
+Roadside Romeo;5.3;39
+This Thing of Ours;5.4;61
+The Lost Medallion: The Adventures of Billy Stone;4.8;715
+The Last Five Years;5.9;0
+The Missing Person;6.2;195
+Return of the Living Dead III;5.9;810
+London;6.6;0
+Sherrybaby;6.6;474
+Stealing Harvard;5.1;215
+Circle;6.0;0
+Eden Lake;6.8;0
+Plush;5.4;604
+Vampire Killers;5.2;0
+Gangster's Paradise: Jerusalema;7.8;1000
+Freeze Frame;6.4;205
+Grave Encounters;6.1;0
+Stitches;5.7;0
+Nine Dead;5.5;0
+To Be Frank, Sinatra at 100;7.4;0
+Bananas;7.1;0
+Supercapitalist;3.9;115
+Rockaway;4.6;44
+Wings;7.3;1000
+The Lady from Shanghai;7.7;0
+No Man's Land: The Rise of Reeker;4.9;153
+Highway;6.3;912
+Small Apartments;6.1;0
+Coffee Town;6.6;0
+The Ghastly Love of Johnny X;5.7;655
+All Is Bright;5.6;825
+The Torture Chamber of Dr. Sadism;6.0;200
+Straight A's;5.7;0
+A Funny Thing Happened on the Way to the Forum;7.0;805
+Slacker Uprising;5.3;69
+The Legend of Hell's Gate: An American Conspiracy;4.4;651
+The Walking Deceased;3.4;0
+The Curse of Downers Grove;4.5;0
+Shark Lake;3.4;728
+River's Edge;7.1;0
+Northfork;6.4;298
+The Marine 4: Moving Target;5.2;620
+Buried;7.0;24000
+Submarine;7.3;17000
+The Square;8.1;0
+One to Another;5.8;104
+Carrie;5.9;39000
+ABCD (Any Body Can Dance);6.4;1000
+A Nightmare on Elm Street;7.5;10000
+Man on Wire;7.8;0
+Abandoned;6.3;213
+Brotherly Love;7.2;1000
+The Last Exorcism;5.6;0
+Nowhere Boy;7.2;10000
+A Streetcar Named Desire;8.0;5000
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb;8.5;18000
+El crimen del padre Amaro;6.8;544
+Beasts of the Southern Wild;7.3;31000
+Battle for the Planet of the Apes;5.5;511
+Songcatcher;7.3;0
+Higher Ground;6.3;952
+Vaalu;5.1;82
+The Greatest Movie Ever Sold;6.6;0
+Ed and His Dead Mother;6.1;266
+Travelers and Magicians;7.5;353
+Hang 'Em High;7.0;0
+Deadline - U.S.A.;7.2;169
+Sublime;5.3;368
+A Beginner's Guide to Snuff;8.7;8
+Independence Daysaster;3.4;566
+Dysfunctional Friends;5.4;569
+Run Lola Run;7.8;0
+May;6.7;0
+Against the Wild;4.7;326
+Living Dark: The Story of Ted the Caver;6.3;73
+Under the Same Moon;7.4;0
+Conquest of the Planet of the Apes;6.1;794
+In the Bedroom;7.5;951
+I Spit on Your Grave;6.3;17000
+Happy, Texas;6.3;374
+My Summer of Love;6.8;869
+The Lunchbox;7.8;16000
+Yes;6.9;305
+You Can't Take It with You;8.0;0
+From Here to Eternity;7.8;0
+She Wore a Yellow Ribbon;7.4;721
+Grace Unplugged;6.1;0
+Foolish;4.3;43
+N-Secure;3.5;588
+Caramel;7.2;0
+Out of the Dark;4.7;844
+The Bubble;7.3;0
+The Conversation;7.9;6000
+Dil Jo Bhi Kahey...;5.1;9
+Mississippi Mermaid;7.2;278
+I Love Your Work;5.4;63
+Cabin Fever;3.7;2000
+Dawn of the Dead;7.4;7000
+Waitress;7.1;0
+Bloodsport;6.8;0
+Mr. Smith Goes to Washington;8.2;0
+Kids;7.0;0
+The Squid and the Whale;7.4;0
+Kissing Jessica Stein;6.7;682
+A Woman, a Gun and a Noodle Shop;5.7;784
+Kickboxer: Vengeance;9.1;0
+Spellbound;7.6;0
+Exotica;7.2;619
+Buffalo '66;7.5;0
+Insidious;6.8;60000
+Repo Man;6.9;0
+Nine Queens;7.9;0
+The Gatekeepers;7.6;0
+The Ballad of Jack and Rose;6.7;608
+The To Do List;5.8;0
+Killing Zoe;6.5;853
+The Believer;7.2;0
+Snow Angels;6.9;415
+Unsullied;5.5;307
+Session 9;6.5;0
+I Want Someone to Eat Cheese With;6.2;0
+Mooz-Lum;6.7;0
+Hatchet;5.7;0
+Modern Times;8.6;0
+Stolen Summer;6.5;304
+My Name Is Bruce;6.3;0
+The Salon;4.3;68
+Road Hard;6.1;212
+Forty Shades of Blue;6.0;216
+Amigo;5.8;594
+Pontypool;6.7;0
+Trucker;6.7;371
+Me You and Five Bucks;7.6;132
+The Lords of Salem;5.1;15000
+Housebound;6.8;10000
+Wal-Mart: The High Cost of Low Price;6.8;0
+Fetching Cody;6.8;193
+Once Upon a Time in Queens;6.3;283
+Closer to the Moon;7.1;0
+Mutant World;2.8;236
+Growing Up Smith;8.2;232
+Checkmate;3.1;402
+Jack Reacher;7.0;38000
+#Horror;3.3;750
+Wind Walkers;3.6;135
+Snow White and the Seven Dwarfs;7.7;0
+The Holy Girl;6.7;57
+Shalako;5.5;209
+Incident at Loch Ness;6.6;400
+The Dog Lover;4.8;724
+Girl House;5.5;969
+The Blue Room;6.3;389
+House at the End of the Drive;6.9;223
+Batman: The Movie;6.5;0
+Lock, Stock and Two Smoking Barrels;8.2;21000
+The Ballad of Gregorio Cortez;7.1;32
+The Streets of San Francisco;7.3;533
+The Celebration;8.1;5000
+Trees Lounge;7.2;872
+Journey from the Fall;7.4;100
+The Basket;6.5;117
+Eddie: The Sleepwalking Cannibal;5.7;932
+Mercury Rising;6.1;0
+Space: Above and Beyond;7.7;963
+Queen of the Mountains;8.7;0
+Def-Con 4;4.3;220
+The Hebrew Hammer;6.2;3000
+Neal 'N' Nikki;3.3;66
+The 41-Year-Old Virgin Who Knocked Up Sarah Marshall and Felt Superbad About It;2.7;0
+Forget Me Not;5.2;969
+Rebecca;8.2;0
+Friday the 13th Part 2;6.1;0
+The Lost Weekend;8.0;0
+C.H.U.D.;5.5;0
+Filly Brown;5.7;0
+The Lion of Judah;3.7;381
+Niagara;7.1;1000
+How Green Was My Valley;7.8;0
+The Girlfriend Experience;7.3;632
+Da Sweet Blood of Jesus;4.1;447
+Sex, Lies, and Videotape;7.2;2000
+Saw;7.7;0
+Super Troopers;7.1;0
+The Algerian;7.6;221
+The Amazing Catfish;7.0;407
+The Day the Earth Stood Still;5.5;0
+Monsoon Wedding;7.4;0
+You Can Count on Me;7.7;756
+The Trouble with Harry;7.2;0
+Lucky Number Slevin;7.8;10000
+But I'm a Cheerleader;6.6;0
+Home Run;6.0;0
+Reservoir Dogs;8.4;19000
+The Blue Bird;6.5;548
+The Good, the Bad and the Ugly;8.9;20000
+The Second Mother;7.9;0
+Blue Like Jazz;6.0;0
+Down and Out with the Dolls;6.1;27
+Pink Ribbons, Inc.;7.4;5000
+Certifiably Jonathan;6.2;87
+Q;5.6;754
+The Knife of Don Juan;7.2;75
+Grand Theft Parsons;6.1;480
+Extreme Movie;3.8;636
+The Charge of the Light Brigade;7.1;204
+Below Zero;4.5;161
+Crowsnest;3.8;238
+Airborne;6.2;0
+Cotton Comes to Harlem;6.6;477
+The Wicked Within;4.6;479
+Bleeding Hearts;4.2;242
+Waiting...;6.8;0
+Dead Man's Shoes;7.7;0
+Wolf Creek;7.1;954
+From a Whisper to a Scream;5.9;241
+Sex with Strangers;4.7;51
+Dracula: Pages from a Virgin's Diary;7.0;131
+Faith Like Potatoes;6.9;0
+Beyond the Black Rainbow;6.1;0
+The Raid: Redemption;7.6;51000
+The Dead Undead;3.0;444
+The Vatican Exorcisms;2.6;200
+Casablanca;8.6;23000
+Lake Mungo;6.1;0
+Rocket Singh: Salesman of the Year;7.5;773
+Silent Running;6.7;0
+Rocky;8.1;0
+The Sleepwalker;4.9;234
+The Fog;6.8;7000
+Tom Jones;6.8;328
+Unfriended;5.7;13000
+Taxi Driver;8.3;35000
+The Howling;6.6;0
+Dr. No;7.3;5000
+Chernobyl Diaries;5.0;24000
+Hellraiser;7.0;0
+God's Not Dead 2;3.4;0
+Cry_Wolf;5.9;816
+Godzilla 2000;6.0;339
+Blue Valentine;7.4;25000
+Transamerica;7.4;0
+The Devil Inside;4.2;12000
+Beyond the Valley of the Dolls;6.2;0
+Love Me Tender;6.2;365
+An Inconvenient Truth;7.5;0
+Sands of Iwo Jima;7.2;624
+Shine a Light;7.2;0
+The Green Inferno;5.4;12000
+Departure;7.0;75
+The Sessions;7.2;11000
+Food, Inc.;7.9;37000
+October Baby;6.8;0
+Next Stop Wonderland;6.7;392
+Juno;7.5;10000
+The Skeleton Twins;6.8;0
+Martha Marcy May Marlene;6.9;0
+Obvious Child;6.8;0
+Frozen River;7.2;0
+20 Feet from Stardom;7.4;14000
+Two Girls and a Guy;5.6;387
+Walking and Talking;6.8;227
+The Full Monty;7.2;0
+Who Killed the Electric Car?;7.7;0
+The Broken Hearts Club: A Romantic Comedy;7.0;671
+Bubba Ho-Tep;7.2;0
+Goosebumps;6.4;35000
+Slam;7.2;603
+Brigham City;7.2;100
+Fiza;6.2;92
+History of the World: Part I;6.9;0
+Orgazmo;6.2;0
+All the Real Girls;6.9;571
+Dream with the Fishes;7.0;166
+Blue Car;6.7;115
+Luminarias;3.6;24
+Palo Alto;6.3;0
+Ajami;7.4;0
+Wristcutters: A Love Story;7.4;11000
+I Origins;7.3;32000
+The Battle of Shaker Heights;6.1;150
+The Lovely Bones;6.7;16000
+The Act of Killing;8.2;20000
+Taxi to the Dark Side;7.7;0
+Once in a Lifetime: The Extraordinary Story of the New York Cosmos;7.3;587
+Guiana 1838;7.4;32
+Lisa Picard Is Famous;5.7;25
+Antarctica: A Year on Ice;7.6;0
+A Lego Brickumentary;6.8;0
+Hardflip;5.6;706
+Chocolate: Deep Dark Secrets;4.8;31
+The House of the Devil;6.4;0
+The Perfect Host;6.8;0
+Safe Men;6.1;157
+Speedway Junky;5.2;27
+The Last Big Thing;6.9;43
+The Specials;6.0;210
+16 to Life;6.3;143
+Alone with Her;6.1;244
+Creative Control;5.5;793
+Special;6.9;0
+Sparkler;5.6;17
+The Helix... Loaded;1.9;128
+In Her Line of Fire;4.1;42
+The Jimmy Show;5.4;47
+Heli;6.8;0
+Karachi se Lahore;7.0;259
+Loving Annabelle;6.7;501
+Hits;5.8;903
+Jimmy and Judy;6.2;138
+Frat Party;2.8;297
+The Party's Over;7.3;32
+Proud;5.8;141
+The Poker House;6.5;599
+Childless;6.1;3
+ZMD: Zombies of Mass Destruction;5.1;0
+Snow White: A Deadly Summer;2.2;150
+Hidden Away;7.2;68
+My Last Day Without You;5.7;370
+Steppin: The Movie;3.4;41
+Doc Holliday's Revenge;3.8;54
+Black Rock;4.7;0
+Truth or Die;5.6;968
+The Pet;3.9;91
+Bang Bang Baby;5.4;48
+Fear Clinic;5.2;936
+Zombie Hunter;3.5;0
+A Fine Step;5.3;212
+Trance;7.0;23000
+Charly;7.1;785
+Banshee Chapter;5.5;2000
+Jesse;5.9;57
+Ask Me Anything;6.0;884
+And Then Came Love;4.8;42
+Food Chains;7.1;489
+On the Waterfront;8.2;0
+L!fe Happens;5.7;995
+4 Months, 3 Weeks and 2 Days;7.9;14000
+The Horror Network Vol. 1;7.3;52
+Hard Candy;7.1;12000
+The Quiet;6.4;698
+Circumstance;5.9;0
+Fruitvale Station;7.5;17000
+The Brass Teapot;6.4;0
+Bambi;7.4;0
+The Hammer;7.3;337
+Snitch;6.5;12000
+Latter Days;7.2;0
+Elza;6.7;24
+1982;7.1;181
+For a Good Time, Call...;6.0;0
+Celeste & Jesse Forever;6.7;0
+Time Changer;5.6;409
+London to Brighton;7.0;933
+American Hero;4.9;549
+Windsor Drive;3.2;312
+A Separation;8.4;48000
+Crying with Laughter;6.9;33
+Welcome to the Dollhouse;7.5;0
+Ruby in Paradise;7.2;81
+Raising Victor Vargas;7.2;219
+Pandora's Box;8.0;926
+Harrison Montgomery;7.4;18
+Live-In Maid;7.2;83
+Deterrence;6.5;130
+The Mudge Boy;7.2;396
+The Young Unknowns;4.2;4
+Not Cool;5.1;0
+Dead Snow;6.4;23000
+Saints and Soldiers;6.8;1000
+Vessel;6.2;14
+American Graffiti;7.5;0
+Iraq for Sale: The War Profiteers;7.7;274
+Aqua Teen Hunger Force Colon Movie Film for Theaters;6.9;307
+Safety Not Guaranteed;7.0;31000
+Kevin Hart: Laugh at My Pain;7.5;614
+Kill List;6.3;0
+The Innkeepers;5.5;0
+The Unborn;4.8;0
+The Conformist;8.1;0
+Interview with the Assassin;6.6;163
+Donkey Punch;5.2;0
+All the Boys Love Mandy Lane;5.6;2000
+Bled;3.1;128
+High Noon;8.1;3000
+Hoop Dreams;8.3;0
+Rize;7.1;903
+Destiny;8.1;1000
+L.I.E.;7.2;420
+The Sisterhood of Night;6.3;523
+B-Girl;4.0;303
+King Kong;7.2;0
+House of Wax;5.3;0
+Half Nelson;7.2;0
+Naturally Native;6.5;102
+Hav Plenty;6.5;161
+Adulterers;4.9;158
+Escape from Tomorrow;5.2;0
+Starsuckers;7.4;203
+The Hadza: Last of the First;7.4;5
+After;5.4;1000
+Treachery;3.9;0
+Walter;5.3;0
+Top Hat;7.8;1000
+The Blair Witch Project;6.4;0
+Woodstock;8.1;0
+The Kentucky Fried Movie;6.5;0
+Mercy Streets;5.6;12
+Arnolds Park;5.6;11
+Broken Vessels;6.6;51
+Water & Power;6.3;358
+They Will Have to Kill Us First;7.7;34
+Crop Circles: Quest for Truth;7.0;32
+Light from the Darkroom;8.0;9
+Irreplaceable;7.2;36
+The Maid's Room;4.5;128
+A Hard Day's Night;7.7;0
+The Harvest/La Cosecha;7.2;88
+Love Letters;6.1;7
+Julija in alfa Romeo;6.4;18
+Fireproof;6.5;0
+Faith Connections;7.0;126
+Benji;6.1;816
+Open Water;5.7;0
+High Road;5.4;244
+Kingdom of the Spiders;5.9;0
+Mad Hot Ballroom;7.5;588
+The Station Agent;7.7;0
+To Save a Life;7.1;0
+Wordplay;7.4;694
+Beyond the Mat;7.6;491
+The Singles Ward;6.4;43
+Osama;7.4;0
+Sholem Aleichem: Laughing in the Darkness;6.8;287
+Groove;6.5;0
+The R.M.;6.0;44
+Twin Falls Idaho;7.3;180
+Mean Creek;7.3;1000
+Hurricane Streets;6.5;51
+Never Again;6.0;139
+Civil Brand;5.3;86
+Lonesome Jim;6.6;238
+Drinking Buddies;6.1;0
+Deceptive Practice: The Mysteries and Mentors of Ricky Jay;7.1;590
+Seven Samurai;8.7;11000
+The Other Dream Team;8.4;0
+Johnny Suede;5.8;344
+Finishing the Game: The Search for a New Bruce Lee;6.2;155
+Rubber;5.8;46000
+Home;6.7;26000
+Kiss the Bride;5.7;60
+The Slaughter Rule;6.1;183
+Monsters;6.4;19000
+The Californians;5.0;29
+The Living Wake;6.5;339
+Detention of the Dead;4.6;898
+Crazy Stone;7.7;23
+Scott Walker: 30 Century Man;7.3;808
+Everything Put Together;6.6;22
+Good Kill;6.4;0
+Insomnia Manica;5.8;0
+The Outrageous Sophie Tucker;7.2;16
+Now Is Good;7.2;0
+Girls Gone Dead;3.5;0
+America Is Still the Place;7.5;337
+Subconscious;2.2;353
+Crossroads;3.3;0
+Enter Nowhere;6.6;701
+The King of Najayo;6.9;126
+Fight to the Finish;4.0;381
+Alleluia! The Devil's Carnival;7.4;707
+The Sound and the Shadow;8.3;70
+Rodeo Girl;5.7;0
+Born to Fly: Elizabeth Streb vs. Gravity;6.8;44
+The Little Ponderosa Zoo;5.2;9
+Oz the Great and Powerful;6.4;60000
+The Toxic Avenger;6.2;0
+Straight Out of Brooklyn;5.9;123
+Bloody Sunday;7.7;0
+Diamond Ruff;4.3;62
+Conversations with Other Women;7.1;0
+Poultrygeist: Night of the Chicken Dead;6.2;0
+Mutual Friends;6.8;31
+42nd Street;7.7;439
+Rise of the Entrepreneur: The Search for a Better Way;8.2;460
+Metropolitan;7.5;865
+As It Is in Heaven;7.6;0
+Roadside;4.1;61
+Napoleon Dynamite;6.9;0
+Blue Ruin;7.1;0
+Paranormal Activity;6.3;12000
+Dogtown and Z-Boys;7.7;0
+Monty Python and the Holy Grail;8.3;14000
+Quinceañera;7.1;426
+Gory Gory Hallelujah;4.7;39
+Heroes;7.7;0
+Tarnation;7.2;754
+I Want Your Money;5.1;638
+Love in the Time of Monsters;5.4;194
+The Beyond;6.9;2000
+Home Movies;8.2;526
+What Happens in Vegas;6.1;0
+The Dark Hours;6.1;166
+My Beautiful Laundrette;6.9;0
+Fabled;5.8;7
+Show Me;6.0;12
+Cries & Whispers;8.2;0
+Intolerance: Love's Struggle Throughout the Ages;8.0;691
+Trekkies;7.0;672
+The Broadway Melody;6.3;167
+The Evil Dead;7.6;12000
+Maniac;6.1;0
+Censored Voices;7.2;111
+Murderball;7.8;0
+American Ninja 2: The Confrontation;4.7;583
+51 Birch Street;7.5;70
+Revolution;6.7;17000
+Rotor DR1;3.4;240
+Halloween;7.9;12000
+12 Angry Men;8.9;40000
+My Dog Tulip;6.9;675
+It Happened One Night;8.2;0
+Dogtooth;7.3;13000
+Tupac: Resurrection;8.0;0
+Tumbleweeds;6.7;121
+The Prophecy;6.6;0
+When the Cat's Away;6.9;166
+Pieces of April;7.1;0
+The Big Swap;5.6;29
+Old Joy;6.7;594
+Wendy and Lucy;7.1;0
+3 Backyards;5.2;92
+Pierrot le Fou;7.7;2000
+Sisters in Law;7.5;50
+Ayurveda: Art of Being;7.6;379
+Nothing But a Man;8.1;363
+First Love, Last Rites;5.5;26
+Fighting Tommy Riley;6.6;30
+Royal Kill;3.2;53
+Across the Universe;7.4;14000
+The Looking Glass;6.6;175
+Death Race 2000;6.2;0
+Locker 13;4.8;261
+Midnight Cabaret;4.5;4
+Anderson's Cross;7.2;7
+Bizarre;4.3;114
+Graduation Day;4.5;249
+Some Guy Who Kills People;6.4;0
+Compliance;6.4;0
+Chasing Amy;7.3;0
+Lovely & Amazing;6.9;169
+Death Calls;4.3;16
+Better Luck Tomorrow;7.2;661
+The Incredibly True Adventure of Two Girls in Love;6.5;423
+Chuck & Buck;6.6;170
+American Desi;6.7;133
+Amidst the Devil's Wings;4.3;17
+Cube;7.3;11000
+Love and Other Catastrophes;6.4;46
+I Married a Strange Person!;7.0;178
+November;5.5;98
+Like Crazy;6.7;12000
+Teeth and Blood;4.3;85
+Sugar Town;6.1;93
+The Motel;6.8;62
+The Canyons;3.9;0
+Happy Valley;8.5;10000
+On the Outs;6.9;122
+Shotgun Stories;7.3;773
+Exam;6.9;14000
+The Sticky Fingers of Time;6.3;67
+Sunday School Musical;2.5;777
+Rust;5.7;141
+Ink;7.0;11000
+The Christmas Bunny;6.2;0
+Jesus People;6.9;0
+Butterfly;4.5;76
+UnDivided;7.8;53
+The Frozen;4.4;519
+The Love Letter;7.4;515
+Horse Camp;6.6;71
+Give Me Shelter;8.0;199
+The Big Parade;8.3;226
+Little Big Top;6.5;72
+Along the Roadside;7.1;231
+Bronson;7.1;22000
+Western Religion;4.0;244
+Burn;7.5;801
+Urbania;7.0;72
+The Stewardesses;4.0;17
+The Beast from 20,000 Fathoms;6.7;465
+20,000 Leagues Under the Sea;7.2;0
+Mad Max;7.0;10000
+Swingers;7.4;0
+A Fistful of Dollars;8.0;0
+She Done Him Wrong;6.5;328
+Short Cut to Nirvana: Kumbh Mela;7.2;30
+The Grace Card;6.4;0
+Middle of Nowhere;6.5;569
+3;6.8;2000
+The Business of Fancydancing;6.9;96
+Call + Response;7.5;26
+Side Effects;7.1;29000
+Malevolence;5.1;198
+Shooting the Warwicks;6.2;47
+Super Hybrid;3.9;0
+Baghead;6.0;443
+Solitude;6.8;267
+The Case of the Grinning Cat;7.4;44
+Ordet;8.1;863
+Good Dick;6.5;0
+The Man from Earth;8.0;46000
+The Trials of Darryl Hunt;7.7;246
+An American Girl Holiday;7.2;90
+Yesterday Was a Lie;5.4;83
+Theresa Is a Mother;6.7;38
+H.;6.3;142
+Archaeology of a Woman;8.1;66
+Children of Heaven;8.5;0
+Weekend;7.7;0
+She's Gotta Have It;6.5;406
+Butterfly Girl;8.7;88
+The World Is Mine;6.5;34
+Another Earth;7.0;21000
+The Calling;5.8;0
+Sweet Sweetback's Baadasssss Song;5.5;566
+Perfect Cowboy;7.0;65
+Tadpole;6.3;132
+Once;7.9;26000
+The Woman Chaser;7.3;73
+The Horse Boy;7.4;0
+When the Lights Went Out;5.4;0
+Heroes of Dirt;7.1;197
+The Texas Chain Saw Massacre;7.5;0
+A Charlie Brown Christmas;8.4;0
+Antarctic Edge: 70° South;7.0;215
+Aroused;5.3;207
+Top Spin;7.1;116
+Roger & Me;7.5;667
+Cat People;6.1;0
+An American in Hollywood;7.2;72
+Sound of My Voice;6.7;0
+The Brain That Sings;8.2;54
+The Blood of My Brother;6.6;14
+Your Sister's Sister;6.7;3000
+Romantic Schemer;5.1;0
+A Dog's Breakfast;7.0;377
+A Dog's Breakfast;7.0;377
+Night of the Living Dead;8.0;0
+Une Femme Mariée;7.4;187
+The Birth of a Nation;5.4;0
+The Work and the Story;5.7;0
+Facing the Giants;6.7;0
+The Gallows;4.2;0
+Eraserhead;7.4;0
+Over the Hill to the Poorhouse;4.8;0
+Hollywood Shuffle;7.0;471
+The Mighty;7.3;0
+Penitentiary;5.8;157
+The Lost Skeleton of Cadavra;7.0;0
+Dude, Where's My Dog?!;3.2;178
+Cheap Thrills;6.8;0
+Indie Game: The Movie;7.7;0
+Closure;5.6;246
+Open Secret;7.1;10
+Echo Dr.;3.6;17
+The Night Visitor;6.8;65
+The Past is a Grotesque Animal;7.6;82
+The Last House on the Left;6.6;0
+Peace, Propaganda & the Promised Land;8.3;110
+Pi;7.5;24000
+I Love You, Don't Touch Me!;5.4;97
+20 Dates;5.3;30
+Queen Crab;4.5;34
+Super Size Me;7.3;0
+The FP;5.6;0
+Happy Christmas;5.6;812
+The Brain That Wouldn't Die;4.1;1000
+Tiger Orange;6.8;182
+Supporting Characters;6.3;209
+Absentia;5.8;3000
+The Brothers McMullen;6.6;265
+The Dirties;6.7;1000
+Gabriela;6.4;114
+Tiny Furniture;6.3;0
+Hayride;3.4;284
+The Naked Ape;4.7;2
+Counting;6.0;5
+The Call of Cthulhu;7.3;0
+Bending Steel;7.9;33
+The Signal;6.1;10000
+The Image Revolution;7.4;83
+This Is Martin Bonner;6.6;234
+A True Story;5.5;72
+George Washington;7.5;451
+Smiling Fish & Goat on Fire;7.6;0
+Dawn of the Crescent Moon;5.0;87
+Raymond Did It;3.2;239
+The Last Waltz;8.2;0
+Run, Hide, Die;3.7;225
+The Exploding Girl;6.3;377
+The Legend of God's Gun;4.1;13
+Mutual Appreciation;6.9;91
+Her Cry: La Llorona Investigation;5.4;48
+Down Terrace;6.5;535
+Clerks;7.8;0
+Pink Narcissus;6.7;85
+Funny Ha Ha;6.4;108
+In the Company of Men;7.3;489
+Sabotage;5.7;10000
+Manito;7.0;61
+Rampage;6.3;0
+Slacker;7.1;2000
+Dutch Kills;4.8;33
+Dry Spell;3.3;200
+Flywheel;6.9;725
+Exeter;4.6;0
+The Ridges;3.0;33
+The Puffy Chair;6.6;297
+Stories of Our Lives;7.4;45
+Breaking Upwards;6.2;324
+All Superheroes Must Die;4.0;835
+Pink Flamingos;6.1;0
+Clean;6.9;171
+The Circle;7.5;697
+Tin Can Man;6.7;105
+The Cure;7.4;817
+On the Downlow;6.1;22
+"Sanctuary; Quite a Conundrum";5.4;424
+Bang;6.4;20
+Primer;7.0;19000
+Cavite;6.3;74
+El Mariachi;6.9;0
+The Mongol King;7.8;4
+Newlyweds;6.4;413
+Signed Sealed Delivered;7.7;84
+The Following;7.5;32000
+A Plague So Pleasant;6.3;16
+Shanghai Calling;6.3;660
+My Date with Drew;6.6;456
