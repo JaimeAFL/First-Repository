@@ -122,3 +122,69 @@ print (triple(5))
 
 # Sin embargo, la verdadera utilidad viene cuando tenemos funciones que pueden recibir otras funciones como parámetros. O funciones que devuelven 
 # como resultado otra función. Veamos un ejemplo para entender de qué hablamos.
+def genera_multiplicador (n):
+    """ Esta función crea y devuelve a su vez una nueva función que multiplicará cualquier valor por n"""
+    return lambda x: x * n
+
+# Vamos a generar una nueva función que multiplique su entrada por 2
+doble = genera_multiplicador (2)
+# La variable 'doble' apunta ahora a una función anónima que devuelve sun entrada multiplicada por 2
+print (doble(3))
+print (doble(5))
+
+# Ahora vamos a generar uan nueva función que multiplique su entrada por 3
+triple = genera_multiplicador(3)
+# La variable 'triple' apunta ahora a una función anónima que devuelve su entrada multiplicada por 3
+print (triple(7))
+print (triple(9))
+
+# Empezamos definiendo la función 'genera_multiplicador'. Es una función normal, con su 'def' y que recibe el parámetro 'n'. En lugar de devolver 
+# un valor "normal", como habíamos visto hasta ahora, esta función devuelve una expresión 'lambda'. Devuelve otra función. En este caso, devuelve 
+# una función 'lambda' que, a su vez, lo que hace es tomar su parámetro 'x' y devolverlo multiplicado por 'n'.
+
+# La función 'genera_multiplicador' sería nuestra maquina configurable (mediante el parámetro 'n') y las funciones anónimas que devuelve serían 
+# las herramientas prepraradas para cada paso concreto. Solamente hay una sutiliza más. Si el parámetro 'n' en realidad está definido en la función 
+# 'genera_multiplicador' ¿Cómo es que la función 'lambda' se acuerda del valor correcto de 'n' que tiene que utilizar?. En el ejemplo llamamos 
+# primero a 'genera_multiplicador' con 'n = 2' y asignamos la función anónima a la variable 'doble'. Después volvemos a llamar a 'genera_multiplicador' 
+# con 'n = 3' y asignamos la función anónima devuelta a la variable 'triple'. 
+
+# ¿Por qué la función anónima que hay en 'doble' mantiene el valor 'n = 2' (lo recuerda) y no ha cambiado a 'n = 3'?. En relidad, al devolver la función 
+# 'lambda' dentro de 'genera_multiplicador', Python no solo devuelve una función anónima, si no que la empaqueta con un contexto, es decir, con los 
+# valores que tenía cada varable visible en ese momento.
+
+# FUNCIONES DE ORDEN SUPERIOR #
+
+# A las funciones que reciben como parámetro otra función, o que devuelven como resultado otra función, se las denomina de 'orden superior'
+# Existen algunas funciones de orden superior cuyo uso está tan extendido que ya están dentro del lenguaje. Se trata de 'map', 'filter' y 'reduce'.
+
+# MAP
+
+# La función 'map' sirve para aplicar (o mapear) otra función 'f' (que recibe como parámetro) a todos los elementos de una secuencia o colección.
+cuadrados = map (lambda x: x**2, [1,2,3,4,5])
+print (list (cuadrados))
+# A 'map' le pasamos como primer argumento una función. En este caso, una función anónima usando una expresión 'lambda' (lambda x: x**2) que devuelve 
+# su valor de entrada elevado al cuadrado. El segundo argumento de 'map' es una colección de elementos. Aquí le pasamos una lista de números ([1,2,3,4,5]) 
+# que queremos elevar al cuadrado. Lo que va a hacer la función 'map' es ir tomand0o uno a uno los valores de la secuencia y ejecutar la función 
+# que le hemos pasado como primer argumento con cada uno de estos valores.
+# 'map' no devuelve inmediatamente la lista con lso valores resultantes. Lo que devuelve 'map' es un tipo especial de4 objeto que se denomina 'iterador' 
+# que es una variante der lso generadores. Este es un objeto que se encarga de hacer cálculos para generar lso valores resultantes uno a uno conforme los 
+# necesites y se los vayas pidiendo, iterando sobre la colección de entrada, en lugar de construir la secuencia entera de golpe, lo que permite ahorrar 
+# espacio de memoria ya que no tenemos que almacenar los resultados de una vez.
+
+# FILTER
+
+# La función 'filter' sirve para seleccionar (o filtrar) aquellos elementos de uan secuencia o colección que cumplen una condición determinada. 
+# La condición se le pasa a 'filter' en forma de otra función.
+pares = filter(lambda x: x % 2 == 0, [1,2,3,4,5])
+print (list(pares))
+
+# A 'filter' le pasamos como primer argumento una función. Le pasamos una función anónima (lambda x: x % 2 == 0) que devuelve verdadero si su valor 
+# de entrada es un número par y falso en caso contrario. La función que le pasamos a 'filter' siempre debe devolver valores True y False. El segundo 
+# argumento de 'filter' es de nuevo una colección de elementos.
+# Lo que va a hacer 'filter' en este caso es ir tomando cada uno de lso valores de la secuencia y ejecutar la función que le pasamos como primer argumento 
+# con cada uno de dichos valores, devolviendo solamente los elementos para los que el resultado sea True. En realidad 'filter' devuelte también un objeto 
+# de tipo iterador. Por eso utilizamos 'list' al final del ejemplo para obtener una lista de los resultados.
+
+# REDUCE 
+
+#
