@@ -105,6 +105,7 @@ print (fibonacci (6))
 # que llamar a sí mismas es grande. Esto hace que sean más complicadas de depurar si hay algún error. Si no tiene cuidado al programarlas podemos 
 # caer en una recursión infinita, de la que no se pueda salir sin un error o una interrupción externa.
 
+
 ## LAMBDA ##
 
 # En ocasiones, necesitamos utilizar una pequeña función para realizar algún cálculo en un punto específico de nuestro programa y nada más. 
@@ -270,9 +271,122 @@ print (max ([1,2,3,4,5]))
 # Cuando tengas que decidir entre varias formas de resolver la misma tarea, intenta elegir la solución que simplifique el código aprovechando las herramientas 
 # que tienes haciéndolo también fácil de entender. No obstante, en caso de duda y si el tiempo apremia, utiliza la técnica que mejor domines.
 
+
 ### MÓDULOS Y PAQUETES ###
 
 # Conforme empezamos a desarrollar programas con estructuras cada vez más complejas, tenemos la necesidad de poder guardar nuestro código de una forma 
 # organizada para poder reutilizarlo. Los módulos son la forma de organizar nuestro código, agrupando definiciones y funcionalidades relacionadas en unidades 
 # que podemos cargar y reutilizar en nuestros programas. En Python, cada archivo de código terminado con el sufijo '.py' es un módulo.
 
+# %load U09_src/mimodulo.py
+"""" Ejemplo de módulo con definición de funciones y declaración de variables"""
+
+# Definamos funciones del módulo
+def fibonacci (n):
+    """Calcula el n-ésimo elemento de la serie de Fibonacci"""
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci (n-1) + fibonacci (n-2)
+
+def genera_multiplicador(n):
+    """ Esta función crea y devuelve a su vez una nueva función que multiplicará cualquier valor por n"""
+    return lambda x: x * n
+# Declaramos variables del módulo
+
+# Asignamos a esta variable la función multiplicadora por 2
+doblar = genera_multiplicador(2)
+# Asignamos a esta variable la función multiplicadora por 3
+triplicar = genera_multiplicador (3)
+
+
+## CARGAR MODULOS Y ESPACIOS DE NOMBRES ##
+
+# Para cargar el contenido de un módulo y tener acceso a sus funciones, clases, variables etc. utilizamos el comando 'import' seguido del nombre del módulo.
+
+# Vamos a importar nuestro primer modulo
+import U09_src.mimodulo as mimodulo
+# Ya podemos utilizar sus fubnciones 
+print (mimodulo.fibonacci(10))
+
+# Al hacer el 'import' no ponemos el nombre del fichero completo con su extensión. En Python el nombre del módulo se toma de la primera parte del nombre 
+# del fichero sin el '.py'.Una vez que hemos cargado el módulo de esta forma, podemos acceder a su contenido a través del nombre dle módulo, siguiendo 
+# con un punto (.) y el nombre de la función o variable que queremos usar.
+
+# ¿Pero por qué tenemos que anteponer el nombre del módulo?. Piensa que en nuestars aplicaciones fácilmente acabaremos teniendo muchos módulos, y es posible 
+# que tengamos funciones o variables o cualquier otro objeto con el mismo nombre en distintos módulos ¿Como hacer para que no haya confusión al importarlos 
+# y usarlos, cómo hacer que no colisionen? Para eso Python utiliza el concepto de espacios de nombres (o namespaces en inglés). Es un directorio en el que se 
+# van anotando los nombres de todos los objetos que vamos creando. No puede haber dos objetos con el mismo nombre dentro de un namespace.
+
+# Cuando iniciamos uan nueva sesión de Pythoin con el itnérprete interactivo, o al ejecutar un programa o script, se crea un nuevo espacio de nombres global 
+# asociado a esa sesión. En este espacio de nonmbres se añaden a su vez todos los símbolos, todos los nombres de los objetos predefinidos integrados en el 
+# lenguaje. También se añadirán todos los objetos que nosotros vayamos definiendo directamente en la sesión.
+
+# Volviendo a lso módulos, en Python cada uno tiene su propio espacio de nombres, que contiene los identificadores de todos los elementos definidos dentro 
+# del módulo. Así que puedes tener dos variables o dos funciones con el mismo nombre en distintos módulos. Cada objeto estará incluido en su namespace 
+# correspondiente y no habrá conflictos entre ellos. Al importar un módulo también se le puede asociar un alias, normalmente para abreviar el nombre original del módulo.
+
+# Importamos nuestro módulo, pero con un alias más cortito
+import U09_src.mimodulo as m
+print (m.fibonacci(5))
+
+# También es posible importar directamente un elemento del módulo deseado a nuestro espacio de nombres actual. La sintaxis en este caso sería:
+"From nombre_modulo import nombre_elemento"
+
+# Vamos a importar únicamente la definición de 'doblar' de 'mimodulo' incluyéndola en nuestro espacio de nombres actual
+from U09_src.mimodulo import doblar
+# Ahopra podemos usar 'doblar' como si la hubiéramos definido en este nivel 
+print (doblar (7))
+
+# Esta variante incluye el objeto indicado en nuestro espacio actual, sin añadir el espacio de nombres del módulo ('mimodulo' no estaría definido 
+# para acceder a otras funciones). Hay que tener en cuidado al utilizar esta forma de importar elementos, porque puede que ya exista otro objeto 
+# con el mismo nombre en nuestro contexto o espacio de nombres actual. Siempre podemos asignar un alias en estos casos.
+
+# Tenemos una versión local de la función 'triplicar'
+def triplicar (x):
+    """ Función triplicar local"""
+    return 3 * x
+# Vamos a cargar la versión del módulo, pero con un alias para que no haya conflictos de nombres
+from U09_src.mimodulo import triplicar as triple
+
+# podemos usar ambas versiones
+print (triplicar(5))
+print (triple(5))
+
+# También podemos importar todos los nombres defnidos dentro de un módulo sin utilizar su namespace, auqnue sin poder asignarle un alias. 
+# En lugar de la lista de elementos del módulo que queremos importar, utilizamos un asterisco (*).
+from U09_src.mimodulo import *
+
+# No obstante, esta última opción es muy desaconsejable, ya que reemplaza todas las definiciones de los nombres ya existentes.
+
+
+## LOCALIZACIÓN DE LOS MÓDULOS ##
+
+# Cuando le pedimos a Python que importe un módulo, primero tiene que encontrarlo. Para ello sigue una serie de pasos:
+# - Comprueba si se trata de uno de los módulos predefinidos incluidos con el lenguaje.
+# - Si no existe ningún módulo del lenguaje con ese nombre, busca el fichero con el módulo en el directorio que contiene 
+#   el script de Python actual, o el directorio de ejecución de la sesión actual si estamos en modo iterativo. 
+# - Si no lo encuentra en el directorio actual, consulta la variable entorno 'PYTHONPATH'. Se trata de uan variable que hay 
+#   que definir a nivel de sistema operativo, y donde se puede indicar una lista de directorios donde buscar módulos y librerías instaladas.
+# - Por último, busca en el directorio donde esté instalado Python.
+
+# Podemos ver la secuencia de directorios donde buscará de la siguiente forma:
+import sys
+sys.path
+
+# Cuando desarrollemso nuestros módulos, tendremos que asegurarnos qeu sean accesibles desde el directorio actual o bien añadir los directorios donde 
+# se encuentren a la secuencia de búsqueda, bien mediante la variable de entorno 'PYTHONPATH' o bien modificando la variable 'sys.path' dentro del código.
+
+
+## MÓDULOS EJECUTABLES ##
+
+# Podemos ejecutar un módulo como si fuera un fichero de script normal a tarvés del terminal  
+
+"$ python mimodulo.py"
+
+# Si el módulo únicamente contiene definiciones de variables, funciones, clases etc, lo único que ocurrirá es que se cargarán todas ellas en un 
+# nameepace y seguidamente terminará la ejecución. Cuando se lanza la ejecución de un script o un módulo, Python prepara el namespace para la 
+# ejecución y le da el nombre especial '_main_'.Si queremos incluir en un módulo un código para que se ejecute solamente cuando lo lancemos como 
+# script, podemos consultar cuál es el nombre del namespace actuakl utilizando la variable global '_name_'.
