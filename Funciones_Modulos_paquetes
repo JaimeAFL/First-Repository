@@ -390,3 +390,14 @@ sys.path
 # nameepace y seguidamente terminará la ejecución. Cuando se lanza la ejecución de un script o un módulo, Python prepara el namespace para la 
 # ejecución y le da el nombre especial '_main_'.Si queremos incluir en un módulo un código para que se ejecute solamente cuando lo lancemos como 
 # script, podemos consultar cuál es el nombre del namespace actuakl utilizando la variable global '_name_'.
+
+# %load U09_src/mimoduloexec.py
+"""Ejemplo de módulo ejecutable"""
+# Definición de funciones
+def llama_a_la_puerta_de (persona, n_veces = 3):
+    """Llama a la puerta de la persona las veces que haga falta"""
+    return [ "Toc, toc, toc!" + persona + "!"  for i in range (n_veces)]
+# Cuerpo principal ejecutable
+
+# Si estamos dentro del namespace '_main_' ejecutará el código
+if __name__ == "__main__"
