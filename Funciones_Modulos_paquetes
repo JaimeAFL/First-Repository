@@ -400,4 +400,6 @@ def llama_a_la_puerta_de (persona, n_veces = 3):
 # Cuerpo principal ejecutable
 
 # Si estamos dentro del namespace '_main_' ejecutará el código
-if __name__ == "__main__"
+if __name__ == "__main__":
+    print ("Ejecutamos el main")
+    print (llama_a_la_puerta_de ("Penny"))
