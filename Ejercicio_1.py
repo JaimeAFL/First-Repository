@@ -24,3 +24,4 @@ while True:
     primo(numero)
     break
     
+    
