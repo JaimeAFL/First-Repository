@@ -16,4 +16,4 @@ def primo (n):
             print ("No es primo")
             return
     
-    print("Es primo")
+    print("Es primo") 
