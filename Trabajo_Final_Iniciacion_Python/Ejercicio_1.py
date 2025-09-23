@@ -1,30 +1,29 @@
-def es_primo(n):
+def prime_number(n):
     if n < 2:
         return f"El número {n} no es primo."
 
     for i in range(2, n):
-        if not n % i:   # resto 0 significa que es divisible
+        if not n % i:
             return f"El número {n} no es primo."
     
     return f"El número {n} es primo."
 
 
-def solicitar_numero():
+def requested_number():
     while True:
-        dato = input("Introduce un número entero positivo: ")
+        data = input("Introduce un número entero positivo: ")
         try:
-            numero = int(dato)
+            number = int(data)
         except ValueError:
             print("El dato introducido no es número. Por favor, vuelva a intentarlo.")
             continue
 
-        if numero <= 0:
+        if number <= 0:
             print("No ha introducido un número entero positivo. Por favor, vuelva a intentarlo.")
             continue
 
-        return numero
-
+        return number
 
 if __name__ == "__main__":
-    num = solicitar_numero()
-    print(es_primo(num))
+    num = requested_number()
+    print(prime_number(num))
