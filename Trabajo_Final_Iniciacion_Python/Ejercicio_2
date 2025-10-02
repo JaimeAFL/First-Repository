@@ -1,0 +1,15 @@
+clase_1 = [
+  {"Alumno": "Alumno_1", "Latin": 8, "Castellano": 8, "Frances": 9, "Ingles": 4},
+    {"Alumno": "Alumno_2", "Latin": 7, "Castellano": 6, "Frances": 7, "Ingles": 2},
+    {"Alumno": "Alumno_3", "Latin": 10, "Castellano": 7, "Frances": 8, "Ingles": 9},
+    {"Alumno": "Alumno_4", "Latin": 4, "Castellano": 4, "Frances": 3, "Ingles": 2},
+    {"Alumno": "Alumno_5", "Latin": 9, "Castellano": 8, "Frances": 9, "Ingles": 6}
+]
+
+Indice_alumnos = {  
+  "Alumno_1" : 0,
+  "Alumno_2": 1,
+  "Alumno_3": 2,
+  "Alumno_4": 3,
+  "Alumno_5": 4
+}
