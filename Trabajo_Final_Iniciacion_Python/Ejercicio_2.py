@@ -49,7 +49,7 @@ def alumnos_aprobados(clase_1):
     if media >= umbral_aprobado:
       aprobados.append(alumno["Alumno"])
   
-  print("Los alumnos que han aprobado el curso son:", aprobados)
+  print("Los alumnos que han aprobado el curso son:", ", ".join(aprobados))
 
 
 print("\n=== Suspensos por asignatura ===")
