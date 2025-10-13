@@ -3,6 +3,11 @@
 --------------
 
 
+# -------------------------------------------------------------------------------------------------------
+# --( 1 )-- PROCESAMIENTO Y ANALISIS DE DATOS: PANDAS
+# -------------------------------------------------------------------------------------------------------
+
+
 ## ESTRUCTURAS DE DATOS BÁSICAS: SERIES ##
 ------------------------------------------------------------------------
 # La primera estructura de datos básica en Pandas son los objetos Series. 
@@ -344,6 +349,11 @@ df_mini.to_csv("./Prueba_export_pandas.csv",
 # http://pandas.pydata.org/pandas-docs/version/0.20.3/generated/pandas.DataFrame.to_csv.html 
 
 
+# -------------------------------------------------------------------------------------------------------
+# --( 2 )-- OPERACIONES CON DATOS
+# -------------------------------------------------------------------------------------------------------
+
+
 ## OPERACIONES BINARIAS. ALINEACION DE INDICES ##
 --------------------------------------------------------------------
 # Podemos aplicar los operadores aritméticos comunes a Series y DataFrames, como hacemos con los arrays en NumPy. 
@@ -657,10 +667,391 @@ ixs = pd.IndexSlice
 meteo_bvz.loc[ixs[2016, 2:5], ixs["Bilbao",:]]
 
 
+# -------------------------------------------------------------------------------------------------------
+# --( 3 )-- TRANSFORMANDO LOS DATOS
+# -------------------------------------------------------------------------------------------------------
+
+
 ## CONCATENANDO DATOS ##
 -------------------------------------------------------------------------------------
 # En uno de los ejemplos del apartado anterior ya usamos la función pd.concat(). Con esta función podemos combinar 
 # dos o más Series o DataFrames, concatenándolos por cualquiera de sus ejes, por filas o por columnas.
+# Preparamos dos DataFrame sencillos de ejemplo
+
+df1 = DataFrame({'x' : np.arange(1,5), 'y' : np.arange(5, 9)})
+df2 = DataFrame({'x' : np.arange(1,4), 'z' : np.arange(11, 14)})
+print(df1)
+print(df2)
+
+# Concatenamos las filas de los dos DataFrames (equivalente a poner explícitamente la opción `axis='rows'`)
+pd.concat([df1, df2])
+
+# El argumento principal de pd.concat() es una lista con los DataFrames que queremos concatenar. Si no indicamos 
+# nada más, concatena las filas de todos los DataFrames. Esto es equivalente a poner de forma explícita la opción 
+# axis = 'rows'. Fíjate que como el primer DataFrame no tiene columna z, en el resultado las filas que vienen de df1 
+# muestran el valor NaN para esa columna. De la misma forma, como el segundo DataFrame no tiene columna y, 
+# en el DataFrame final las filas que vienen de df2 muestran el valor NaN para esa columna. Probablemente también 
+# te has dado cuenta de que en el índice de filas (a la izquierda) hay valores repetidos, porque pd.concat() 
+# ha mantenido los índices de los DataFrames originales. Podemos pedirle que descarte estos índices originales 
+# y cree unos nuevos.
+
+pd.concat([df1, df2], ignore_index=True)
+
+# Si lo que necesitamos es concatenar las columnas, basta con indicar la opción axis = 'columns'.
+pd.concat([df1, df2], axis = 'columns')
+
+# Como ves, aparecen valores NaN en las dos últimas columnas de la fila 3, porque el DataFrame df2 
+# solo tenía valores de las filas 0 a la 2. Además, la columna x está duplicada, ya que la tenemos 
+# en los dos DataFrames. Es el mismo comportamiento que al concatenar filas.
+
+# Para lidiar con los nombres de filas o columnas duplicados, otra opción aparte de ignorar los índices 
+# originales es añadir un nivel por cada DataFrame que combinamos.
+
+# Añadir un nivel etiquetando los datos de cada DataFrame
+pd.concat([df1, df2], axis = 'columns', keys = ["DF1","DF2"])
+
+# La operación de concatenar un objeto Series o DataFrame con otro es bastante común, así que Pandas 
+# incluye un método append() en ambas clases, y que nos puede servir de atajo.
+df1.append(df2)
+
+
+## COMBINANDO DATOS: MERGE Y JOIN ##
+---------------------------------------------------------------------------------------------
+# Se pueden combinar objetos data.frame usando merge u otras funciones de librerías externas.
+# Esta forma de combinar datos tabulares es análoga a las típicas operaciones JOIN del lenguaje SQL.
+# En Pandas disponemos del método pd.merge() como herramienta principal para combinar datos.
+
+# Primero los datos de peliculas
+peliculas = pd.read_csv("./U09_datasets/sample_movie_list.csv", sep=";")
+peliculas.head()
+
+# y unos datos de valoración de los espectadores
+valoracion = pd.read_csv("./U09_datasets/sample_movie_rating.csv", sep=";")
+print (valoracion.head())
+
+# Ahora podemos cruzar los dos DataFrames con pd.merge().
+pd.merge(peliculas, valoracion).head()
+
+# El método pd.merge() identifica automáticamente las columnas que aparecen con el mismo nombre 
+# en los dos DataFrames y las usa como clave de unión. Si queremos indicar o restringir manualmente 
+# qué columnas usar como clave de unión, utilizamos la opción on.
+
+pd.merge(peliculas, valoracion, on=['title']).head()
+
+# Ahora miramos cuantas filas tiene cada dataframe:
+print("Filas en peliculas:", peliculas.shape[0])
+print("Filas en valoraciones:", valoracion.shape[0])
+print("Filas en merge:", pd.merge(peliculas, valoracion).shape[0])
+
+# pd.merge() por defecto devuelve solo las combinaciones de filas cuya clave aparece en ambos DataFrames.
+# En este caso, hay películas para las que no tenemos valoración, así que esas filas quedan descartadas.
+# Podemos controlar si queremos que se incluyan todas las filas del primer, segundo o ambos DataFrames 
+# a pesar de que las claves no tengan correspondencia en los dos. Lo hacemos con la opción how, 
+# que puede tomar los siguientes valores.
+
+# | Valor   | Descripción                                                                            | SQL               |
+# |---------|----------------------------------------------------------------------------------------|-------------------|
+# | 'inner' | Incluye filas si la clave está en ambos DataFrames (opción por defecto)                | INNER JOIN        |
+# | 'left'  | Todas las filas del DataFrame izquierdo; completa el derecho con NaN si faltan claves  | LEFT OUTER JOIN   |
+# | 'right' | Todas las filas del DataFrame derecho; completa el izquierdo con NaN si faltan claves  | RIGHT OUTER JOIN  |
+# | 'outer' | Todas las filas de ambos DataFrames; completa con NaN si faltan claves en uno u otro   | OUTER JOIN        |
+
+# Probemos con nuestros DataFrames.
+pd.merge(peliculas, valoracion, how='left').head()
+
+# ahora aparecen películas en el cruce que antes quedaban descartadas por no tener valoración. 
+# En estas nuevas filas incluidas ahora, las columnas del segundo DataFrame toman 
+# valor NaN, es decir, ausente o nulo. Algunas veces los nombres de las columnas a cruzar no 
+# aparecen igual en los DataFrames.
+
+generos = pd.read_csv("./U09_datasets/sample_movie_genres.csv", sep=";")
+print(generos.head())
+
+# En estos casos usamos los argumentos left_on y right_on para indicar explícitamente 
+# qué columnas usar como claves en cada DataFrame
+
+pd.merge(peliculas, generos, left_on="title", right_on="movie_title").head()
+
+# El resultado contiene las columnas utilizadas como clave de ambos DataFrames, lo cual es redundante. 
+# Podemos descartar una de las columnas utilizando drop().
+
+pd.merge(peliculas, generos, left_on="title", right_on="movie_title").drop("movie_title", axis="columns").head()
+
+# Si los dos DataFrames tienen definido un índice común a nivel de filas, podemos utilizarlo para hacer el cruce:
+# Vamos a utilizar el título como índice en ambos DataFrame
+peliculas.set_index("title", inplace=True)
+generos.set_index("movie_title", inplace=True)
+
+# y ahora cruzamos indicando que queremos usar 
+# el `left_index` y el `right_index`
+pd.merge(peliculas, generos, left_index=True, right_index=True).head()
+
+# Al igual que anteriormente con la concatenación, la operación de cruzar dos DataFrames por su 
+# índice es tan habitual que Pandas incluye un método más directo por comodidad: join().
+
+# Podemos usar el método `join()` de un DataFrame
+peliculas.join(generos).head()
+
+
+## ORDENANDO ELEMENTOS ##
+-------------------------------------------------------------
+# Ordenar nuestros datos es otra operación básica disponible tanto para Series como DataFrames.
+# Si queremos ordenar por los valores, tenemos el método sort_values().
+
+# Ordenamos un objeto Series
+temp_mensual = Series([7.2, 7.3, 12.1, 15.7, 20.3, 24.8, 
+	                       28.2, 25.6, 20.8, 16.8, 12.3, 7.8],
+	                     index = ["Ene","Feb","Mar","Abr","May","Jun",
+	                              "Jul","Ago","Sep","Oct","Nov","Dic"])
+print(temp_mensual.sort_values())
+
+# Si vamos a ordenar un DataFrame, tendremos que indicar la(s) columna(s) 
+# a utilizar (si es más de una, las incluimos en una lista).
+
+df_meteo = DataFrame({'imes' : np.arange(1, 13),
+	                      'temp_c' : temp_mensual,
+	                      'lluvia_mm' : [21, 22, 19, 39, 44, 26, 
+	                                     17, 17, 30, 36, 30, 21],
+	                      'humedad' : [75, 67, 59, 57, 54, 49, 
+	                                   47, 51, 57, 67, 73, 76]}, 
+	                   columns = ['imes','temp_c','lluvia_mm','humedad'],
+	                    index = ["Ene","Feb","Mar","Abr","May","Jun",
+	                             "Jul","Ago","Sep","Oct","Nov","Dic"])
+# ordenar por la columna `lluvia_mm`
+print(df_meteo.sort_values("lluvia_mm"))
+
+# Además de ordenar por sus valores, también podemos ordenar una colección de datos por su índice mediante el método 
+# sort_index(). Esto puede resultar útil cuando el índice está formado por etiquetas (y no el secuencial por defecto)
+
+# Ordenar las filas lexicográficamente
+# según la etiqueta del índice (meses)
+print(df_meteo.sort_index())
+
+
+## ELIMINAR DUPLICADOS ##
+----------------------------------------------------------------------------------------------------------------
+# Otra circunstancia común cuando trabajemos con datos es que aparezca información duplicada. En ocasiones serán 
+# registros completos, pero otras veces pueden ser solo valores o medidas múltiples que comparten el resto de variables.
+
+# Cargamos datos de reparto de actores por película
+reparto = pd.read_csv("./U09_datasets/sample_movie_cast.csv", sep=";")
+print (reparto.head())
+
+# El DataFrame de ejemplo contiene algunos de los actores que han protagonizado cada película. 
+# Ahora nos gustaría quedarnos simplemente con una lista de actores.
+
+# Extraemos solo los actores
+actores = reparto[["actor_name","actor_fb_likes"]].copy() actores.head()
+
+Pero probablemente vamos a tener actores repetidos porque hayan aparecido en varias de las películas de nuestra lista. 
+Empleamos el método duplicated() para averiguarlo.
+
+actores.duplicated(["actor_name"]).any()
+True
+
+# Por defecto, duplicated() tiene en cuenta todas las columnas de un DataFrame para decidir si una fila está repetida 
+# o no. Como alternativa, se puede especificar un subconjunto de las columnas (como en este ejemplo).
+# El método duplicated() devuelve una serie con tantos valores booleanos como elementos. La primera vez que aparece 
+# un elemento devuelve False, y las siguientes ocurrencias las marca con True.
+
+# Ahora podemos eliminar las filas duplicadas con drop_duplicates().
+
+actores.drop_duplicates(["actor_name"], inplace=True)
+actores.duplicated(["actor_name"]).any()
+False
+
+
+## APLICANDO FUNCIONES ##
+---------------------------------------------------------------------------------------------------------------
+# Podemos necesitar aplicar una función recorriendo uno de los ejes de nuestros datos. Por ejemplo, fila a fila 
+# en un DataFrame (o columna a columna). Pandas nos permite hacer esto mismo mediante el método apply().
+
+# Calcular la diferencia entre ingresos y presupuesto de cada película
+peliculas.apply(lambda p: p.gross - p.budget, axis="columns").head()
+
+# En este ejemplo hemos usado una expresión lambda sencilla, pero podemos utilizar una expresión o función todo 
+# lo compleja que necesitemos para nuestros cálculos.
+
+
+## DISCRETIZANDO VARIABLES ##
+-------------------------------------------------------------------------------------
+# Otra transformación típica de datos es la discretización o agrupación en rangos de valores de una determinada variable. 
+# Para ello en Pandas disponemos de la función pd.cut().
+
+Por ejemplo, vamos a clasificar el año de estreno de las peliculas de nuestro dataset por décadas (más o menos).
+# Tomamos el año de estreno de las películas
+peliculas['year'].head()
+
+# Utilizamos `pd.cut()` para dividir en intervalos
+pd.cut(peliculas['year'], bins=[1900, 1980, 1990, 2000, 2010, np.Inf]).head()
+
+# Para cada valor de la serie, pd.cut() devuelve la etiqueta de la categoría o rango correspondiente. En este caso, 
+# vemos que hay cinco categorías, cuyos límites están comprendidos entre cada par de valores de la lista que hemos 
+# indicado en el argumento bins. Si queremos cambiar las etiquetas que se crean por defecto, podemos pasar una lista 
+# o un array de nombres en el argumento labels. Una vez que tenemos nuestra variable discretizada, podemos contar 
+# cuántos casos hay en cada rango con la función pd.value_counts().
+
+decadas = pd.cut(peliculas['year'], 
+	               bins=[1900, 1980, 1990, 2000, 2010, np.Inf], 
+	              labels = ['<1980', '1980s', '1990s', '2000s', '>2010'])
+pd.value_counts(decadas)
+
+
+# -------------------------------------------------------------------------------------------------------
+# --( 4 )-- AGRUPANDO Y AGREGANDO DATOS
+# -------------------------------------------------------------------------------------------------------
+
+
+# Uno de los procedimientos de análisis de datos más común consiste en dividir nuestro conjunto 
+# de datos en grupos disjuntos en base a algún criterio o variables y realizar algún tipo de operación 
+# o análisis sobre cada grupo, como calcular estadísticas del grupo (valores medios, mínimos, máximos, etc.).
+
+# Este tipo de procesos sobre grupos de datos te resultará familiar si has trabajado con bases de datos, 
+# ya que es similar a las cláusulas tipo GROUP BY de SQL. En el mundo del Big Data este modelo de computación 
+# es conocido como map-reduce "split, apply, combine".
+
+# En Pandas, los objetos de tipo DataFrame incorporan el método groupby() para ejecutar estos procesos.
+
+# Volvamos a cargar los datos meteorológicos
+meteo_mes = pd.read_csv("./U09_datasets/meteo_mes_agg.csv", sep = ";")
+
+# Calculamos valores promedio agrupando por ciudad
+meteo_mes.groupby('ciudad').mean()
+
+# En este ejemplo hemos agrupado las filas según la columna ciudad y después hemos pedido calcular 
+# los valores promedio para cada grupo. Como ves, la función mean() se ha aplicado a todas las columnas 
+# (en este caso, a las de tipo numérico). Este es el comportamiento por defecto cuando usamos funciones 
+# de agregación sobre el resultado de df.groupby().
+
+# Podemos seleccionar las columnas sobre las que queremos aplicar la función, indexando como haríamos con un DataFrame:
+# Indexamos columnas sobre el resultado de `df.groupby()
+# antes de aplicar la función
+meteo_mes.groupby('ciudad')['temp_c'].mean()
+
+# El método df.groupby() también nos permite especificar varias columnas como criterio de agrupación. 
+# En este caso, utilizamos una lista con los nombres de las columnas para agrupar.
+
+# Valor promedio agrupando por ciudad y año
+meteo_mes.groupby(['ciudad','año'])['temp_c'].mean().head()
+
+# El método df.groupby() devuelve un objeto de tipo DataFrameGroupBy. A efectos prácticos, 
+# podemos considerarlo como una colección de DataFrames, uno por grupo creado.
+# Sobre los grupos resultantes podemos aplicar directamente cualquiera de las funciones de agregación 
+# y estadísticas que ya te hemos presentado. Pero hay mucho más. Disponemos de varios métodos para 
+# realizar distintos tipos de operaciones sobre cada grupo.
+
+
+## AGREGADOS SOBRE GRUPOS ##
+------------------------------------------------------------------------------------------------------------------------
+# Empecemos por el método aggregate(). Este método nos permite calcular múltiples valores agregados de forma simultánea, 
+# indicando en una lista las funciones de agregación a utilizar.
+
+# Agrupamos por ciudad y calculamos los valores de media y mediana de temperatura y velocidad de viento para cada ciudad:
+meteo_mes.groupby('ciudad')['temp_c','viento_vel_kmh'].aggregate(['mean', np.median, lambda x: min(x)])
+
+# ¿Has prestado atención cómo hemos usado el método aggregate()? Este ejemplo te muestra distintas formas de especificar 
+# las funciones de agregación a aplicar. En el primer elemento hemos escrito una cadena de texto para referirnos a la media. 
+# Pandas permite hacer esto con las operaciones comunes incluidas, él se encarga de traducir la cadena de texto a la función 
+# correspondiente. En el segundo elemento hemos utilizado directamente el nombre de una función y no una cadena de texto 
+# (en este caso el método para calcular la mediana de la librería NumPy). Y en el último elemento incluimos una expresión 
+# lambda a medida (también podríamos haber puesto el nombre de una función definida por nosotros. Ha creado un índice 
+# jerárquico para las columnas. En el primer nivel tienes los nombres de las columnas originales y en el segundo nivel 
+# el nombre de los agregados que hemos calculado.
+
+
+## FILTRAGO DE GRUPO ##
+------------------------------------------------------------------------------------------------------------------------
+# El método filter() nos permite decidir si queremos incluir los datos de un grupo o no, en base a una función de filtrado 
+# sobre el conjunto de valores de cada grupo. La función de filtrado debe devolver un valor booleano para cada valor 
+# de entrada. Por ejemplo, vamos a filtrar y descartar las ciudades cuya velocidad de viento promedio supere los 12km/h.
+
+meteo_mes.groupby('ciudad').filter(lambda x: x['viento_vel_kmh'].mean() < 12).head()
+
+# Ten en cuenta que el resultado de esta operación es un DataFrame como el original, 
+# pero sin los datos de los grupos excluidos.
+
+
+## TRANSFORMACION DE DATOS POR GRUPOS ##
+------------------------------------------------------------------------------------------------------------------------
+# Cuando calculamos valores agregados por grupos, estamos reduciendo el DataFrame de cada grupo con sus múltiples 
+# filas u observaciones a una sola fila con los resultados de la agregación. Pero podemos estar interesados en mantener 
+# los registros o filas originales, y simplemente modificar sus valores en base a las características de cada grupo. 
+# Un ejemplo típico sería la normalización de variables por grupos. Para este tipo de operaciones 
+# utilizamos el método transform().
+
+# Normalizamos la variable `temperatura` por grupos
+Z_temp_c = meteo_mes.groupby('ciudad')['temp_c'].transform(lambda x: (x - x.mean())/x.std())
+pd.concat([meteo_mes, Z_temp_c], axis = 'columns').head()
+
+# La función que usemos debe devolver un valor de salida simple para cada valor de entrada. El resultado de transform() 
+# es un objeto Series con un valor por cada fila (temperatura) del DataFrame original.
+
+
+## APLICANDO FUNCIONES ARBITRARIAS ##
+------------------------------------------------------------------------------------------------------------------------
+# Si lo que queremos es devolver directamente un DataFrame por cada grupo, podemos utilizar el método apply(). 
+# El argumento debe ser una función que recibirá el DataFrame correspondiente a un grupo y que devolverá un nuevo 
+# DataFrame arbitrario como resultado.
+
+# Función que añade una nueva columna  con la variable temperatura normalizada
+def fnorm(x):
+x['Z_temp_c'] = (x['temp_c'] - x['temp_c'].mean())/x['temp_c'].std()
+return x
+	
+# Aplicar la función por grupos
+meteo_mes.groupby('ciudad').apply(fnorm).head()
+
+
+## REORGANIZANDO FILAS Y COLUMNAS. TABLAS RESUMEN ##
+---------------------------------------------------------------------------------------------
+# ¿Y si quisiéramos que los valores promedio para cada año aparecieran organizados en columnas? 
+# En Pandas podemos hacer esto con el método unstack()
+
+meteo_mes.groupby(['ciudad','año'])['temp_c'].mean().unstack()
+
+# unstack() por defecto toma el nivel más interno del índice (en este caso año) y "desapila" los datos, 
+# generando una nueva columna por cada valor del índice. Dicho de otra forma, pivotamos un nivel del índice 
+# de filas al eje de columnas. La operación contraria para pivotar o mover niveles del eje de columnas 
+# al eje de filas la realizamos con stack().
+
+# Retomemos otro ejemplo anterior con múltiples agregados por columna
+meteo_col_aggs = meteo_mes.
+	                  groupby('ciudad')['temp_c','viento_vel_kmh'].
+	                  aggregate(['mean', np.median, lambda x: min(x)])
+print (meteo_col_aggs)
+
+# Apilar como filas el primer nivel del eje de columnas
+meteo_col_aggs.stack(level = 0).head()
+
+# Aquí hemos apilado explícitamente el primer nivel del eje de columnas, utilizando el argumento 'level = 0'.
+# La generación de tablas resumen de valores agregados, combinando distintas dimensiones en los ejes de filas 
+# y columnas, es algo de uso cotidiano. Es posible que ya las hayas utilizado y te suenen por el nombre de pivot tables
+# o tablas dinámicas en otros contextos. Pandas proporciona un mecanismo muy sencillo para generar este tipo de tablas, 
+# mediante el método pd.pivot_table().
+
+# Crear una tabla resumen con la temperatura promedio para cada ciudad (filas) y año (columnas):
+meteo_mes.pivot_table('temp_c', index = 'ciudad', columns = 'año', aggfunc='mean')
+
+# El primer argumento indica las columnas con los valores que queremos procesar. Con el segundo argumento (index) 
+# especificamos los valores para el eje de filas, y con el tercero el eje de columnas. Por último, indicamos 
+# la función de agregación a aplicar a cada grupo (por defecto calcula la media).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
