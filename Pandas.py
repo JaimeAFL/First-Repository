@@ -2,6 +2,12 @@
 ### PANDAS ###
 --------------
 
+# -- [ PARA SABER MAS ] --
+# http://pandas.pydata.org/ 
+# http://pandas.pydata.org/pandas-docs/stable/10min.html 
+# https://pandas.pydata.org/pandas-docs/stable/tutorials.html 
+# https://jakevdp.github.io/PythonDataScienceHandbook/03.00-introduction-to-pandas.html 
+
 
 # -------------------------------------------------------------------------------------------------------
 # --( 1 )-- PROCESAMIENTO Y ANALISIS DE DATOS: PANDAS
