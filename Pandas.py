@@ -159,4 +159,161 @@ df3.describe()
 # Con los DataFrames también podemos seleccionar por posición, o mediante las etiquetas, 
 # o usando máscaras. La diferencia está en que un DataFrame tiene (al menos) dos ejes o dimensiones, 
 # por lo que hay algún cambio en la forma de seleccionar y filtrar.
+# Podemos seleccionar una columna por su nombre, utilizando los corchetes [] o la notación con punto 
+# (como si accediéramos a un atributo del DataFrame).
 
+df_meteo = DataFrame({
+	                 'imes' : np.arange(1, 13),
+	                 'temp_c' : [7.2, 7.3, 12.1, 15.7, 20.3, 24.8, 
+	                             28.2, 25.6, 20.8, 16.8, 12.3, 7.8],
+	                 'lluvia_mm' : [21, 22, 19, 39, 44, 26, 
+	                                17, 17, 30, 36, 30, 21],
+	                 'humedad' : [75, 67, 59, 57, 54, 49, 
+	                              47, 51, 57, 67, 73, 76]}, 
+					 
+	                columns = ['imes','temp_c','lluvia_mm','humedad'],
+	                index = ["Ene","Feb","Mar","Abr","May","Jun",
+	                         "Jul","Ago","Sep","Oct","Nov","Dic"])
+
+# Podemos acceder a una columna con su nombre entre corchetes
+df_meteo["lluvia_mm"]
+
+# También podemos acceder a una columna como si fuera un atributo, usando la notación con punto.
+df_meteo.temp_c
+
+# No obstante, aunque el acceso a una columna del DataFrame como si fuera un atributo puede resultar 
+# un atajo muy cómodo, hay que tener cuidado. Si el nombre de una columna coincide con el nombre de alguno 
+# de los atributos o métodos propios de la clase DataFrame, será esto a lo que estaremos accediendo, 
+no a la columna.
+
+# Un DataFrame de ejemplo con fórmulas para el área
+# de distintas figuras geométricas
+df_geom = DataFrame({
+	        'shape' : ["triangle","square","circle"],
+	        'area' : ["b*h/2", "a*a", "PI*r*r"]})
+
+# Accedemos a la columna "shape" con corchetes
+df_geom["shape"]
+
+# Así accedemos a un atributo propio de la clase DataFrame
+# que nos dice el número de filas y columnas que tiene (su "forma")
+df_geom.shape
+
+# Como ves, el atajo para acceder a una columna como un atributo no siempre va a funcionar. 
+# Te recomendamos que utilices los corchetes como opción preferente. Y en especial, cuando tengas que asignar 
+# valores a una columna, habrás de utilizar siempre la notación con corchetes.
+
+# Además, utilizando los corchetes podemos dar una lista de nombres de columnas para elegir varias a la vez.
+df_meteo[["imes","temp_c"]]
+
+# Pero los corchetes también tienen otra funcionalidad. Si lo que indicamos entre corchetes es un rango o rebanada 
+# utilizando el operador ':' (como hacemos con las listas normales), ¡entonces no seleccionamos columnas, sino filas!
+
+# Indicamos un rango o "rebanada" de índices
+df_meteo[0:4]
+
+# También podemos usar "rebanadas" de etiquetas si el índice del DataFrame está etiquetado
+df_meteo["Ene":"Mar"]       # Seleccionar filas de enero a marzo
+
+# Lo mismo ocurre si entre corchetes escribimos una expresión o máscara booleana. 
+# La máscara resultante se aplicará a las filas.
+
+# Seleccionar las filas (meses) en las que la temperatura supere los 20ºC
+df_meteo[df_meteo.temp_c > 20.0]
+
+# -- IMPORTANTE --
+# Si usas un nombre (o una lista de nombres) entre corchetes, seleccionas columnas. 
+# Si indicas un rango o rebanada usando ':', o una máscara booleana, seleccionas filas.
+# No obstante, para evitar ambigüedades, existen dos mecanismos adicionales para 
+# seleccionar filas y columnas: df.loc y df.iloc.
+# Con df.loc podemos seleccionar filas y columnas indicando sus nombres o etiquetas.
+
+# Acceso mediante etiquetas con df.loc .Podemos seleccionar un elemento concreto ([fila, columna])
+df_meteo.loc["May", "lluvia_mm"]
+
+# seleccionar una fila entera
+df_meteo.loc["May", ]
+
+# seleccionar una columna entera
+df_meteo.loc[:, "humedad"]
+
+# o un subconjunto de filas y columnas
+df_meteo.loc["Feb":"Abr", ["lluvia_mm","humedad"]]
+
+# Mientras que df.iloc está pensado para seleccionar indicando la posición (como en una lista o un array de NumPy).
+
+# Acceso mediante índices de posición con df.iloc. Podemos seleccionar un elemento concreto ([fila, columna])
+df_meteo.iloc[6, 2]
+
+# seleccionar una fila entera
+df_meteo.iloc[6, ]
+
+# seleccionar una columna entera
+df_meteo.iloc[:, 1]
+
+# o un subconjunto de filas y columnas
+df_meteo.iloc[0:3, 1:3]
+
+# -- ATENCION --
+# Fíjate en que, a diferencia de lo que ocurre con las rebanadas de índices numéricos, cuando seleccionamos 
+# un rango o rebanada con etiquetas también se incluye el elemento del límite superior del rango.
+# Tanto con df.loc como con df.iloc podemos utilizar también máscaras booleanas para seleccionar 
+# tantas filas como columnas si queremos. Naturalmente, podemos utilizar estos selectores para asignar 
+# valores a elementos del DataFrame.
+
+# Aumentar en 1ºC la temperatura de los meses de Junio a Agosto
+df_meteo.loc["Jun":"Ago","temp_c"] = df_meteo.loc["Jun":"Ago","temp_c"] + 1
+print(df_meteo)
+
+# También podemos añadir e inicializar una columna nueva de forma sencilla usando los corchetes.
+
+# Añadir una columna, con un mismo valor para todas las filas
+df_meteo["limite_temp_c"] = 50
+
+# Añadir una columna, dando valores individuales a cada elemento mediante una lista o una expresión:
+# Ej. pasar la temperatura a grados Fahrenheit
+df_meteo["temp_F"] = 1.8 * df_meteo["temp_c"] + 32
+print(df_meteo)
+
+## LEYENDO DATOS DE FICHERO ##
+
+Pandas incluye varias funciones para leer datos tabulares de ficheros de texto:
+# - PD.READ_CSV(): carga datos de un fichero tipo CSV con los campos separados por comas
+# - PD.READ_TABLE(): carga datos de un texto tabular con los campos separados por tabuladores ('\t')
+# - PD.READ_FWF(): Carga datos de un fichero de texto con columnas de ancho dijo
+
+# Para ver cómo funcionan, vamos a leer los datos de uno de los ficheros CSV que están incluidos en el material
+# de la unidad. En este caso, vamos a cargar el fichero NYC_flights_2013_MINI.csv
+# http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236 
+
+# Ajusta la ruta de directorios para que apunte adonde hayas descargado los ficheros
+df_flights = pd.read_csv("./U09_datasets/NYC_flights_2013_MINI.csv", sep = ";")
+
+# Vemos qué tamaño tiene (filas, columnas)
+df_flights.shape
+
+# Mostramos las primeras filas y columnas del DataFrame
+df_flights.iloc[0:5, 0:10]
+
+# Las funciones read_csv y read_table permiten especificar un gran número de opciones mediante sus argumentos. 
+# A continuación, te mostramos algunos de los principales. Para ver la lista completa, puedes consultar:
+# https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html 
+# https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_table.html
+
+## ESCRIBIENDO DATOS A FICHERO ##
+
+# También podemos salvar el contenido de nuestros DataFrames y Series a un fichero de texto tipo CSV o tabulado. 
+# La forma más rápida y simple es utilizando el método to_csv.
+
+# Seleccionamos las primeras filas para el ejemplo
+df_mini = df_flights.head()
+
+# Guardamos en fichero
+
+df_mini.to_csv("./Prueba_export_pandas.csv", 
+	               sep = ";", na_rep = "", header = True, 
+	               index = False, index_label = False)
+
+# Al igual que las funciones para leer, el método to_csv incluye múltiples opciones para controlar cómo se exporta 
+# y salva la información. Las más importantes son las siguientes; la lista completa puedes consultarla en:
+# http://pandas.pydata.org/pandas-docs/version/0.20.3/generated/pandas.DataFrame.to_csv.html 
