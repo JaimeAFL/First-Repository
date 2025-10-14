@@ -937,7 +937,9 @@ meteo_mes.groupby(['ciudad','año'])['temp_c'].mean().head()
 # indicando en una lista las funciones de agregación a utilizar.
 
 # Agrupamos por ciudad y calculamos los valores de media y mediana de temperatura y velocidad de viento para cada ciudad:
-meteo_mes.groupby('ciudad')['temp_c','viento_vel_kmh'].aggregate(['mean', np.median, lambda x: min(x)])
+# opción rápida, igual que tu idea pero correcta
+meteo_mes.groupby('ciudad')[['temp_c','viento_vel_kmh']].agg(['mean','median','min'])
+
 
 # ¿Has prestado atención cómo hemos usado el método aggregate()? Este ejemplo te muestra distintas formas de especificar 
 # las funciones de agregación a aplicar. En el primer elemento hemos escrito una cadena de texto para referirnos a la media. 
@@ -988,8 +990,7 @@ def fnorm(x):
 	x['Z_temp_c'] = (x['temp_c'] - x['temp_c'].mean())/x['temp_c'].std()
 	return x
 # Aplicar la función por grupos
-meteo_mes.groupby('ciudad').apply(fnorm).head()
-
+meteo_col_aggs = (meteo_mes.groupby('ciudad')[['temp_c', 'viento_vel_kmh']].agg(['mean', 'median', 'min']))
 
 ## REORGANIZANDO FILAS Y COLUMNAS. TABLAS RESUMEN ##
 # ---------------------------------------------------------------------------------------------
@@ -1004,8 +1005,15 @@ meteo_mes.groupby(['ciudad','año'])['temp_c'].mean().unstack()
 # al eje de filas la realizamos con stack().
 
 # Retomemos otro ejemplo anterior con múltiples agregados por columna
-meteo_col_aggs = meteo_mes.groupby('ciudad')['temp_c','viento_vel_kmh'].aggregate(['mean', np.median, lambda x: min(x)])
-print (meteo_col_aggs)
+meteo_col_aggs = meteo_mes.groupby('ciudad').agg(
+    temp_mean=('temp_c','mean'),
+    temp_median=('temp_c','median'),
+    temp_min=('temp_c','min'),
+    viento_mean=('viento_vel_kmh','mean'),
+    viento_median=('viento_vel_kmh','median'),
+    viento_min=('viento_vel_kmh','min'),)
+
+meteo_mes.groupby('ciudad')[['temp_c','viento_vel_kmh']].agg(['mean','median','min'])
 
 # Apilar como filas el primer nivel del eje de columnas
 meteo_col_aggs.stack(level = 0).head()
