@@ -31,7 +31,7 @@ from pandas import Series, DataFrame
 
 # Creamos una serie a partir de una lista de valores
 s1 = Series([3,5,7,9])
-print(s1)
+print (s1)
 
 # para construir una serie es suficiente con proporcionar la lista de 
 # datos que la componen, todos del mismo tipo. Al imprimir la serie aparecen dos columnas.
@@ -48,7 +48,7 @@ print(s1)
 # usamos Años como índices 
 temp_anual = Series([16.6, 16.2, 15.5, 17.0, 16.6, 16.5], 
 	index = [2011, 2012, 2013, 2014, 2015, 2016])
-print(temp_anual)
+print (temp_anual)
 
 # Los índices son etiquetas, también pueden ser texto
 # # P.ej. en una serie de temperaturas medias mensuales
@@ -56,7 +56,7 @@ print(temp_anual)
 temp_mensual = Series([7.2, 7.3, 12.1, 15.7, 20.3, 24.8, 28.2, 25.6, 20.8, 16.8, 12.3, 7.8],
 	            index = ["Ene","Feb","Mar","Abr","May","Jun",
 	                    "Jul","Ago","Sep","Oct","Nov","Dic"])
-print(temp_mensual)
+print (temp_mensual)
 
 # Que demos etiquetas distintas para los índices al crear la serie no significa que los elementos cambien 
 # su posición. Como puedes comprobar, los valores quedan en el mismo orden en el que los hayas especificado.
@@ -72,11 +72,11 @@ temp_mensual[["Mar","Abr","May"]]
 
 # Podemos realizar las operaciones comunes con escalares...
 s1 = Series([3,5,7,9])
-print(s1 * 2)
+print (s1 * 2)
 
 # ... operaciones elemento a elemento entre series
 s2 = Series([2,3,4,5])
-print(s1 - s2)
+print (s1 - s2)
 
 
 # DATAFRAMES #
@@ -96,7 +96,7 @@ df1 = DataFrame({'mes' : ["Ene","Feb","Mar","Abr","May","Jun",
 	            'humedad' : [75, 67, 59, 57, 54, 49, 
 	                              47, 51, 57, 67, 73, 76]
                     })
-print(df1)
+print (df1)
 
 # También podemos utilizar un array de Numpy o una serie para definir los valores de una columna.
 temp_mensual = Series([7.2, 7.3, 12.1, 15.7, 20.3, 24.8, 
@@ -110,7 +110,7 @@ df2 = DataFrame({'mes' : ["Ene","Feb","Mar","Abr","May","Jun",
 	                 'humedad' : [75, 67, 59, 57, 54, 49, 
 	                              47, 51, 57, 67, 73, 76]
 	       }, columns = ['mes','imes','temp_c','lluvia_mm','humedad'])
-print(df2)
+print (df2)
 
 # De forma similar a las Series, los DataFrames también incorporan un índice que permite acceder a las filas. 
 # Por defecto se asigna la secuencia de índices posicionales habitual, comenzando en cero. Pero también es 
@@ -132,38 +132,42 @@ df3 = DataFrame({'imes' : np.arange(1, 13),
 	                columns = ['imes','temp_c','lluvia_mm','humedad'],
 	                index = ["Ene","Feb","Mar","Abr","May","Jun",
 	                         "Jul","Ago","Sep","Oct","Nov","Dic"])
-print(df3)
+print (df3)
 
 # Podemos listar la secuencia de etiquetas que forman el índice, o la secuencia de etiquetas 
 # con los nombres de las columnas de un DataFrame. Como ves, la información de los nombres del índice 
 # (filas) y de los nombres de las columnas se almacenan ambas en objetos de tipo Index.
 
 # Índice asociado al DataFrame
-df3.index
+print (df3.index)
 
 # Columnas del DataFrame
-df3.columns
+print (df3.columns)
 
 # Operaciones #
 
 # Tamaño del DataFrame (num. filas, num. columnas)
-df3.shape
+print (df3.shape)
 
 # La forma más rápida de sacar el número de filas
-df3.shape[0]
+print (df3.shape[0])
 
 # Tamaño total (num. total de elementos)
-df3.size
+print (df3.size)
 
 # Mostrar las N primeras filas (5 por defecto)
-print(df3.head().to_string())
+df3.head()
+
 # o las N últimas
-print(df3.tail(3).to_string())
+df3.tail(3)
+
 # Conteo de elementos no nulos en cada columna
-df3.count()
+print (df3.count())
 
 # Resumen con estadísticas básicas de cada columna
-print(df3.describe().to_string())
+df3.describe()
+
+
 # SELECCION Y FILTRADO #
 # ----------------------------------------------------------------------------------------
 # Con los DataFrames también podemos seleccionar por posición, o mediante las etiquetas, 
@@ -180,16 +184,16 @@ df_meteo = DataFrame({
 	                                17, 17, 30, 36, 30, 21],
 	                 'humedad' : [75, 67, 59, 57, 54, 49, 
 	                              47, 51, 57, 67, 73, 76]}, 
-					 
+					
 	                columns = ['imes','temp_c','lluvia_mm','humedad'],
 	                index = ["Ene","Feb","Mar","Abr","May","Jun",
 	                         "Jul","Ago","Sep","Oct","Nov","Dic"])
 
 # Podemos acceder a una columna con su nombre entre corchetes
-df_meteo["lluvia_mm"]
+print (df_meteo["lluvia_mm"])
 
 # También podemos acceder a una columna como si fuera un atributo, usando la notación con punto.
-df_meteo.temp_c
+print (df_meteo.temp_c)
 
 # No obstante, aunque el acceso a una columna del DataFrame como si fuera un atributo puede resultar 
 # un atajo muy cómodo, hay que tener cuidado. Si el nombre de una columna coincide con el nombre de alguno 
@@ -203,33 +207,33 @@ df_geom = DataFrame({
 	        'area' : ["b*h/2", "a*a", "PI*r*r"]})
 
 # Accedemos a la columna "shape" con corchetes
-df_geom["shape"]
+print (df_geom["shape"])
 
 # Así accedemos a un atributo propio de la clase DataFrame
 # que nos dice el número de filas y columnas que tiene (su "forma")
-df_geom.shape
+print (df_geom.shape)
 
 # Como ves, el atajo para acceder a una columna como un atributo no siempre va a funcionar. 
 # Te recomendamos que utilices los corchetes como opción preferente. Y en especial, cuando tengas que asignar 
 # valores a una columna, habrás de utilizar siempre la notación con corchetes.
 
 # Además, utilizando los corchetes podemos dar una lista de nombres de columnas para elegir varias a la vez.
-df_meteo[["imes","temp_c"]]
+print (df_meteo[["imes","temp_c"]])
 
 # Pero los corchetes también tienen otra funcionalidad. Si lo que indicamos entre corchetes es un rango o rebanada 
 # utilizando el operador ':' (como hacemos con las listas normales), ¡entonces no seleccionamos columnas, sino filas!
 
 # Indicamos un rango o "rebanada" de índices
-df_meteo[0:4]
+print (df_meteo[0:4])
 
 # También podemos usar "rebanadas" de etiquetas si el índice del DataFrame está etiquetado
-df_meteo["Ene":"Mar"]       # Seleccionar filas de enero a marzo
+print (df_meteo["Ene":"Mar"]) # --> Seleccionar filas de enero a marzo
 
 # Lo mismo ocurre si entre corchetes escribimos una expresión o máscara booleana. 
 # La máscara resultante se aplicará a las filas.
 
 # Seleccionar las filas (meses) en las que la temperatura supere los 20ºC
-df_meteo[df_meteo.temp_c > 20.0]
+print (df_meteo[df_meteo.temp_c > 20.0])
 
 # -- IMPORTANTE --
 # Si usas un nombre (o una lista de nombres) entre corchetes, seleccionas columnas. 
@@ -245,30 +249,30 @@ df_meteo[df_meteo.temp_c > 20.0]
 # Con df.loc podemos seleccionar filas y columnas indicando sus nombres o etiquetas.
 
 # Acceso mediante etiquetas con df.loc .Podemos seleccionar un elemento concreto ([fila, columna])
-df_meteo.loc["May", "lluvia_mm"]
+print (df_meteo.loc["May", "lluvia_mm"])
 
 # seleccionar una fila entera
-df_meteo.loc["May", ]
+print (df_meteo.loc["May", ])
 
 # seleccionar una columna entera
-df_meteo.loc[:, "humedad"]
+print (df_meteo.loc[:, "humedad"])
 
 # o un subconjunto de filas y columnas
-df_meteo.loc["Feb":"Abr", ["lluvia_mm","humedad"]]
+print (df_meteo.loc["Feb":"Abr", ["lluvia_mm","humedad"]])
 
 # Mientras que df.iloc está pensado para seleccionar indicando la posición (como en una lista o un array de NumPy).
 
 # Acceso mediante índices de posición con df.iloc. Podemos seleccionar un elemento concreto ([fila, columna])
-df_meteo.iloc[6, 2]
+print (df_meteo.iloc[6, 2])
 
 # seleccionar una fila entera
-df_meteo.iloc[6, ]
+print (df_meteo.iloc[6, ])
 
 # seleccionar una columna entera
-df_meteo.iloc[:, 1]
+print (df_meteo.iloc[:, 1])
 
 # o un subconjunto de filas y columnas
-df_meteo.iloc[0:3, 1:3]
+print (df_meteo.iloc[0:3, 1:3])
 
 # -- ATENCION --
 # Fíjate en que, a diferencia de lo que ocurre con las rebanadas de índices numéricos, cuando seleccionamos 
@@ -303,7 +307,7 @@ print(df_meteo)
 # | pd.read_fwf()   | Carga datos de un fichero de texto con columnas de ancho fijo                             	|
 
 # Para ver cómo funcionan, vamos a leer los datos de uno de los ficheros CSV que están incluidos en el material
-# de la unidad. En este caso, vamos a cargar el fichero NYC_flights_2013_MINI.csv
+# de la unidad. En este caso, vamos a cargar el fichero NYC_flights_2013_MINI.csv que viene de la siguiente URL:
 # http://www.transtats.bts.gov/DL_SelectFields.asp?Table_ID=236 
 
 # Ajusta la ruta de directorios para que apunte adonde hayas descargado los ficheros
@@ -323,7 +327,7 @@ df_flights.iloc[0:5, 0:10]
 # | Argumentos de pd.read_csv() | Descripción                                                                           |
 # |-----------------------------|---------------------------------------------------------------------------------------|
 # | filepath                    | Fichero a cargar. Puede ser una ruta de fichero local o una URL                       |
-# | sep                         | Carácter delimitador de campos. Por defecto ';' para read_csv y '\t' para read_table  |
+# | sep               e          | Carácter delimitador de campos. Por defecto ';' para read_csv y '\t' para read_table  |
 # | header                      | Indica si el fichero contiene una fila con los nombres de las columnas y              |
 # |								| puede indicar nº de fila (0) 															|
 # | names                       | Lista opcional de nombres para las columnas                                           |
