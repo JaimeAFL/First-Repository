@@ -108,7 +108,5 @@ print (f"OK -> {out.resolve()}")
 # un diagrama de dispersión (o scatter plot). En Seaborn podemos generarlo con sns.jointplot().
 
 # Vamos a cargar datos de películas
+movies = pd.read_csv("U09_datasets/imdb_movie.csv")
 
-
-# Veamos si hay interacción entre el número de "likes" en Facebook
-# y los ingresos brutos de taquilla que consigue una película
