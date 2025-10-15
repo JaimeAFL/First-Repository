@@ -40,28 +40,75 @@
 # en lugar de abrirse en una ventana aparte.
 
 ## UN PRIMER GRÁFICO ##
-
+# -----------------------------------------------------------------------------------------------------
 # Vamos a cargar otra vez nuestros datos meteorológicos y pintemos las temperaturas observadas por mes.
+
 # Cargamos las librerías NumPy y Pandas
+# Cargamos Matplotlib y Seaborn
 import numpy as np
 import pandas as pd
 from pandas import Series, DataFrame
-
-# Cargamos Matplotlib y Seaborn
-import matplotlib as mpl
-mpl.use("Agg")  
+import matplotlib as mpl; mpl.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
+
 
 # Cargamos nuestros datos meteorológicos
 meteo_mes = pd.read_csv("./U09_datasets/meteo_mes_agg.csv", sep = ";")
 
 # Vamos a ver ahora las temperaturas por mes
-sns.swarmplot(data=meteo_mes, x='mes', y='temp_c')
+sns.swarmplot(data=meteo_mes, x="mes", y="temp_c")
 plt.tight_layout()
-plt.show()
-plt.savefig("plot.png", dpi=150)
-print("OK -> plot.png")
 
+BASE = Path(__file__).parent
+out = BASE / "graficos_seaborn" / "plot.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+
+plt.savefig(out, dpi=150, bbox_inches="tight")
+print (f"OK -> {out.resolve()}")
 # sns.swarmplot() crea un gráfico de dispersión evitando que se solapen los puntos.
+
+## DESCUBRIENDO LA DISTRIBUCION DE LOS DATOS ##
+# -------------------------------------------------------------------------------------------
+# Una de las primeras cosas que hacemos al ponernos a trabajar con un nuevo conjunto de datos 
+# es examinar distintas medidas descriptivas de la distribución, como la media, la desviación 
+# típica, los mínimos y máximos, etc. a la hora de examinar gráficamente nuestros datos,
+# usaremos sns.displot().
+
+sns.displot(meteo_mes['viento_vel_kmh'], kde=True)
+BASE = Path(__file__).parent
+out = BASE / "graficos_seaborn" / "historico1.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out, dpi=150, bbox_inches="tight")
+print (f"OK -> {out.resolve()}")
+
+# Podemos omitir el estimador de densidad con la opción 'kde = False'. También podemos añadir 
+# marcadores para ver el número de observaciones de cada valor en el eje X con la opción 'rug = True'.
+
+sns.displot(meteo_mes['viento_vel_kmh'], kde=False, rug=True)
+BASE = Path(__file__).parent
+out = BASE / "graficos_seaborn" / "historico2.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out, dpi=150, bbox_inches="tight")
+print (f"OK -> {out.resolve()}")
+
+# Otra forma de ver la distribución de una variable es mediante un diagrama de caja o boxplot.
+sns.boxplot(data=meteo_mes, y='viento_vel_kmh')
+BASE = Path(__file__).parent
+out = BASE / "graficos_seaborn" / "historico2.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out, dpi=150, bbox_inches="tight")
+print (f"OK -> {out.resolve()}")
+
+## VISUALIZANDO RELACIONES ENTRE VARIABLES ##
+# -------------------------------------------------------------------------------------------
+# Después de examinar las variables por separado, probablemente nos interesará ver si existen 
+# interacciones o dependencias entre dos variables. Cuando ambas variables son continuas, utilizamos 
+# un diagrama de dispersión (o scatter plot). En Seaborn podemos generarlo con sns.jointplot().
+
+# Vamos a cargar datos de películas
+
+
+# Veamos si hay interacción entre el número de "likes" en Facebook
+# y los ingresos brutos de taquilla que consigue una película
