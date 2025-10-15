@@ -42,7 +42,6 @@
 ## UN PRIMER GRÁFICO ##
 
 # Vamos a cargar otra vez nuestros datos meteorológicos y pintemos las temperaturas observadas por mes.
-
 # Cargamos las librerías NumPy y Pandas
 import numpy as np
 import pandas as pd
