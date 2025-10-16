@@ -111,3 +111,11 @@ print (f"OK -> {out.resolve()}")
 path = "/workspaces/First-Repository/U09_datasets/imdb_movie.csv"
 movies = pd.read_csv(path, sep=None, engine="python")
 
+# Veamos si hay interacción entre el número de "likes" en Facebook
+# y los ingresos brutos de taquilla que consigue una película
+sns.jointplot(data = movies, x='movie_facebook_likes', y='gross')
+BASE = Path(__file__).parent
+out = BASE / "graficos_seaborn" / "dispersion1.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out, dpi=150, bbox_inches="tight")
+print (f"OK -> {out.resolve()}")
