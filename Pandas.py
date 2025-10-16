@@ -327,7 +327,7 @@ df_flights.iloc[0:5, 0:10]
 # | Argumentos de pd.read_csv() | Descripción                                                                           |
 # |-----------------------------|---------------------------------------------------------------------------------------|
 # | filepath                    | Fichero a cargar. Puede ser una ruta de fichero local o una URL                       |
-# | sep               e          | Carácter delimitador de campos. Por defecto ';' para read_csv y '\t' para read_table  |
+# | sep                         | Carácter delimitador de campos. Por defecto ';' para read_csv y '\t' para read_table  |
 # | header                      | Indica si el fichero contiene una fila con los nombres de las columnas y              |
 # |								| puede indicar nº de fila (0) 															|
 # | names                       | Lista opcional de nombres para las columnas                                           |

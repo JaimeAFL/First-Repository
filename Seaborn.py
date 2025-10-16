@@ -108,5 +108,6 @@ print (f"OK -> {out.resolve()}")
 # un diagrama de dispersión (o scatter plot). En Seaborn podemos generarlo con sns.jointplot().
 
 # Vamos a cargar datos de películas
-movies = pd.read_csv("U09_datasets/imdb_movie.csv")
+path = "/workspaces/First-Repository/U09_datasets/imdb_movie.csv"
+movies = pd.read_csv(path, sep=None, engine="python")
 
