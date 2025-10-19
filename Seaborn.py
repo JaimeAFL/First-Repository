@@ -39,6 +39,7 @@
 # Esto hará que los gráficos se muestren directamente en la celda de Jupyter o en la consola de IPython, 
 # en lugar de abrirse en una ventana aparte.
 
+
 ## UN PRIMER GRÁFICO ##
 # -----------------------------------------------------------------------------------------------------
 # Vamos a cargar otra vez nuestros datos meteorológicos y pintemos las temperaturas observadas por mes.
@@ -79,6 +80,7 @@ plt.close(plt.gcf())
 
 # sns.swarmplot() crea un gráfico de dispersión evitando que se solapen los puntos.
 
+
 ## DESCUBRIENDO LA DISTRIBUCION DE LOS DATOS ##
 # -------------------------------------------------------------------------------------------
 # Una de las primeras cosas que hacemos al ponernos a trabajar con un nuevo conjunto de datos 
@@ -114,6 +116,7 @@ out.parent.mkdir(parents=True, exist_ok=True)
 plt.savefig(out, dpi=150, bbox_inches="tight")
 print (f"OK -> {out.resolve()}")
 plt.close(plt.gcf())
+
 
 ## VISUALIZANDO RELACIONES ENTRE VARIABLES ##
 # -------------------------------------------------------------------------------------------
@@ -325,6 +328,7 @@ plt.savefig(out, dpi=150, bbox_inches="tight")
 print (f"OK -> {out.resolve()}")
 plt.close(plt.gcf())
 
+
 ## FACETS ##
 # -----------------------------------------------------------------------------------------------------
 # Cuando tenemos que analizar y visualizar datos con varias dimensiones, suele ser muy útil representar 
@@ -371,13 +375,13 @@ print (f"OK -> {out.resolve()}")
 plt.close(plt.gcf())
 
 
-
 # --( 2 )-- AJUSRANDO LOS GRÁFICOS DE SEABORN
 # ------------------------------------------------------------------------------------------
 # Seaborn permite ajustar muchos aspectos de los gráficos generados, tanto a nivel global como a nivel particular 
 # de cada gráfico. Los objetos gráficos que devuelven las funciones de Seaborn constan a su vez de dos partes, 
 # un objeto que representa los ejes (axes) y otro objeto que representa la figura (figure). Podremos modificar 
 # propiedades del gráfico a través de estos objetos.
+
 
 ## ESTILOS Y TEMAS ##
 # -------------------------------------------------------------------------------------------
@@ -449,6 +453,7 @@ sns.axes_style()
 	 'ytick.minor.size': 0.0
      }
 
+
 ## TAMANO DE LA FIGURA ##
 # -------------------------------------------------------------------------------------------
 # Dependiendo del contexto en el que vayamos a integrar nuestras gráficas necesitaremos ajustar 
@@ -462,6 +467,7 @@ out.parent.mkdir(parents=True, exist_ok=True)
 plt.savefig(out)
 print (f"OK -> {out.resolve()}")
 plt.close(plt.gcf())
+
 
 ## COLORES ##  
 # ----------------------------------------------------------------------------------------------------
@@ -551,6 +557,7 @@ g.figure.savefig(out, dpi=150, bbox_inches="tight")
 print(f"OK -> {out.resolve()}")
 plt.close(g.figure)
 
+
 ## TITULOS ##  
 # -----------------------------------------------------------------------------
 # Para fijar el título de una gráfica simple, utilizamos el método set_title().
@@ -563,3 +570,19 @@ out.parent.mkdir(parents=True, exist_ok=True)
 plt.savefig(out)
 print (f"OK -> {out.resolve()}")
 plt.close(plt.gcf())
+
+
+## EJES ##  
+# ----------------------------------------------------------------------------------------------------
+# Igualmente, si queremos modificar las etiquetas de cada uno de los ejes, utilizamos el método set(), 
+# indicando los valores para xlabel e ylabel.
+
+plt.close('all')
+sns.swarmplot(x='mes', y='temp_c', data=meteo_mes).set(xlabel="Mes", ylabel="Temperatura (ºC)")
+BASE = Path.cwd()
+out = BASE / "graficos_seaborn" / "ejes1.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out)
+print (f"OK -> {out.resolve()}")
+plt.close(plt.gcf())
+
