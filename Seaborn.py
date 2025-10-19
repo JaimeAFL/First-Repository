@@ -462,3 +462,34 @@ out.parent.mkdir(parents=True, exist_ok=True)
 plt.savefig(out)
 print (f"OK -> {out.resolve()}")
 plt.close(plt.gcf())
+
+## COLORES ##  
+# ----------------------------------------------------------------------------------------------------
+# Seaborn también nos permite configurar la paleta de colores que queremos aplicar a nuestros gráficos. 
+# Dependiendo del tipo de variables que vayamos a representar, se adaptarán mejor unas paletas u otras.
+
+
+# Por ejemplo, para variables categóricas podemos usar paletas como 'deep', 'muted', 'bright', 'pastel',
+# 'dark' o 'colorblind'. Las paletas más comunes son "hsl" y "husl", que tratan de diferenciar 
+# al máximo el tono (hue) para cada categoría.
+
+# Seleccionar dos colores de la paleta "husl"
+plt.close('all')
+sns.barplot(x='mes', y='temp_c', hue='año', data=meteo_mes, palette=sns.color_palette("husl", 2))
+BASE = Path.cwd() 
+out = BASE / "graficos_seaborn" / "colores1.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out)
+print (f"OK -> {out.resolve()}")
+plt.close(plt.gcf())
+
+
+# También podemos definir nosotros mismos los colores a utilizar manualmente con sns.xkcd_palette().
+plt.close('all')
+sns.barplot(x='mes', y='temp_c', hue='año', data=meteo_mes, palette=sns.xkcd_palette(["red","blue"]))
+BASE = Path.cwd()
+out = BASE / "graficos_seaborn" / "colores2.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out)
+print (f"OK -> {out.resolve()}")
+plt.close(plt.gcf())
