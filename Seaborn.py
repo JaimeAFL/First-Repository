@@ -414,3 +414,51 @@ out.parent.mkdir(parents=True, exist_ok=True)
 plt.savefig(out, dpi=150, bbox_inches="tight")
 print (f"OK -> {out.resolve()}")
 plt.close(plt.gcf())
+
+# Puedes consultar la configuración actual con sns.axes_style():
+
+sns.axes_style()
+{'axes.axisbelow': True,
+	 'axes.edgecolor': 'white',
+	 'axes.facecolor': '#EAEAF2',
+	 'axes.grid': False,
+	 'axes.labelcolor': '.15',
+	 'axes.linewidth': 0.0,
+	 'figure.facecolor': 'white',
+	 'font.family': ['sans-serif'],
+	 'font.sans-serif': ['Arial',
+	  'DejaVu Sans',
+	  'Liberation Sans',
+	  'Bitstream Vera Sans',
+	  'sans-serif'],
+	 'grid.color': 'white',
+	 'grid.linestyle': '-',
+	 'image.cmap': 'rocket',
+	 'legend.frameon': False,
+	 'legend.numpoints': 1,
+	 'legend.scatterpoints': 1,
+	 'lines.solid_capstyle': 'round',
+	 'text.color': '.15',
+	 'xtick.color': '.15',
+	 'xtick.direction': 'out',
+	 'xtick.major.size': 0.0,
+	 'xtick.minor.size': 0.0,
+	 'ytick.color': '.15',
+	 'ytick.direction': 'out',
+	 'ytick.major.size': 0.0,
+	 'ytick.minor.size': 0.0
+     }
+
+## TAMANO DE LA FIGURA ##
+# -------------------------------------------------------------------------------------------
+# Dependiendo del contexto en el que vayamos a integrar nuestras gráficas necesitaremos ajustar 
+# su tamaño. Una forma de hacerlo es mediante set_size_inches().
+
+plt.close('all')
+sns.barplot(x='mes', y='temp_c', hue='año', data=meteo_mes).figure.set_size_inches(10,6)
+BASE = Path.cwd()
+out = BASE / "graficos_seaborn" / "tamaño1.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out)
+print (f"OK -> {out.resolve()}")
+plt.close(plt.gcf())
