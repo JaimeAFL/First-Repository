@@ -404,3 +404,13 @@ plt.close(plt.gcf())
 
 # Sobre un tema podemos introducir nuestros propios ajustes. La función sns.set_style() 
 # admite que le pasemos un diccionario con nuestras configuraciones de elementos particulares del gráfico.
+
+plt.close('all')
+sns.set_style('darkgrid', rc = {'axes.grid': False})
+sns.swarmplot(x='mes', y='temp_c', data=meteo_mes)
+BASE = Path.cwd()
+out = BASE / "graficos_seaborn" / "tema2.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out, dpi=150, bbox_inches="tight")
+print (f"OK -> {out.resolve()}")
+plt.close(plt.gcf())
