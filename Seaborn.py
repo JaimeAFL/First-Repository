@@ -468,7 +468,7 @@ plt.close(plt.gcf())
 # Seaborn también nos permite configurar la paleta de colores que queremos aplicar a nuestros gráficos. 
 # Dependiendo del tipo de variables que vayamos a representar, se adaptarán mejor unas paletas u otras.
 
-
+# VARIABLES CATEGÓRICAS # 
 # Por ejemplo, para variables categóricas podemos usar paletas como 'deep', 'muted', 'bright', 'pastel',
 # 'dark' o 'colorblind'. Las paletas más comunes son "hsl" y "husl", que tratan de diferenciar 
 # al máximo el tono (hue) para cada categoría.
@@ -493,3 +493,36 @@ out.parent.mkdir(parents=True, exist_ok=True)
 plt.savefig(out)
 print (f"OK -> {out.resolve()}")
 plt.close(plt.gcf())
+
+# VARIABLES CONTINUAS #
+# Si vamos a mostrar una variable continua, nos interesan paletas que varíen el color de forma gradual,
+#  ya sea por tono, luminosidad, saturación, etc. a función sns.light_palette() crea una escala a partir 
+# de un color base, graduando la saturación.
+
+plt.close('all')
+cols = ['movie_facebook_likes', 'gross']
+df = movies_fb[cols].replace(0, np.nan).dropna().apply(np.log10)
+with sns.color_palette(sns.light_palette("muted purple", input="xkcd")):
+    g = sns.jointplot(data=df, x='movie_facebook_likes', y='gross', kind='kde')
+BASE = Path.cwd()
+out = BASE / "graficos_seaborn" / "colores3.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+g.figure.savefig(out, dpi=150, bbox_inches="tight")
+print(f"OK -> {out.resolve()}")
+plt.close(g.figure)
+
+# Si queremos incrementar el contraste, podemos usar sns.cubehelix_palette(). 
+# Esta función crea una paleta graduando el tono y el brillo.
+
+plt.close('all')
+cols = ['movie_facebook_likes', 'gross']
+df = movies_fb[cols].replace(0, np.nan).dropna().apply(np.log10)
+cmap = sns.cubehelix_palette(light=1, as_cmap=True)
+g = sns.jointplot(data=df, x='movie_facebook_likes', y='gross',
+                  kind='kde', cmap=cmap)
+BASE = Path.cwd()
+out = BASE / "graficos_seaborn" / "colores4.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+g.figure.savefig(out, dpi=150, bbox_inches="tight")
+print(f"OK -> {out.resolve()}")
+plt.close(g.figure)
