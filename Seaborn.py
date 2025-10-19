@@ -532,30 +532,34 @@ plt.close('all')
 cols = ['movie_facebook_likes', 'gross']
 df = movies_fb[cols].replace(0, np.nan).dropna().apply(np.log10)
 r, p = pearsonr(df['movie_facebook_likes'], df['gross'])
-
-# Paleta y colores
 cmap = sns.light_palette("muted purple", input="xkcd", as_cmap=True)
 base_cols = sns.light_palette("muted purple", input="xkcd", n_colors=6)
 bg = base_cols[0]      # fondo muy claro
 edge = base_cols[4]    # morado medio para marginales
-
-# Jointplot KDE con relleno y marginales suaves del mismo color
 g = sns.jointplot(
     data=df, x='movie_facebook_likes', y='gross',
     kind='kde', fill=True, cmap=cmap, height=4.2, space=0, thresh=0.05,
     marginal_kws={'fill': True, 'alpha': 0.15, 'color': edge, 'lw': 0})
-
-# Fondo lavanda claro
 for ax in [g.ax_joint, g.ax_marg_x, g.ax_marg_y]:
     ax.set_facecolor(bg)
-
-# Anotación
 g.ax_joint.text( 0.5, 0.95, f"pearsonr = {r:.2f}; p = {p:.1e}",
     ha='center', va='top', transform=g.ax_joint.transAxes)
-
 BASE = Path.cwd()
 out = BASE / "graficos_seaborn" / "colores4.png"
 out.parent.mkdir(parents=True, exist_ok=True)
 g.figure.savefig(out, dpi=150, bbox_inches="tight")
 print(f"OK -> {out.resolve()}")
 plt.close(g.figure)
+
+## TITULOS ##  
+# -----------------------------------------------------------------------------
+# Para fijar el título de una gráfica simple, utilizamos el método set_title().
+
+plt.close('all')
+sns.swarmplot(x='mes', y='temp_c', data=meteo_mes).set_title("Temperaturas mensuales observadas", fontsize=14)
+BASE = Path.cwd()
+out = BASE / "graficos_seaborn" / "titulo1.png"
+out.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out)
+print (f"OK -> {out.resolve()}")
+plt.close(plt.gcf())
