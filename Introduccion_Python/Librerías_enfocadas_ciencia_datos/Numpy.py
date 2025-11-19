@@ -46,12 +46,12 @@ m1 = np.arange(15)
 print(m1) 
 
 # Al igual que range(), se puede indicar 
-	# el limite inicial, final y el tamaño del paso
+# el limite inicial, final y el tamaño del paso
 m2 = np.arange(1, 10, 2)
 print(m2)
 
 # Si queremos crear un array dividiendo un intervalo
-	# en N elementos equiespaciados, podemos usar np.linspace()
+# en N elementos equiespaciados, podemos usar np.linspace()
 m3 = np.linspace(0, 10, 5)  # Genera 5 núms entre 0 y 10 (ambos incluidos)
 print(m3)
 
