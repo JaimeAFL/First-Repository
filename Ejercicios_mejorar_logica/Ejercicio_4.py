@@ -12,7 +12,7 @@ caja = [10, 3, 50, 56, 42, 24, 4, 112, 69, 54, 12, 30, 79, 80]
 auxiliar = str(caja [::1])
 print(auxiliar)
 
-def cambio_posicion (lista, a, b):
+def cambio_posicion (lista, a, b, c):
     
     memoria = lista [a]
     lista [a] = lista [b]
