@@ -25,10 +25,10 @@ def cambio_posicion (lista, a, b, c):
 for a in caja:
 
     for b in caja:
-        a = a > b
+        a = a < b
 
         for c in caja:
-            b = b > c
+            b = b < c
 
 
 
