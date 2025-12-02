@@ -52,8 +52,8 @@ def mostrar_suspensos(notas, asignaturas, umbral=5):
     susp = np.sum(notas < umbral, axis=0)
 
     # Recorre las columnas con su índice y muestra el total de suspensos por asignatura.
-    for j in range(notas.shape[1]):
-        print(f"{asignaturas[j]} se ha suspendido por {susp[j]} alumnos")
+    for i in range(notas.shape[1]):
+        print(f"{asignaturas[i]} se ha suspendido por {susp[i]} alumnos")
     
     # Salto de línea para separar lo que sale por la terminal.
     print()
