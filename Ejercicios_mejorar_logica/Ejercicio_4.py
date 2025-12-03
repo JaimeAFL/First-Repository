@@ -32,7 +32,7 @@ lista_caja1 = [1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9]
 auxiliar1 = str(lista_caja1)
 
 
-def cambio_posicion (lista, a, b):
+def cambio_posicion (lista, a, b, c):
     
     memoria = lista [a]
     lista [a] = lista [b]
@@ -43,10 +43,12 @@ def cambio_posicion (lista, a, b):
 
 for a in lista_caja1:
 
-    for b in lista_caja1:
+for a in caja:
+
+    for b in caja:
         a = a > b
 
-        for c in lista_caja1:
+        for c in caja:
             b = b > c
 
 
