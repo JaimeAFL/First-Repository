@@ -102,13 +102,96 @@ print("Frutas con menos de 5 caracteres: ", lista_menos_5)
 ## DOCUMENTACIÓN UTILIZADA:
 # https://www.geeksforgeeks.org/python/python-filter-list-of-strings-based-on-the-substring-list/ 
 
+
+
 # ==============================================================================================================
 # -------------------------------------------( EJERCICIO 4 )----------------------------------------------------
-# Hacer el algoritmo por mi mismo timsort sin SORTED y sin APPEND, o sea también tendré que hacer APPEND por mi mismo. Tendré que investigar ordenado de la 'pila'.
+# Hacer el algoritmo por mi mismo timsort sin SORTED y sin APPEND, o sea también tendré que hacer APPEND por mi mismo. 
+# Tendré que investigar ordenado de la 'pila'.
+
+import random
+
+def generar_caja ():
+    lista_caja = random.sample(range(0, 10),7)
+    return lista_caja
+
+caja = generar_caja()
+
+# Lo primero de todo generamos una lis. En este caso, como queremos que siempre que se realice
+# una clasificacion de los valores dentro de una caja queremos que sea ascendente, ponemos
+# un poco de dificultad no sabiendo desde el principio cuales son los valores a ordenar.
+# por eso utilizamos la librería 'random'. Una vez generados los valores, los guardamos en una variable,
+# en este caso 'caja'.
+
+tamaño = (len(caja))            # 'size' o tamaño de la lista
+
+# La 'posicion' no es un valor dentro de la secuencia, 
+# si no donde está ese valor dentro del índice que tiene la secuencia o lista.
+# En este ejemplo, veremos cual es la última posición de la secuencia.
+# No nos dará el valor dentro de la posicion, si no la última posición en sí.
+
+ultima_posicion_caja = len(caja) - 1      # 'posicion' de un elemento en una lista
+
+# Si de forma espefícica necesitamos el valor que se encuentra dentro de la ultima posicion, 
+# entonces si que lo buscaremos de forma específica, dando el último valor 
+# de la secuencia y no la ultima posicion.
+
+ultimo_caja = caja [-1]       # Da el ultimo 'valor' de la ultima 'posicion' de la lista o el array
+
+# En este ejercicio, necesitamos entender el concepto de 'pila'. La pila en programación se llama LIFO
+# (Last-in, last-out) por lo que siempre jugaremos con la última posición o valor de la secuencia.
+# Para ello, crearemos una lista vacía para poder rellenarla de los valores de la primera lista,
+# en este caso se llama 'caja', y poder ordenarlos de forma ascendente: 1, 2, 3, 4, 5... n
+caja_2 = [ ]
+
+# El primer 'while' mira una condición que es fundamental para que podamos clasificar los valores dentro de la secuencia.
+# Mira que la lista 'caja' no esté vacía. Solo se realizará si hay elementos dentro de la lista. Cuando no haya ninguno, el bucle 
+# parará y podremos ver si la clasificación se ha hecho de forma correcta.
+# La función que necesitamos utilizar es pop. Elimina el elemento en la posición dada en la lista y lo devuelve. 
+# Si no se especifica ningún índice, lista.pop() elimina y devuelve el último elemento de la lista. 
+# Genera un IndexError si la lista está vacía o el índice está fuera del rango de la lista.
+# La utilización de esta función es crucial para el uso de la pila. Necesitamos jugar con la última posicion para poder ordenar.
+while caja:
+    pila_1 = caja.pop()
+
+# Una vez dentro del primer bucle, luego entraremos en un bucle interno 'while' que nos ayudará a ver:
+# Si 'caja_2' no está vacía y el último valor de la 'caja_2' es mayor que el valor que está dentro dentro de la 'pila_1',
+# podremos añadir el valor que habiamos sacado de 'caja' y lo habíamos guardado en 'pila_1' dentro de la 'caja_2'.
+# Es importante tener el cuenta el valor y no la posición porque no queremos cambiar solo las posiciones de los elementos, 
+# si no compararlos para poder ordenarlos de forma ascendente.
+
+    while caja_2 and caja_2 [-1] > pila_1:
+
+# Lo curioso de este bucle es que la condicion en la primera vuelta no se cumple ya que no hay nada en 'caja_2', 
+# nos da 'False'. Al acabar el bucle interno lo que si que ocurre es que a 'caja_2' se le añade el valor 
+# que estaba en la 'pila_1'. Ahora el bucle interno si que puede funcionar. Sacamos la ultima posicion de 'caja' y lo 
+# guardamos en 'pila_1'. entramos en el bucle interno. Miramos si el valor del ultimo elemento de 'caja_2' es mayor que 
+# el valor de 'pila_1'. Si se cumple, se quita el último elemento de 'caja_2', se añade a 'caja'.
+# Al acabarse el bucle interno, añadimos el elemento guardado en 'pila_1' a 'caja_2'. ¿qué ha ocurrido en verdad?
+# se han comparado dos valores: el que estaba en caja_2 y el que estaba en pila_1. Como el valor de caja_2 era mayor 
+# que el de pila_1, se quita, se añade a caja y se añade el elemento de pila_1 ya que era más pequeño que el elemento 
+# que hemos quitado de caja_2. El elemento que hemos puesto al final de caja será el siguiente 
+# en filtrarse gracias al método LIFO. Por lo tanto, los elementos que entren en caja_2 se compararán uno a uno 
+# con el valor guardado en pila_1 extraido de caja, hasta ordenarse de forma ascendete y dejando vacio caja.
+
+        pila_2 = caja_2.pop()
+        caja = caja + [pila_2]
+
+    caja_2 = caja_2 + [pila_1]
+
+# Al final, cuando los dos bucles acaben, imprimaremos la lista ordenada
+
+print(caja_2)
+
+## DOCUMENTACIÓN UTILIZADA:
+# https://stackoverflow.com/questions/930397/how-do-i-get-the-last-element-of-a-list
+# https://www.geeksforgeeks.org/python/stack-in-python/
 
 
 
-# EJERCICIO 5: Invertir la palabra "murcielago" de forma manual "fuck puto manu"
+# ==============================================================================================================
+# -------------------------------------------( EJERCICIO 5 )----------------------------------------------------
+# Invertir la palabra "murcielago" de forma manual "fuck puto manu"
 
 
 
