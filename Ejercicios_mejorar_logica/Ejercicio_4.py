@@ -3,7 +3,27 @@
 # -------------------------------------------( EJERCICIO 4 )----------------------------------------------------
 # Hacer el algoritmo por mi mismo timsort sin SORTED y sin APPEND, o sea 
 # también tendré que hacer APPEND por mi mismo. Tendré que investigar ordenado de la 'pila'.
+import random
 
+def generar_caja ():
+    lista_caja = random.sample(range(0, 10),7)
+    return lista_caja
+
+caja = generar_caja()
+print(caja)
+
+def cambio_colocacion(caja):
+    print(caja)
+    auxiliar = caja(0)
+    for i in range(len(caja)):
+        if i > caja:
+
+
+
+
+
+
+<<<<<<< HEAD
 import random
 
 def generar_caja ():
@@ -50,6 +70,8 @@ def cambio_colocacion(caja):
 
 
 caja = [10, 3, 50, 56, 42, 24, 4, 112, 69, 54, 12, 30, 79, 80]
+=======
+>>>>>>> refs/remotes/origin/main
 
 
 
@@ -74,11 +96,19 @@ for a in lista_caja1:
 
     for a in caja:
 
+<<<<<<< HEAD
         for b in caja:
             a = a > b
 
             for c in caja:
                 b = b > c
+=======
+    for b in caja:
+        a = a > b
+
+        for c in caja:
+            b = b > c
+>>>>>>> refs/remotes/origin/main
 
 
 
