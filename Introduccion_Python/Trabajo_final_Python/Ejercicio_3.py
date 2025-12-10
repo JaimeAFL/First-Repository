@@ -66,9 +66,9 @@ while True:
     vectores = []
     combinaciones_estimadas = 1
     
-    for _ in range(num_vectores):
+    for i in range(num_vectores):
         longitud = rd.randint(min_longitud, max_longitud)
-        vector = [rd.randint(min_valor, max_valor) for _ in range(longitud)]
+        vector = [rd.randint(min_valor, max_valor) for i in range(longitud)]
         vectores.append(vector)
         combinaciones_estimadas *= longitud
     
@@ -101,7 +101,7 @@ def producto_cartesiano(vectores):
         return
     
     # Generador recursivo que produce combinaciones bajo demanda
-    def _generar_combinaciones(vecs):
+    def generar_combinaciones(vecs):
 
         # Sin vectores
         if not vecs:
@@ -115,12 +115,12 @@ def producto_cartesiano(vectores):
             return
         
         # El resto: combinar (n-1) vectores con el último
-        for combo in _generar_combinaciones(vecs[:-1]):
+        for combo in generar_combinaciones(vecs[:-1]):
             for elemento in vecs[-1]:
                 yield combo + (elemento,)
     
     # Generar todas las combinaciones y convertir a lista
-    combinaciones = list(_generar_combinaciones(vectores))
+    combinaciones = list(generar_combinaciones(vectores))
     
     # Mostrar resultados por pantalla
     print("Total combinaciones:", len(combinaciones))
