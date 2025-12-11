@@ -46,29 +46,20 @@ import random
 import numpy
 import pandas
 
-
-# ---------------------------------------------------------------------------
-# 1) Generación de una LISTA de Python de 10 enteros aleatorios entre 0 y 20
-# ---------------------------------------------------------------------------
+# Generación de una LISTA de Python de 10 enteros aleatorios entre 0 y 20
 def generar_numeros():
     # Devuelve una lista de 10 números aleatorios (pueden repetirse)
     return [random.randint(0, 20) for i in range(10)]
 
-
-# ---------------------------------------------------------------------------
-# 2) Generación de un ARRAY de NumPy de 10 enteros aleatorios entre 0 y 20
-# ---------------------------------------------------------------------------
+# Generación de un ARRAY de NumPy de 10 enteros aleatorios entre 0 y 20
 def generar_array():
     # numpy.randint usa límite superior exclusivo,
     # por eso se pone 21 para incluir el 20
     return numpy.random.randint(0, 21, size=10)
 
-
-# ---------------------------------------------------------------------------
-# 3) Función: encontrar_posicion
+# Función: encontrar_posicion
 #    - Recibe una serie
 #    - Guarda y muestra las POSICIONES de los múltiplos de 3
-# ---------------------------------------------------------------------------
 def encontrar_posicion(serie):
     posiciones = []
 
@@ -80,12 +71,9 @@ def encontrar_posicion(serie):
 
     print("Posiciones con valores que son múltiplos de 3: ", posiciones)
 
-
-# ---------------------------------------------------------------------------
-# 4) Función: encontrar_comunes
+# Función: encontrar_comunes
 #    - Recibe dos series
 #    - Busca valores que aparecen en ambas (sin repetirlos en el resultado)
-# ---------------------------------------------------------------------------
 def encontrar_comunes(serie1, serie2):
     comunes = []
 
@@ -99,15 +87,12 @@ def encontrar_comunes(serie1, serie2):
 
     print("Elementos comunes entre las series:", comunes)
 
-
-# ---------------------------------------------------------------------------
-# 5) Función: encontrar_unicos
+# Función: encontrar_unicos
 #    - Recibe dos series
 #    - Muestra los elementos de la PRIMERA serie que NO están en la SEGUNDA
 #    - Usa el patrón for-else:
 #        * Si se encuentra igualdad, break
 #        * Si no se rompe el bucle interno, entra en el else
-# ---------------------------------------------------------------------------
 def encontrar_unicos(serie_1, serie_2):
     unicos = []
 
@@ -123,11 +108,6 @@ def encontrar_unicos(serie_1, serie_2):
 
     print("Elementos unicos entre las series:", unicos)
 
-
-# ---------------------------------------------------------------------------
-# CREACIÓN DE serieA (lista -> Serie) y serieB (array -> Serie)
-# ---------------------------------------------------------------------------
-
 # Serie A a partir de una lista de Python
 serieA = pandas.Series(generar_numeros(), name="serieA")
 print(serieA)
@@ -137,26 +117,15 @@ array = generar_array()
 serieB = pandas.Series(array, name="serieB")
 print(serieB)
 
-
-# ---------------------------------------------------------------------------
 # INVOCACIONES DE FUNCIONES SOBRE LAS SERIES
-# ---------------------------------------------------------------------------
 encontrar_posicion(serieA)
 encontrar_comunes(serieA, serieB)
 encontrar_unicos(serieA, serieB)
 
-
-# ---------------------------------------------------------------------------
-# 6) DataFrame combinando serieA y serieB + nombre del índice
-# ---------------------------------------------------------------------------
+# DataFrame combinando serieA y serieB + nombre del índice
 dataframe = pandas.DataFrame({"serieA": serieA, "serieB": serieB})
 dataframe.index.name = "indice"
 print(dataframe)
-
-
-# ---------------------------------------------------------------------------
-# 7) serieC de 35 valores aleatorios (1 a 9) -> DataFrame 7x5
-# ---------------------------------------------------------------------------
 
 # Creamos una serie de 35 números aleatorios entre 1 y 9
 serieC = pandas.Series(numpy.random.randint(1, 10, 35))
