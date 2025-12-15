@@ -67,3 +67,23 @@ print(nombre, apellido)
 # otro carácter como  delimi-tador.
 
 print (nombre + ", " + apellido)
+
+lista = [7, 2, 9, 4, 1]
+n = len(lista)
+
+for i in range(1, n):
+    key = lista[i]
+    pos = i
+
+    for j in range(i - 1, -1, -1):
+        if lista[j] > key:
+            lista[j + 1] = lista[j]
+            pos = j
+        else:
+            break
+
+    lista[pos] = key
+    print("después de i =", i, "->", lista)
+
+print("final ->", lista)
+print("i =", i, "-> j recorre:", list(range(i - 1, -1, -1)))

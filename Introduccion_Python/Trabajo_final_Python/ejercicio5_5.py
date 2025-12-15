@@ -1,4 +1,3 @@
-# ejercicio5_5.py
 
 import pandas
 import seaborn
