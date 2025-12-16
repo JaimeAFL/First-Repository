@@ -211,11 +211,5 @@ def main():
     fig2.savefig(salida_rec, dpi=200)
 
 
-
-    print("Gráficos guardados en:")
-    print(f" - {salida_conf}")
-    print(f" - {salida_rec}")
-
-
 if __name__ == "__main__":
     main()
