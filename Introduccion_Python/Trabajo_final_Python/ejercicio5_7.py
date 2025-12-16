@@ -30,7 +30,7 @@ MAPA_CSV_A_GEO = {
     "Murcia": "Región de Murcia",
     "Navarra": "Comunidad Foral de Navarra",
     "Pais Vasco": "País Vasco",
-}
+    }
 
 
 def resumen_por_ccaa(df: pd.DataFrame, nombre_mes: str) -> pd.DataFrame:
@@ -155,8 +155,8 @@ def main():
     salida_conf = os.path.join(script_dir, "grafico_ejercicio5_7_mapa_confirmados.png")
     fig1.savefig(salida_conf, dpi=200)
 
-# -------------------- MAPA DE RECUPERADOS --------------------
-# Escala específica para recuperados: 0–50 (miles)
+    # -------------------- MAPA DE RECUPERADOS --------------------
+    # Escala específica para recuperados: 0–50 (miles)
     max_val_rec = 50
     norm_rec = Normalize(vmin=0, vmax=max_val_rec)
 
