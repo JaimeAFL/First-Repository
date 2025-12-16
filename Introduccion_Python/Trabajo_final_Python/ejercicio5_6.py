@@ -1,27 +1,31 @@
-# ejercicio5_6.py
 
+import os
 import pandas as pd
 import numpy as np
 import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 def main():
-    # Rutas de los CSV (carpeta "datos" según tu organización)
-    ruta_enero = "/workspaces/First-Repository/Introduccion_Python/Trabajo_final_Python/datos_covid/COVID_01-01-2021.csv"
-    ruta_febrero = "/workspaces/First-Repository/Introduccion_Python/Trabajo_final_Python/datos_covid/COVID_01-02-2021.csv"
-    ruta_marzo = "/workspaces/First-Repository/Introduccion_Python/Trabajo_final_Python/datos_covid/COVID_01-03-2021.csv"
+    # Carpeta donde está ESTE archivo
+    script_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Crear un dataframe para cada archivo CSV
+    # Rutas de los CSV dentro de datos_covid
+    ruta_enero = os.path.join(script_dir, "datos_covid", "COVID_01-01-2021.csv")
+    ruta_febrero = os.path.join(script_dir, "datos_covid", "COVID_01-02-2021.csv")
+    ruta_marzo = os.path.join(script_dir, "datos_covid", "COVID_01-03-2021.csv")
+
+    # DataFrames de cada archivo CSV
     df_enero = pd.read_csv(ruta_enero)
     df_febrero = pd.read_csv(ruta_febrero)
     df_marzo = pd.read_csv(ruta_marzo)
 
-    # Calcular totales mundiales por mes (Confirmados, Fallecidos, Recuperados)
+    # Totales mundiales por mes
     totales_enero = df_enero[["Confirmed", "Deaths", "Recovered"]].sum()
     totales_febrero = df_febrero[["Confirmed", "Deaths", "Recovered"]].sum()
     totales_marzo = df_marzo[["Confirmed", "Deaths", "Recovered"]].sum()
 
-    # Crear dataframe resumen (filas = meses, columnas = tipos de casos)
+    # DataFrame resumen
     resumen_mensual = pd.DataFrame({
         "Mes": np.array(["Enero", "Febrero", "Marzo"]),
         "Confirmados": np.array([
@@ -41,7 +45,7 @@ def main():
         ]),
     })
 
-    # Pasar a formato largo para usar seaborn (Mes, Tipo_caso, Casos)
+    # Formato largo para seaborn
     datos_plot = resumen_mensual.melt(
         id_vars="Mes",
         value_vars=["Confirmados", "Fallecidos", "Recuperados"],
@@ -49,25 +53,31 @@ def main():
         value_name="Casos"
     )
 
-    # Configurar estilo de seaborn
+    # Escalar a millones de casos
+    datos_plot["Casos_millones"] = datos_plot["Casos"] / 1_000_000
+
+    # Estilo de seaborn
     sns.set_theme(style="whitegrid")
 
-    # Gráfico de líneas:
-    # - Eje X: meses
-    # - Eje Y: número de casos
-    # - Hue: tipo de caso (Confirmados / Fallecidos / Recuperados)
+    # Gráfico de líneas (en millones)
+    plt.figure(figsize=(10, 6))
     ax = sns.lineplot(
         data=datos_plot,
         x="Mes",
-        y="Casos",
+        y="Casos_millones",
         hue="Tipo_caso",
         marker="o"
     )
 
-    # Título y etiquetas de ejes según el enunciado
     ax.set_title("Evolución COVID primer trimestre 2021")
     ax.set_xlabel("Mes")
-    ax.set_ylabel("Número de casos")
+    ax.set_ylabel("Número de casos (millones)")
+
+    plt.tight_layout()
+
+    # Guardar el gráfico junto al script
+    ruta_salida = os.path.join(script_dir, "grafico_ejercicio5_6.png")
+    plt.savefig(ruta_salida, dpi=150)
 
 
 if __name__ == "__main__":
