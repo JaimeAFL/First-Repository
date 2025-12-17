@@ -117,7 +117,7 @@ array = generar_array()
 serieB = pandas.Series(array, name="serieB")
 print(serieB)
 
-# INVOCACIONES DE FUNCIONES SOBRE LAS SERIES
+# Invocacion de funciones sobre las series
 encontrar_posicion(serieA)
 encontrar_comunes(serieA, serieB)
 encontrar_unicos(serieA, serieB)
