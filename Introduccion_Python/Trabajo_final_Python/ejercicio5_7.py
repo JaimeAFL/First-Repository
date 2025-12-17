@@ -176,7 +176,7 @@ cbar1 = fig1.colorbar(
     sm1,
     ax=axes1.ravel().tolist(),
     fraction=0.035,
-    pad=0.08,)  # separación con los mapas
+    pad=0.08,)
 
 cbar1.set_label("Casos confirmados (miles)")
 
@@ -190,8 +190,8 @@ fig1.suptitle(
     "España, primer trimestre de 2021",
     y=0.94,)
 
-# Ajuste para dejar espacio a la barra de color y al título
-plt.tight_layout(rect=[0, 0, 0.86, 0.9])
+# Ajuste manual de márgenes (sin tight_layout)
+fig1.subplots_adjust(left=0.02, right=0.86, bottom=0.05, top=0.88, wspace=0.15)
 
 salida_conf = os.path.join(script_dir, "grafico_ejercicio5_7_mapa_confirmados.png")
 fig1.savefig(salida_conf, dpi=200)
@@ -244,7 +244,7 @@ fig2.suptitle(
     "España, primer trimestre de 2021",
     y=0.94,)
 
-plt.tight_layout(rect=[0, 0, 0.86, 0.9])
+fig2.subplots_adjust(left=0.02, right=0.86, bottom=0.05, top=0.88, wspace=0.15)
 
 salida_rec = os.path.join(script_dir, "grafico_ejercicio5_7_mapa_recuperados.png")
 fig2.savefig(salida_rec, dpi=200)

@@ -50,5 +50,6 @@ resumen_paises = (df.groupby("Country_Region")[["Confirmed", "Deaths", "Recovere
 top_10 = (resumen_paises.sort_values(by="Confirmed", ascending=False).head(10).reset_index())
 
 # Mostrar el resultado
-print("=== 10 países con más casos confirmados (enero 2021) ===")
+print("10 países con más casos confirmados (enero 2021)")
+print("------------------------------------------------")
 print(top_10)

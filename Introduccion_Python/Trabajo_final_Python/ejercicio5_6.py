@@ -74,10 +74,12 @@ resumen_mensual = pd.DataFrame(
                 totales_enero["Confirmed"],
                 totales_febrero["Confirmed"],
                 totales_marzo["Confirmed"],]),
+
         "Fallecidos": np.array([
                 totales_enero["Deaths"],
                 totales_febrero["Deaths"],
                 totales_marzo["Deaths"],]),
+                
         "Recuperados": np.array([
                 totales_enero["Recovered"],
                 totales_febrero["Recovered"],
@@ -97,7 +99,7 @@ datos_plot["Casos_millones"] = datos_plot["Casos"] / 1_000_000
 # Crear el gráfico de líneas y guardarlo
 sns.set_theme(style="whitegrid")
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(12, 6))
 ax = sns.lineplot(
     data=datos_plot,
     x="Mes",
@@ -105,11 +107,22 @@ ax = sns.lineplot(
     hue="Tipo_caso",
     marker="o",)
 
+# Ajustar leyenda para que no tape las líneas
+#    - loc: posición base dentro del eje
+#    - bbox_to_anchor: desplaza la leyenda fuera del área del gráfico
+ax.legend(
+    title="Tipo de caso",
+    loc="center left",
+    bbox_to_anchor=(1.02, 0.5))
+
+# Títulos y etiquetas de los ejes
 ax.set_title("Evolución COVID primer trimestre 2021")
 ax.set_xlabel("Mes")
 ax.set_ylabel("Número de casos (millones)")
 
+# Ajustar el layout para que no se corte nada
 plt.tight_layout()
 
+# Guardar el gráfico en un archivo PNG en la misma carpeta del script
 ruta_salida = os.path.join(script_dir, "grafico_ejercicio5_6.png")
 plt.savefig(ruta_salida, dpi=150)

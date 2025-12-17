@@ -58,5 +58,6 @@ sin_recuperados = sin_recuperados[sin_recuperados["Province_State"].notna()]
 provincias_paises = (sin_recuperados[["Province_State", "Country_Region"]].drop_duplicates().reset_index(drop=True))
 
 # 5) Mostrar el resultado
-print("=== Provincias sin casos de pacientes recuperados (enero 2021) ===")
+print("Provincias sin casos de pacientes recuperados (enero 2021)")
+print("----------------------------------------------------------")
 print(provincias_paises)

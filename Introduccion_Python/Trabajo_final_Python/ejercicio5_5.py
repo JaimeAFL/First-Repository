@@ -74,8 +74,7 @@ ax = sns.barplot(
     data=datos_plot,
     x="Country_Region",
     y="Casos",
-    hue="Tipo_caso",
-)
+    hue="Tipo_caso",)
 
 ax.set_title(
     "Casos confirmados y recuperados\n"
