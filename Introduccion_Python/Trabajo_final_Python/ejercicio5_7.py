@@ -28,8 +28,8 @@ FUNCIONAMIENTO:
 5) Preparación de datos en miles (para escalas más legibles).
 6) Ajuste visual: mover Canarias hacia arriba (solo para representación).
 7) Creación de 2 figuras:
-   - Mapas de Confirmados (escala fija 0–400 miles, ticks cada 50)
-   - Mapas de Recuperados (escala fija 0–50 miles, ticks cada 10)
+   - Mapas de Confirmados (escala fija 0 - 400 miles, ticks cada 50)
+   - Mapas de Recuperados (escala fija 0 - 50 miles, ticks cada 10)
 8) Guardado de imágenes PNG en la carpeta del script.
 
 ===============================================================================
@@ -248,3 +248,8 @@ fig2.subplots_adjust(left=0.02, right=0.86, bottom=0.05, top=0.88, wspace=0.15)
 
 salida_rec = os.path.join(script_dir, "grafico_ejercicio5_7_mapa_recuperados.png")
 fig2.savefig(salida_rec, dpi=200)
+
+
+## DOCUMENTACIÓN UTILIZADA:
+# Guía oficial de mapeo y plotting: https://geopandas.org/en/stable/docs/user_guide/mapping.html 
+# Guía de utilitaje de la librería GeoPandas https://geopandas.org/en/stable/docs/user_guide/data_structures.html 
