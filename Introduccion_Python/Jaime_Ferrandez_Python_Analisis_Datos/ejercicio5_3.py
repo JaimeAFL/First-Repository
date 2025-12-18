@@ -40,24 +40,37 @@ FUNCIONAMIENTO:
 ===============================================================================
 """
 
+import os
 import pandas as pd
 
-# Ruta del archivo CSV (ajusta si cambia tu estructura de carpetas)
-ruta_csv = ("/workspaces/First-Repository/Introduccion_Python/Trabajo_final_Python/" "datos_covid/COVID_01-01-2021.csv")
 
-# Leer el CSV y cargarlo en un DataFrame
+# Carpeta donde está este script (por ejemplo, ejercicio5_3.py)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Ruta completa al CSV dentro de la subcarpeta "datos_covid"
+ruta_csv = os.path.join(script_dir, "datos_covid", "COVID_01-01-2021.csv")
+
+# Leer el CSV y cargarlo en un DataFrame de pandas
 df = pd.read_csv(ruta_csv)
 
-# Filtrar filas donde "Recovered" es 0 o NaN (NaN se trata como 0)
+# Filtrar filas donde no hay pacientes recuperados
+#   - df["Recovered"] puede tener valores numéricos o NaN.
+#   - fillna(0) convierte NaN en 0 para tratarlos como "sin recuperados".
+#   - Comparamos con 0 para quedarnos con las filas sin recuperados.
 sin_recuperados = df[df["Recovered"].fillna(0) == 0]
 
-# Quedarnos solo con filas donde sí existe provincia/estado
+# Eliminar filas sin provincia/estado
+#   - Algunas filas pueden tener Province_State = NaN (desconocido).
+#   - Solo queremos las que tienen una provincia o estado definido.
 sin_recuperados = sin_recuperados[sin_recuperados["Province_State"].notna()]
 
-# Extraer solo las columnas relevantes y eliminar duplicados
+# Extraer solo las columnas relevantes y quitar duplicados
+#   - Nos quedamos con "Province_State" y "Country_Region".
+#   - drop_duplicates() evita repetir la misma provincia-país varias veces.
+#   - reset_index(drop=True) reorganiza el índice desde 0.
 provincias_paises = (sin_recuperados[["Province_State", "Country_Region"]].drop_duplicates().reset_index(drop=True))
 
-# 5) Mostrar el resultado
+# Mostrar el resultado por pantalla
 print("Provincias sin casos de pacientes recuperados (enero 2021)")
 print("----------------------------------------------------------")
 print(provincias_paises)

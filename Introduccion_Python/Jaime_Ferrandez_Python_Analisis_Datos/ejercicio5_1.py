@@ -22,27 +22,35 @@ FUNCIONAMIENTO:
 """
 
 import pandas as pd
+import os
 
-# Ruta del archivo CSV (ajusta si cambia tu estructura de carpetas)
-ruta_csv = ("/workspaces/First-Repository/Introduccion_Python/Trabajo_final_Python/" "datos_covid/COVID_01-01-2021.csv")
 
-# Leer el CSV y cargarlo en un DataFrame
+# Carpeta donde está este script (ejercicio5_1.py, por ejemplo)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Ruta completa al CSV dentro de la subcarpeta "datos_covid"
+ruta_csv = os.path.join(script_dir, "datos_covid", "COVID_01-01-2021.csv")
+
+# Leer el CSV y cargarlo en un DataFrame de pandas
 df = pd.read_csv(ruta_csv)
 
-# Mostrar información general del DataFrame (columnas, tipos, nulos, memoria)
+# Mostrar información general del DataFrame
 print("Información del DataFrame (ENERO)")
 print("---------------------------------")
-# df.info() imprime directamente; por eso NO se envuelve en print()
 df.info()
 print()
 
-# Contar valores faltantes por columna
+# Contar los valores faltantes (NaN) por columna
+#    df.isna() -> DataFrame de True/False
+#    .sum()    -> cuenta los True (uno por cada valor faltante)
+
 print("Datos faltantes por columna")
 print("---------------------------")
 print(df.isna().sum())
 print()
 
-# Mostrar las primeras 5 filas como vista previa
+# Mostrar una vista previa de los datos
+#    df.head() devuelve las primeras 5 filas por defecto
 print("Primeras 5 filas del DataFrame")
 print("------------------------------")
 print(df.head())

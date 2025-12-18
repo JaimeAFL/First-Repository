@@ -30,29 +30,44 @@ FUNCIONAMIENTO:
 
 import numpy as np
 
-# Definir un array de cuatro dimensiones y comprobarlo con NumPy
+
+# Número de dimensiones que queremos (en este caso, 4)
 num_dimensiones = 4
 
-# Definimos el tamaño de cada dimensión sin fijar constantes tipo 2*3*4*5
+# Rango del tamaño de cada dimensión (entre 2 y 5 elementos, ambos incluidos)
 min_tamano = 2
 max_tamano = 5
+
+# Creamos una tupla "shape" con 4 números aleatorios entre 2 y 5.
+# Por ejemplo, podría ser (3, 2, 5, 4).
 shape = tuple(np.random.randint(min_tamano, max_tamano + 1, size=num_dimensiones))
 
+# Número total de elementos = producto de las longitudes de cada dimensión
 total_elementos = np.prod(shape)
+
+# Creamos un array 1D con valores de 0 a total_elementos-1
+# y luego lo reestructuramos (reshape) al "shape" calculado arriba.
 matriz = np.arange(total_elementos).reshape(shape)
 
+# Comprobamos que efectivamente la matriz tiene 4 dimensiones
 if matriz.ndim == num_dimensiones:
     print("La matriz tiene 4 dimensiones.")
 else:
     print("La matriz NO tiene 4 dimensiones.")
 
-# Mostrar por pantalla las dimensiones del array y su contenido
+# Mostramos información básica de la matriz
 print("ndim:", matriz.ndim)
 print("shape:", matriz.shape)
 print("contenido:\n", matriz)
 
-# Sumar los elementos en función de sus dos últimos ejes y mostrar resultado
+# Creamos una tupla con los índices de los dos últimos ejes.
+# Si la matriz es 4D, sus ejes son: 0, 1, 2, 3
+# → los dos últimos son (2, 3).
 ejes_ultimos_dos = tuple(range(matriz.ndim - 2, matriz.ndim))
+
+# Hacemos la suma sobre esos dos ejes.
+# Esto "colapsa" los dos últimos ejes y deja un array 2D
+# con las dimensiones de los dos primeros ejes.
 suma = matriz.sum(axis=ejes_ultimos_dos)
 
 print("\nSuma sobre los dos últimos ejes:", ejes_ultimos_dos)

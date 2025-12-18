@@ -43,32 +43,54 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-# Carpeta donde está ESTE archivo .py
+# Carpeta donde está este script (por ejemplo, ejercicio5_5.py)
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Ruta al CSV dentro de la subcarpeta datos_covid
+# Ruta completa al CSV dentro de la subcarpeta "datos_covid"
 ruta_csv = os.path.join(script_dir, "datos_covid", "COVID_01-01-2021.csv")
 
-# Leer el CSV
+# Leer el CSV y cargarlo en un DataFrame de pandas
 df = pd.read_csv(ruta_csv)
 
-# Agrupar por país y sumar columnas numéricas
+# Agrupar por país y sumar las columnas numéricas de interés
+#   - groupby("Country_Region"):
+#       agrupa todas las filas que pertenecen al mismo país.
+#   - [["Confirmed", "Deaths", "Recovered"]]:
+#       selecciona solo estas columnas numéricas.
+#   - sum():
+#       suma los valores de cada país (totales del mes).
+#   - reset_index():
+#       convierte el índice de grupo (Country_Region) en columna normal.
 resumen_paises = (df.groupby("Country_Region")[["Confirmed", "Deaths", "Recovered"]].sum().reset_index())
 
 # Filtrar países con menos de 150 fallecidos y ordenar por Confirmed
+#   - resumen_paises["Deaths"] < 150:
+#       condición booleana → True solo en países con < 150 fallecidos.
+#   - sort_values(by="Confirmed", ascending=False):
 paises_filtrados = resumen_paises[resumen_paises["Deaths"] < 150]
-paises_filtrados = paises_filtrados.sort_values(by="Confirmed", ascending=False)
+paises_filtrados = paises_filtrados.sort_values(
+    by="Confirmed",
+    ascending=False)
 
-# Pasar a formato largo para graficar Confirmed vs Recovered con hue
+# Pasar a formato "largo" para poder usar hue con Seaborn
+#   - id_vars="Country_Region":
+#       esta columna se mantiene fija.
+#   - value_vars=["Confirmed", "Recovered"]:
+#       estas columnas se convierten en filas (tipo de caso).
+#   - var_name:
+#       nombre de la nueva columna que indica el tipo de caso.
+#   - value_name:
+#       nombre de la nueva columna con el número de casos.
 datos_plot = paises_filtrados.melt(
-   id_vars="Country_Region",
-   value_vars=["Confirmed", "Recovered"],
-   var_name="Tipo_caso",
-   value_name="Casos",)
+    id_vars="Country_Region",
+    value_vars=["Confirmed", "Recovered"],
+    var_name="Tipo_caso",
+    value_name="Casos",)
 
-# Crear el gráfico
+# Configurar el estilo general de Seaborn
 sns.set_theme(style="whitegrid")
 
+# Crear el gráfico de barras
 plt.figure(figsize=(18, 6))
 ax = sns.barplot(
     data=datos_plot,
@@ -76,18 +98,20 @@ ax = sns.barplot(
     y="Casos",
     hue="Tipo_caso",)
 
-ax.set_title(
-    "Casos confirmados y recuperados\n"
-    "(Países con menos de 150 fallecidos, enero 2021)")
+# Título y etiquetas de los ejes
+ax.set_title("Casos confirmados y recuperados\n"
+            "(Países con menos de 150 fallecidos, enero 2021)")
 ax.set_xlabel("País")
 ax.set_ylabel("Número de casos")
 
-# Rotar etiquetas del eje X para evitar solapes
+# Mejorar la legibilidad del eje X
+#   - Rotar las etiquetas de los países para que no se solapen.
+#   - ha='right' alinea el texto a la derecha de la marca del eje.
 plt.xticks(rotation=45, ha="right")
 
-# Ajustar márgenes para que no se corte el texto
+# Ajustar márgenes para que no se recorte texto ni la leyenda
 plt.tight_layout()
 
-# Guardar el gráfico en la misma carpeta que este script
+# Guardar el gráfico como imagen PNG
 ruta_salida = os.path.join(script_dir, "grafico_ejercicio5_5.png")
 plt.savefig(ruta_salida, dpi=150)

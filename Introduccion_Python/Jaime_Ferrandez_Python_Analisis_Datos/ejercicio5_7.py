@@ -250,6 +250,6 @@ salida_rec = os.path.join(script_dir, "grafico_ejercicio5_7_mapa_recuperados.png
 fig2.savefig(salida_rec, dpi=200)
 
 
-## DOCUMENTACIÓN UTILIZADA:
+## DOCUMENTACIÓN ADICIONAL UTILIZADA:
 # Guía oficial de mapeo y plotting: https://geopandas.org/en/stable/docs/user_guide/mapping.html 
 # Guía de utilitaje de la librería GeoPandas https://geopandas.org/en/stable/docs/user_guide/data_structures.html 

@@ -36,17 +36,30 @@ FUNCIONAMIENTO:
 """
 
 import pandas as pd
+import os
 
-# Ruta del archivo CSV (ajusta si cambia tu estructura de carpetas)
-ruta_csv = ("/workspaces/First-Repository/Introduccion_Python/Trabajo_final_Python/" "datos_covid/COVID_01-01-2021.csv")
 
-# Leer el CSV y cargarlo en un DataFrame
+# Carpeta donde está este script (por ejemplo, ejercicio5_2.py)
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Ruta completa al archivo CSV dentro de la subcarpeta "datos_covid"
+ruta_csv = os.path.join(script_dir, "datos_covid", "COVID_01-01-2021.csv")
+
+# Leer el CSV y cargarlo en un DataFrame de pandas
 df = pd.read_csv(ruta_csv)
 
 # Agrupar por país y sumar las columnas numéricas de interés
+#   - groupby("Country_Region"):
+#       agrupa todas las filas de un mismo país.
+#   - [["Confirmed", "Deaths", "Recovered", "Active"]]:
+#       nos quedamos solo con estas columnas numéricas.
+#   - sum():
+#       suma los valores de cada país para esas columnas (totales del mes).
+#   - reset_index():
+#       convierte el índice de grupo (Country_Region) en una columna normal.
 resumen_paises = (df.groupby("Country_Region")[["Confirmed", "Deaths", "Recovered", "Active"]].sum().reset_index())
 
-# Mostrar el resultado
+# Mostrar el resultado por pantalla
 print("Totales de COVID por país (enero 2021)")
 print("--------------------------------------")
 print(resumen_paises)

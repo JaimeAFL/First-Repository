@@ -46,12 +46,12 @@ import random
 import numpy
 import pandas
 
-# Generación de una LISTA de Python de 10 enteros aleatorios entre 0 y 20
+# Generación de una lista de Python de 10 enteros aleatorios entre 0 y 20
 def generar_numeros():
     # Devuelve una lista de 10 números aleatorios (pueden repetirse)
     return [random.randint(0, 20) for i in range(10)]
 
-# Generación de un ARRAY de NumPy de 10 enteros aleatorios entre 0 y 20
+# Generación de un array de NumPy de 10 enteros aleatorios entre 0 y 20
 def generar_array():
     # numpy.randint usa límite superior exclusivo,
     # por eso se pone 21 para incluir el 20
@@ -59,7 +59,7 @@ def generar_array():
 
 # Función: encontrar_posicion
 #    - Recibe una serie
-#    - Guarda y muestra las POSICIONES de los múltiplos de 3
+#    - Guarda y muestra las posiciones de los múltiplos de 3
 def encontrar_posicion(serie):
     posiciones = []
 
@@ -89,7 +89,7 @@ def encontrar_comunes(serie1, serie2):
 
 # Función: encontrar_unicos
 #    - Recibe dos series
-#    - Muestra los elementos de la PRIMERA serie que NO están en la SEGUNDA
+#    - Muestra los elementos de la primera serie que no están en la segunda
 #    - Usa el patrón for-else:
 #        * Si se encuentra igualdad, break
 #        * Si no se rompe el bucle interno, entra en el else
