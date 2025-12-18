@@ -74,9 +74,7 @@ MAPA_CSV_A_GEO = {  "Andalusia": "Andalucía",
 # Función auxiliar: resumen mensual por CCAA
 def resumen_por_ccaa(df: pd.DataFrame, nombre_mes: str) -> pd.DataFrame:
     """
-    Devuelve un DataFrame con los totales por CCAA para un mes.
-
-    Pasos dentro:
+    Pasos dentro de la función:
     1) Filtrar solo España.
     2) Eliminar filas sin provincia o con provincia "Unknown".
     3) Convertir Province_State (CSV) -> acom_name (GeoJSON) con el diccionario.

@@ -25,7 +25,7 @@ import pandas as pd
 import os
 
 
-# Carpeta donde está este script (ejercicio5_1.py, por ejemplo)
+# Carpeta donde está este script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Ruta completa al CSV dentro de la subcarpeta "datos_covid"
